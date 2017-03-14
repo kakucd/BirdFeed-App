@@ -12,6 +12,14 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+/*
+ * Search activity
+ * Query to the database done before this class is called.
+ * Technically class just presents info from database to user in a formatted way
+ * dictated by the corresponding layout files.
+ * If list item is clicked, the relevant data is passed onto the next activity (info class).
+ */
+
 public class Search extends AppCompatActivity {
 
     static private ArrayList<String> data = new ArrayList<>();
@@ -49,18 +57,6 @@ public class Search extends AppCompatActivity {
             }
         });
     }
-
-
-    /*@Override
-    public void onPause() {
-        super.onPause();
-
-        places.clear();
-        data.clear();
-        adapter.clear();
-
-        System.out.println("Clear");
-    }*/
 
     public void info(View view) {
         Intent intent = new Intent(this, Info.class);

@@ -13,9 +13,15 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
+/*
+ * Main menu class
+ * Provides as a crossroad to get to the different activities of this app
+ */
+
 public class Menu extends AppCompatActivity {
 
     static private ArrayList<String> data = new ArrayList<>();
+    private FirebaseDatabase mdatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +42,7 @@ public class Menu extends AppCompatActivity {
     public void search(View view) {
         Intent intent = new Intent(this, Search.class);
 
-        FirebaseDatabase mdatabase = FirebaseDatabase.getInstance();
+        mdatabase = FirebaseDatabase.getInstance();
         DatabaseReference myRef = mdatabase.getReference("/restaurants");
 
         myRef.orderByKey().addChildEventListener(new ChildEventListener() {
@@ -75,6 +81,8 @@ public class Menu extends AppCompatActivity {
 
         intent.putStringArrayListExtra("data", data);
         startActivity(intent);
+        //Clears all data in ArrayList
+        //Prevents data from being displayed twice
         data.clear();
     }
 

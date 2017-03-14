@@ -2,6 +2,9 @@ package com.httpstwitter.birdfeed;
 
 /**
  * Created by Casey on 3/8/17.
+ * Class used to store information about restaurants queried from the database
+ * Mostly used for testing purposes
+ * Will most likely delete upon app completion
  */
 
 public class Place {

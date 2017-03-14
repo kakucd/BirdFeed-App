@@ -17,6 +17,14 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
+/*
+ * Info activity
+ * Displays information about the selected restaurant that comes from the database.
+ * Based upon the database structure, multiple queries are required to display all important
+ * information to the user. Keeping the database references and listView adapters straight presents
+ * a challenge.
+ */
+
 public class Info extends AppCompatActivity {
 
     FirebaseDatabase mdatabase = FirebaseDatabase.getInstance();
@@ -32,7 +40,6 @@ public class Info extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         item = (String) getIntent().getSerializableExtra("item");
-        //System.out.println("Info class: Item: "+item);
         DatabaseReference myRef = mdatabase.getReference("/hours/"+item);
         listView = (ListView) findViewById(R.id.hours);
 
@@ -40,7 +47,6 @@ public class Info extends AppCompatActivity {
             int i = 0;
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                //System.out.println("onChildAdded at i = "+ i);
                 String temp = (String) dataSnapshot.getValue();
                 hours.add(temp);
                 System.out.println(dataSnapshot.getKey() + " " + temp);
@@ -71,7 +77,6 @@ public class Info extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, android.R.id.text1, hours);
 
         listView.setAdapter(adapter);
-        //System.out.println("ArrayAdapter instantiated");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
