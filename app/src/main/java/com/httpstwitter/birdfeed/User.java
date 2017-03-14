@@ -3,6 +3,7 @@ package com.httpstwitter.birdfeed;
 import java.util.ArrayList;
 /**
  * Created by Casey on 3/13/17.
+ * User object keeps track of user credentials, maybe?
  */
 
 public class User {
