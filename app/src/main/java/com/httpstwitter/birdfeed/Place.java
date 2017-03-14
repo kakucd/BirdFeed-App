@@ -9,7 +9,6 @@ public class Place {
     String name;
     Long score;
     String address;
-    String hours = "";
     String tags = "";
     Long money = null;
 
@@ -35,8 +34,6 @@ public class Place {
         return score;
     }
 
-    public String getHours() { return hours; }
-
     public Long getMoney() { return money; }
 
     public String getTags() { return tags; }
@@ -56,6 +53,4 @@ public class Place {
     public void setScore(Long s) {
         score = s;
     }
-
-    public void setHours(String h) { hours = h; }
 }

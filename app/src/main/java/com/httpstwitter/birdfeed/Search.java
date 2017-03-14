@@ -1,5 +1,6 @@
 package com.httpstwitter.birdfeed;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Parcelable;
@@ -21,7 +22,7 @@ import java.util.ArrayList;
 
 public class Search extends AppCompatActivity {
 
-    static private ArrayList<String> data = new ArrayList<String>();
+    static private ArrayList<String> data = new ArrayList<>();
     static private ArrayList<Place> places = new ArrayList<>();
     ListView listView;
     String item;
@@ -75,7 +76,7 @@ public class Search extends AppCompatActivity {
             }
         });
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, data);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, android.R.id.text1, data);
 
         listView.setAdapter(adapter);
         System.out.println("ArrayAdapter instantiated");
@@ -90,15 +91,15 @@ public class Search extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),
                         "Position :"+itemPosition+"  ListItem : " +item , Toast.LENGTH_LONG)
                         .show();
-                System.out.println("Item: "+item);
-                info(item);
+                info(view);
             }
         });
 
     }
 
-    public void info(String item) {
+    public void info(View view) {
         Intent intent = new Intent(this, Info.class);
+        intent.putExtra("item", item);
         startActivity(intent);
     }
 }
