@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/Casey/.android/build-cache/29b12fc7c58e2a9203e1a8616b75db0efd9021ef/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/color-v23/abc_tint_seek_thumb.xml"
+    }
+]
