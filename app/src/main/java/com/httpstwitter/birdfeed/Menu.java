@@ -4,11 +4,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ListView;
+
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
 public class Menu extends AppCompatActivity {
+
+    static private ArrayList<String> data = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +35,47 @@ public class Menu extends AppCompatActivity {
 
     public void search(View view) {
         Intent intent = new Intent(this, Search.class);
+
+        FirebaseDatabase mdatabase = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = mdatabase.getReference("/restaurants");
+
+        myRef.orderByKey().addChildEventListener(new ChildEventListener() {
+
+            @Override
+            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                Place place = dataSnapshot.getValue(Place.class);
+                data.add(place.getName());
+                System.out.println(dataSnapshot.getKey() + " Name: " + place.getName() + " Address: " + place.getAdd() + " Score: " + place.getScore());
+                System.out.println(dataSnapshot.getKey() + " Tags: " + place.getTags() + " Money: " + place.getMoney());
+            }
+
+            @Override
+            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+                System.out.println("onChildChanged");
+                Place place = dataSnapshot.getValue(Place.class);
+                System.out.println(dataSnapshot.getKey() + " Name: " + place.getName() + " Address: " + place.getAdd() + " Score: " + place.getScore());
+                System.out.println(dataSnapshot.getKey() + " Tags: " + place.getTags() + " Money: " + place.getMoney());
+            }
+
+            @Override
+            public void onChildRemoved(DataSnapshot dataSnapshot) {
+                System.out.println("onChildRemoved: " + dataSnapshot.getKey());
+            }
+
+            @Override
+            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+                System.out.println("onChildMoved: " + dataSnapshot.getKey());
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                System.out.println("The read failed: " + databaseError.getCode());
+            }
+        });
+
+        intent.putStringArrayListExtra("data", data);
         startActivity(intent);
+        data.clear();
     }
 
     public void signin(View view) {

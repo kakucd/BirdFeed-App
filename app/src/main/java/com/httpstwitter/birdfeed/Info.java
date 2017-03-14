@@ -43,7 +43,7 @@ public class Info extends AppCompatActivity {
                 //System.out.println("onChildAdded at i = "+ i);
                 String temp = (String) dataSnapshot.getValue();
                 hours.add(temp);
-                System.out.println(dataSnapshot.getKey() + temp);
+                System.out.println(dataSnapshot.getKey() + " " + temp);
                 i++;
             }
 
