@@ -5,14 +5,12 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
+import android.widget.TextView;
+import android.content.Context;
+import android.widget.LinearLayout;
 
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
@@ -29,8 +27,8 @@ public class Info extends AppCompatActivity {
 
     FirebaseDatabase mdatabase = FirebaseDatabase.getInstance();
     ArrayList<String> hours = new ArrayList<>();
-    ListView listView;
-    String item;
+    TextView textView, nameView, tagsView, hoursView;
+    String item, address, tags;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,43 +38,36 @@ public class Info extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         item = (String) getIntent().getSerializableExtra("item");
-        DatabaseReference myRef = mdatabase.getReference("/hours/"+item);
-        listView = (ListView) findViewById(R.id.hours);
+        address = getIntent().getStringExtra("address");
+        tags = getIntent().getStringExtra("tags");
+        hours = getIntent().getStringArrayListExtra("hours");
 
-        myRef.orderByValue().addChildEventListener(new ChildEventListener() {
-            int i = 0;
-            @Override
-            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                String temp = (String) dataSnapshot.getValue();
-                hours.add(temp);
-                System.out.println(dataSnapshot.getKey() + " " + temp);
-                i++;
-            }
+        for(int i = 0; i < hours.size(); i++) {
+            System.out.println(hours.get(i));
+        }
 
-            @Override
-            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+        //System.out.println("Name: "+item);
+        nameView = (TextView)findViewById(R.id.viewName);
+        nameView.setText(item);
 
-            }
+        tagsView = (TextView)findViewById(R.id.tagsView);
+        tagsView.setText(tags);
 
-            @Override
-            public void onChildRemoved(DataSnapshot dataSnapshot) {
+        textView = (TextView)findViewById(R.id.address);
+        textView.setText(address);
 
-            }
+        LayoutInflater linf = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        linf = LayoutInflater.from(this);
 
-            @Override
-            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+        LinearLayout tbl_layout = (LinearLayout)findViewById(R.id.hours);
 
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, android.R.id.text1, hours);
-
-        listView.setAdapter(adapter);
+        for (int i = 0; i < hours.size(); i++) {
+            //View v = linf.inflate(R.layout.hours, null);//Pass your lineraLayout
+            //((TextView) v.
+            hoursView = (TextView)findViewById(R.id.hoursView);
+            hoursView.setText(hours.get(i));
+            //tbl_layout.addView(hoursView);
+        }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -86,5 +77,6 @@ public class Info extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        //hours.clear();
     }
 }

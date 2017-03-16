@@ -10,6 +10,13 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 import java.util.ArrayList;
 
 /*
@@ -23,9 +30,11 @@ import java.util.ArrayList;
 public class Search extends AppCompatActivity {
 
     static private ArrayList<String> data = new ArrayList<>();
+    static private ArrayList<String> hours = new ArrayList<>();
     private ListView listView;
-    private String item;
+    private String item, address, tags;
     private ArrayAdapter<String> adapter;
+    private FirebaseDatabase mdatabase, mdb, db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,20 +42,22 @@ public class Search extends AppCompatActivity {
         setContentView(R.layout.activity_search);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        //instantiate listView to by used for display
-        listView = (ListView) findViewById(R.id.query);
+
         //get queried data from menu activity
         data = getIntent().getStringArrayListExtra("data");
+        item = getIntent().getStringExtra("item");
+        //instantiate listView to by used for display
+        listView = (ListView) findViewById(R.id.query);
         //instantiate adapter to translate ArrayList data to ListView to be displayed on phone screen
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, android.R.id.text1, data);
 
         listView.setAdapter(adapter);
-        System.out.println("ArrayAdapter instantiated");
+        //System.out.println("ArrayAdapter instantiated");
         //When clicked, a list item will send item name to info activity/class
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                System.out.println("onItemClicked");
+                //System.out.println("onItemClicked");
                 int itemPosition = position;
                 item =  (String) listView.getItemAtPosition(position);
                 //Toast message will pop up indicating list item and position clicked.
@@ -60,7 +71,81 @@ public class Search extends AppCompatActivity {
 
     public void info(View view) {
         Intent intent = new Intent(this, Info.class);
+
+        mdatabase = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = mdatabase.getReference("/restaurants/"+item+"/address");
+        myRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                address = (String) dataSnapshot.getValue();
+                System.out.println(dataSnapshot.getKey()+": "+address);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+        mdb = FirebaseDatabase.getInstance();
+        DatabaseReference ref = mdb.getReference("/restaurants/"+item+"/tags");
+        ref.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                tags = (String) dataSnapshot.getValue();
+                System.out.println("Tags: "+tags);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+        db = FirebaseDatabase.getInstance();
+        DatabaseReference r = mdb.getReference("/hours/"+item);
+        r.orderByValue().addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                String temp = dataSnapshot.getKey() + ": " + dataSnapshot.getValue();
+                hours.add(temp);
+                System.out.println("onChildAdded: "+temp);
+            }
+
+            @Override
+            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onChildRemoved(DataSnapshot dataSnapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+        //System.out.println("Item: "+item+" Address: "+address);
+
+        intent.putStringArrayListExtra("hours", hours);
+        intent.putExtra("tags", tags);
         intent.putExtra("item", item);
+        intent.putExtra("address", address);
+
+        for(int i = 0; i < hours.size(); i++) {
+            System.out.println(hours.get(i));
+        }
+
         startActivity(intent);
+        item = "";
+        address = "";
     }
 }

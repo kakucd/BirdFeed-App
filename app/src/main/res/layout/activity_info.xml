@@ -32,13 +32,12 @@
                 android:scaleType="centerCrop"/>
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/viewName"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="22dp"
                 android:gravity="bottom"
-                android:text="Le Panier"
                 android:textColor="@color/colorbkgd"
                 android:textSize="45dp" />
         </android.support.design.widget.CollapsingToolbarLayout>

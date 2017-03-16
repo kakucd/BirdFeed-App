@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content">
                 <TableRow>
                     <TextView
-                        android:text="French Bakery"
+                        android:id="@+id/tagsView"
                         android:textSize="17dp" />
                 </TableRow>
 
@@ -51,7 +51,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1902 Pike Pl Seattle, WA 98101"
+                        android:id="@+id/address"
                         android:textSize="18dp" />
                 </TableRow>
 
@@ -66,10 +66,17 @@
 
                 <TableRow>
 
-                    <ListView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:id="@+id/hours"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/hours"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:id="@+id/hoursView"
+                            android:textSize="18dp"/>
+                    </LinearLayout>
                 </TableRow>
                 <TableRow>
                     <TextView

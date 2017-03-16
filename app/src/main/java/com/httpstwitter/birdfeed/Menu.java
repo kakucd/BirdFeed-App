@@ -22,7 +22,6 @@ public class Menu extends AppCompatActivity {
 
     static private ArrayList<String> data = new ArrayList<>();
     private FirebaseDatabase mdatabase;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,31 +50,31 @@ public class Menu extends AppCompatActivity {
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 Place place = dataSnapshot.getValue(Place.class);
                 data.add(place.getName());
-                System.out.println(dataSnapshot.getKey() + " Name: " + place.getName() + " Address: " + place.getAdd() + " Score: " + place.getScore());
-                System.out.println(dataSnapshot.getKey() + " Tags: " + place.getTags() + " Money: " + place.getMoney());
+                //System.out.println(dataSnapshot.getKey() + " Name: " + place.getName() + " Address: " + place.getAdd() + " Score: " + place.getScore());
+                //System.out.println(dataSnapshot.getKey() + " Tags: " + place.getTags() + " Money: " + place.getMoney());
             }
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
                 System.out.println("onChildChanged");
                 Place place = dataSnapshot.getValue(Place.class);
-                System.out.println(dataSnapshot.getKey() + " Name: " + place.getName() + " Address: " + place.getAdd() + " Score: " + place.getScore());
-                System.out.println(dataSnapshot.getKey() + " Tags: " + place.getTags() + " Money: " + place.getMoney());
+                //System.out.println(dataSnapshot.getKey() + " Name: " + place.getName() + " Address: " + place.getAdd() + " Score: " + place.getScore());
+                //System.out.println(dataSnapshot.getKey() + " Tags: " + place.getTags() + " Money: " + place.getMoney());
             }
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
-                System.out.println("onChildRemoved: " + dataSnapshot.getKey());
+                //System.out.println("onChildRemoved: " + dataSnapshot.getKey());
             }
 
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-                System.out.println("onChildMoved: " + dataSnapshot.getKey());
+                //System.out.println("onChildMoved: " + dataSnapshot.getKey());
             }
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                System.out.println("The read failed: " + databaseError.getCode());
+                //System.out.println("The read failed: " + databaseError.getCode());
             }
         });
 
