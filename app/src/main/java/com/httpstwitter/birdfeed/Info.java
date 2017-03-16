@@ -26,8 +26,9 @@ import java.util.ArrayList;
 public class Info extends AppCompatActivity {
 
     FirebaseDatabase mdatabase = FirebaseDatabase.getInstance();
+    ArrayList<String> tweets = new ArrayList<>();
     ArrayList<String> hours = new ArrayList<>();
-    TextView textView, nameView, tagsView, hoursView;
+    TextView textView, nameView, tagsView, hoursView, tweetsView;
     String item, address, tags;
 
     @Override
@@ -41,6 +42,7 @@ public class Info extends AppCompatActivity {
         address = getIntent().getStringExtra("address");
         tags = getIntent().getStringExtra("tags");
         hours = getIntent().getStringArrayListExtra("hours");
+        tweets = getIntent().getStringArrayListExtra("tweets");
 
         for(int i = 0; i < hours.size(); i++) {
             System.out.println(hours.get(i));
@@ -56,16 +58,24 @@ public class Info extends AppCompatActivity {
         textView = (TextView)findViewById(R.id.address);
         textView.setText(address);
 
-        LayoutInflater linf = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        linf = LayoutInflater.from(this);
+        //LayoutInflater linf = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        //linf = LayoutInflater.from(this);
 
-        LinearLayout tbl_layout = (LinearLayout)findViewById(R.id.hours);
+        //LinearLayout tbl_layout = (LinearLayout)findViewById(R.id.hours);
 
         for (int i = 0; i < hours.size(); i++) {
             //View v = linf.inflate(R.layout.hours, null);//Pass your lineraLayout
             //((TextView) v.
             hoursView = (TextView)findViewById(R.id.hoursView);
             hoursView.setText(hours.get(i));
+            //tbl_layout.addView(hoursView);
+        }
+
+        for (int i = 0; i < tweets.size(); i++) {
+            //View v = linf.inflate(R.layout.hours, null);//Pass your lineraLayout
+            //((TextView) v.
+            tweetsView = (TextView)findViewById(R.id.tweetsView);
+            tweetsView.setText(tweets.get(i));
             //tbl_layout.addView(hoursView);
         }
 

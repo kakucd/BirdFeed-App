@@ -31,10 +31,11 @@ public class Search extends AppCompatActivity {
 
     static private ArrayList<String> data = new ArrayList<>();
     static private ArrayList<String> hours = new ArrayList<>();
+    static private ArrayList<String> tweets = new ArrayList<>();
     private ListView listView;
     private String item, address, tags;
     private ArrayAdapter<String> adapter;
-    private FirebaseDatabase mdatabase, mdb, db;
+    private FirebaseDatabase mdatabase, mdb, db,database;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -133,19 +134,51 @@ public class Search extends AppCompatActivity {
             }
         });
 
+        database = FirebaseDatabase.getInstance();
+        DatabaseReference dbRef = database.getReference("/tweets/"+item);
+
+        dbRef.addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                String t = "@"+dataSnapshot.getKey()+": "+dataSnapshot.getValue();
+                tweets.add(t);
+                System.out.println("Tweet: "+t);
+            }
+
+            @Override
+            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onChildRemoved(DataSnapshot dataSnapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
         //System.out.println("Item: "+item+" Address: "+address);
 
         intent.putStringArrayListExtra("hours", hours);
+        intent.putStringArrayListExtra("tweets", tweets);
         intent.putExtra("tags", tags);
         intent.putExtra("item", item);
         intent.putExtra("address", address);
 
-        for(int i = 0; i < hours.size(); i++) {
-            System.out.println(hours.get(i));
-        }
-
         startActivity(intent);
         item = "";
         address = "";
+        tags = "";
+        hours.clear();
+        tweets.clear();
     }
 }
