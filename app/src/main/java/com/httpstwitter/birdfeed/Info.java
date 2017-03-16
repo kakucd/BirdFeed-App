@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.content.Context;
 import android.widget.LinearLayout;
@@ -29,6 +30,7 @@ public class Info extends AppCompatActivity {
     ArrayList<String> tweets = new ArrayList<>();
     ArrayList<String> hours = new ArrayList<>();
     TextView textView, nameView, tagsView, hoursView, tweetsView;
+    LinearLayout linearLayout;
     String item, address, tags;
 
     @Override
@@ -44,8 +46,8 @@ public class Info extends AppCompatActivity {
         hours = getIntent().getStringArrayListExtra("hours");
         tweets = getIntent().getStringArrayListExtra("tweets");
 
-        for(int i = 0; i < hours.size(); i++) {
-            System.out.println(hours.get(i));
+        for(int i = 0; i < tweets.size(); i++) {
+            System.out.println(tweets.get(i));
         }
 
         //System.out.println("Name: "+item);
@@ -72,10 +74,13 @@ public class Info extends AppCompatActivity {
         }
 
         for (int i = 0; i < tweets.size(); i++) {
-            //View v = linf.inflate(R.layout.hours, null);//Pass your lineraLayout
+            //View v = linf.inflate(R.layout.hours, null);//Pass your linearLayout
             //((TextView) v.
+            linearLayout = (LinearLayout)findViewById(R.id.tweets);
             tweetsView = (TextView)findViewById(R.id.tweetsView);
             tweetsView.setText(tweets.get(i));
+            linearLayout.removeView(tweetsView);
+            linearLayout.addView(tweetsView);
             //tbl_layout.addView(hoursView);
         }
 

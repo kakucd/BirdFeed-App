@@ -6,13 +6,13 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1489634378276"
+    timestamp="1489680164844"
     token="3670990745541165680"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="187" />
+        duration="195" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -21,7 +21,7 @@
         duration="10" />
     <task
         name="verifier"
-        duration="1" />
+        duration="2" />
 
     <artifact
         location="/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -29,13 +29,16 @@
 
     <build
         build-mode="FULL"
-        timestamp="1489630364766"
+        timestamp="1489678812397"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/Users/Casey/IdeaProjects/BirdFeed4/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -64,27 +67,18 @@
         <artifact
             location="/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/Casey/IdeaProjects/BirdFeed4/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489633975283"
+        timestamp="1489679320705"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/Casey/IdeaProjects/BirdFeed4/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489634378276"
+        timestamp="1489680164844"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/split-apk/debug/slices/slice_9.apk"

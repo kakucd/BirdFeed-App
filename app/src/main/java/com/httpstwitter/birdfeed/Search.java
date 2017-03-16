@@ -166,8 +166,6 @@ public class Search extends AppCompatActivity {
             }
         });
 
-        //System.out.println("Item: "+item+" Address: "+address);
-
         intent.putStringArrayListExtra("hours", hours);
         intent.putStringArrayListExtra("tweets", tweets);
         intent.putExtra("tags", tags);
