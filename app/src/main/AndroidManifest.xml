@@ -35,6 +35,10 @@
         <activity
             android:name=".Tweet"
             android:label="@string/title_activity_tweet"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Display"
+            android:label="@string/title_activity_display"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

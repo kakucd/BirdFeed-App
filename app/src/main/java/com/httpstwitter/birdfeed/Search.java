@@ -35,7 +35,7 @@ public class Search extends AppCompatActivity {
     private ListView listView;
     private String item, address, tags;
     private ArrayAdapter<String> adapter;
-    private FirebaseDatabase mdatabase, mdb, db,database;
+    private FirebaseDatabase mdatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,7 +71,7 @@ public class Search extends AppCompatActivity {
     }
 
     public void info(View view) {
-        Intent intent = new Intent(this, Info.class);
+        Intent intent = new Intent(this, Display.class);
 
         mdatabase = FirebaseDatabase.getInstance();
         DatabaseReference myRef = mdatabase.getReference("/restaurants/"+item+"/address");
@@ -88,13 +88,12 @@ public class Search extends AppCompatActivity {
             }
         });
 
-        mdb = FirebaseDatabase.getInstance();
-        DatabaseReference ref = mdb.getReference("/restaurants/"+item+"/tags");
+        DatabaseReference ref = mdatabase.getReference("/restaurants/"+item+"/tags");
         ref.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 tags = (String) dataSnapshot.getValue();
-                System.out.println("Tags: "+tags);
+                //System.out.println("Tags: "+tags);
             }
 
             @Override
@@ -103,14 +102,13 @@ public class Search extends AppCompatActivity {
             }
         });
 
-        db = FirebaseDatabase.getInstance();
-        DatabaseReference r = mdb.getReference("/hours/"+item);
+        DatabaseReference r = mdatabase.getReference("/hours/"+item);
         r.orderByValue().addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 String temp = dataSnapshot.getKey() + ": " + dataSnapshot.getValue();
                 hours.add(temp);
-                System.out.println("onChildAdded: "+temp);
+                //System.out.println("onChildAdded: "+temp);
             }
 
             @Override
@@ -134,15 +132,14 @@ public class Search extends AppCompatActivity {
             }
         });
 
-        database = FirebaseDatabase.getInstance();
-        DatabaseReference dbRef = database.getReference("/tweets/"+item);
+        DatabaseReference dbRef = mdatabase.getReference("/tweets/"+item);
 
         dbRef.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 String t = "@"+dataSnapshot.getKey()+": "+dataSnapshot.getValue();
                 tweets.add(t);
-                System.out.println("Tweet: "+t);
+                //System.out.println("Tweet: "+t);
             }
 
             @Override
@@ -174,8 +171,8 @@ public class Search extends AppCompatActivity {
 
         startActivity(intent);
         item = "";
-        address = "";
-        tags = "";
+        //address = "";
+        //tags = "";
         hours.clear();
         tweets.clear();
     }

@@ -55,6 +55,10 @@
             android:label="@string/title_activity_tweet"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name="com.httpstwitter.birdfeed.Display"
+            android:label="@string/title_activity_display"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
             android:exported="false"

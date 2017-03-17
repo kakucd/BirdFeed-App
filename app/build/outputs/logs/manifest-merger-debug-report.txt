@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-41:12
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:
 		INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:5:5-39:19
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:5:5-43:19
 MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/Casey/.android/build-cache/9fb51073a8c56694daa569bc4ffcb54c20feada0/output/AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.android.gms:play-services-auth:10.2.0] /Users/Casey/.android/build-cache/98db333f436bfb9e99e17eb698f827397baee358/output/AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/AndroidManifest.xml:18:5-20:19
@@ -96,13 +96,21 @@ ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:32:13-37
 activity#com.httpstwitter.birdfeed.Tweet
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:35:9-38:68
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:35:9-38:59
 	android:label
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:37:13-57
 	android:theme
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:38:13-56
 	android:name
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:36:13-34
+activity#com.httpstwitter.birdfeed.Display
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:39:9-42:68
+	android:label
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:41:13-59
+	android:theme
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:42:13-56
+	android:name
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:40:13-36
 uses-sdk
 INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.firebase:firebase-database:10.2.0] /Users/Casey/.android/build-cache/9540411c2e5c2ea4aa6a29d10286304644a30cb7/output/AndroidManifest.xml:3:5-43

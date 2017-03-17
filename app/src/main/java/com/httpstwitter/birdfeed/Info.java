@@ -7,10 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ListAdapter;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.content.Context;
 import android.widget.LinearLayout;
+import android.widget.ArrayAdapter;
 
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -32,6 +34,7 @@ public class Info extends AppCompatActivity {
     TextView textView, nameView, tagsView, hoursView, tweetsView;
     LinearLayout linearLayout;
     String item, address, tags;
+    ArrayAdapter<String> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +76,8 @@ public class Info extends AppCompatActivity {
             //tbl_layout.addView(hoursView);
         }
 
+        adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,android.R.id.text1, tweets);
+
         for (int i = 0; i < tweets.size(); i++) {
             //View v = linf.inflate(R.layout.hours, null);//Pass your linearLayout
             //((TextView) v.
@@ -81,6 +86,9 @@ public class Info extends AppCompatActivity {
             tweetsView.setText(tweets.get(i));
             linearLayout.removeView(tweetsView);
             linearLayout.addView(tweetsView);
+
+            //View item = adapter.getView(i, tweetsView, linearLayout);
+            //linearLayout.addView(item);
             //tbl_layout.addView(hoursView);
         }
 
