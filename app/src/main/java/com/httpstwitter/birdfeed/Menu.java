@@ -21,6 +21,7 @@ import java.util.ArrayList;
 public class Menu extends AppCompatActivity {
 
     static private ArrayList<String> data = new ArrayList<>();
+    static private ArrayList<String> tags = new ArrayList<>();
     private FirebaseDatabase mdatabase;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,18 +29,9 @@ public class Menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
     }
 
-    public void login(View view) {
-        Intent intent = new Intent(this, SignIn.class);
-        startActivity(intent);
-    }
-
-    public void settings(View view) {
-        Intent intent = new Intent(this, Settings.class);
-        startActivity(intent);
-    }
-
-    public void search(View view) {
-        Intent intent = new Intent(this, Search.class);
+    @Override
+        public void onStart() {
+        super.onStart();
 
         mdatabase = FirebaseDatabase.getInstance();
         DatabaseReference myRef = mdatabase.getReference("/restaurants");
@@ -50,16 +42,12 @@ public class Menu extends AppCompatActivity {
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 Place place = dataSnapshot.getValue(Place.class);
                 data.add(place.getName());
-                //System.out.println(dataSnapshot.getKey() + " Name: " + place.getName() + " Address: " + place.getAdd() + " Score: " + place.getScore());
-                //System.out.println(dataSnapshot.getKey() + " Tags: " + place.getTags() + " Money: " + place.getMoney());
+                tags.add(place.getTags());
             }
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
                 System.out.println("onChildChanged");
-                Place place = dataSnapshot.getValue(Place.class);
-                //System.out.println(dataSnapshot.getKey() + " Name: " + place.getName() + " Address: " + place.getAdd() + " Score: " + place.getScore());
-                //System.out.println(dataSnapshot.getKey() + " Tags: " + place.getTags() + " Money: " + place.getMoney());
             }
 
             @Override
@@ -77,12 +65,27 @@ public class Menu extends AppCompatActivity {
                 //System.out.println("The read failed: " + databaseError.getCode());
             }
         });
+    }
+
+    public void login(View view) {
+        Intent intent = new Intent(this, SignIn.class);
+        startActivity(intent);
+    }
+
+    public void settings(View view) {
+        Intent intent = new Intent(this, Settings.class);
+        startActivity(intent);
+    }
+
+    public void search(View view) {
+        Intent intent = new Intent(this, Search.class);
 
         intent.putStringArrayListExtra("data", data);
+        intent.putStringArrayListExtra("tags", tags);
         startActivity(intent);
         //Clears all data in ArrayList
         //Prevents data from being displayed twice
-        data.clear();
+        //data.clear();
     }
 
     public void signin(View view) {

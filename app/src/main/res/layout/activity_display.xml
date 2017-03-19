@@ -2,8 +2,8 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     tools:context="com.httpstwitter.birdfeed.Display">
 
     <include layout="@layout/content_display" />
@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="172dp"
             android:scaleType="centerCrop"
-            app:srcCompat="@mipmap/lepainer" />
+            app:srcCompat="@drawable/lepainer" />
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -27,7 +27,16 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             android:weightSum="1"
-            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/colorbkgd"/>
+
+        </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
 
@@ -36,9 +45,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|left"
-        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="center"
+        android:src="@android:drawable/ic_dialog_map"
+        app:fabSize="normal"
         app:layout_anchor="@+id/appBarLayout"
-        app:layout_anchorGravity="top|right"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:layout_anchorGravity="top|right" />
 
 </android.support.design.widget.CoordinatorLayout>

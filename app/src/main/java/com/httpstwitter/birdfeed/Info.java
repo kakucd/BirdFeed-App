@@ -79,17 +79,11 @@ public class Info extends AppCompatActivity {
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,android.R.id.text1, tweets);
 
         for (int i = 0; i < tweets.size(); i++) {
-            //View v = linf.inflate(R.layout.hours, null);//Pass your linearLayout
-            //((TextView) v.
             linearLayout = (LinearLayout)findViewById(R.id.tweets);
             tweetsView = (TextView)findViewById(R.id.tweetsView);
             tweetsView.setText(tweets.get(i));
             linearLayout.removeView(tweetsView);
             linearLayout.addView(tweetsView);
-
-            //View item = adapter.getView(i, tweetsView, linearLayout);
-            //linearLayout.addView(item);
-            //tbl_layout.addView(hoursView);
         }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);

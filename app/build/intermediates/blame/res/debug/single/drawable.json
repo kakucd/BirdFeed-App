@@ -20,12 +20,12 @@
         "source": "/Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
         "source": "/Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
@@ -56,6 +56,10 @@
         "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/ic_launcher.png",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/drawable/ic_launcher.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/drawable/abc_list_selector_holo_light.xml"
     },
@@ -70,6 +74,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
         "source": "/Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/ic_map.png",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/drawable/ic_map.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
@@ -98,6 +106,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/ic_launcher_round.png",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/drawable/ic_launcher_round.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
@@ -188,6 +200,10 @@
         "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/lepainer.jpg",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/drawable/lepainer.jpg"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
         "source": "/Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
@@ -212,8 +228,20 @@
         "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/images.png",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/drawable/images.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/Casey/.android/build-cache/15c8244800b36b40f0934f2ce7120c4b566fe993/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/food.png",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/drawable/food.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/ic_twitter.png",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/drawable/ic_twitter.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",

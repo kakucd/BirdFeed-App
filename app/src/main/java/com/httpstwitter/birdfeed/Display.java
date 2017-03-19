@@ -14,32 +14,29 @@ import java.util.ArrayList;
 
 public class Display extends AppCompatActivity {
 
-    ArrayList<String> tweets = new ArrayList<>();
-    ArrayList<String> hours = new ArrayList<>();
-    ArrayList<String> master = new ArrayList<>();
-    TextView nameView;
-    ListView listView;
-    Toolbar toolbar;
-    String item, address, tags;
-    ArrayAdapter<String> adapter;
+    static private ArrayList<String> tweets = new ArrayList<>();
+    static private ArrayList<String> hours = new ArrayList<>();
+    static private ArrayList<String> master = new ArrayList<>();
+    private ListView listView;
+    private String item, address, tags;
+    private ArrayAdapter<String> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_display);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle(item);
 
         item = (String) getIntent().getSerializableExtra("item");
-        //System.out.println("Name: "+item);
         tags = (String) getIntent().getSerializableExtra("tags");
-        //System.out.println("Tags: "+tags);
         if(tags != null) {
             master.add(tags);
         }
         master.add("Address");
         address = (String) getIntent().getSerializableExtra("address");
-        //System.out.println("Address: "+address);
         if(address != null) {
             master.add(address);
         }
@@ -60,18 +57,14 @@ public class Display extends AppCompatActivity {
             System.out.println("Master: "+master.get(i));
         }
 
-        //nameView = (TextView)findViewById(R.id.viewName);
-        //nameView.setText(item);
-
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        toolbar.setTitle(item);
-
+        TextView textView = (TextView) findViewById(R.id.title);
+        textView.setText(item);
         listView = (ListView)findViewById(R.id.listView);
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,android.R.id.text1, master);
         listView.setAdapter(adapter);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -79,6 +72,18 @@ public class Display extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        master.clear();
     }
 
 }
