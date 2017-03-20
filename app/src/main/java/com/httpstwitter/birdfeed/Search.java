@@ -2,8 +2,6 @@ package com.httpstwitter.birdfeed;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -38,7 +36,7 @@ public class Search extends AppCompatActivity {
     static private ArrayList<String> hours = new ArrayList<>();
     static private ArrayList<String> tweets = new ArrayList<>();
     private ListView listView;
-    private String item, address, tags;
+    private String item, address, tags, website, phone;
     private ArrayAdapter<String> adapter;
     private FirebaseDatabase mdatabase;
 
@@ -90,15 +88,6 @@ public class Search extends AppCompatActivity {
                 }
             }
         });
-
-        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });*/
     }
 
     @Override
@@ -137,6 +126,32 @@ public class Search extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 tags = (String) dataSnapshot.getValue();
                 //System.out.println("Tags: "+tags);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+        DatabaseReference web = mdatabase.getReference("/restaurants/"+item+"/website");
+        web.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                website = (String) dataSnapshot.getValue();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+        DatabaseReference cell = mdatabase.getReference("restaurants/"+item+"/phone");
+        cell.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                phone = (String) dataSnapshot.getValue();
             }
 
             @Override
@@ -215,6 +230,8 @@ public class Search extends AppCompatActivity {
         intent.putExtra("tags", tags);
         intent.putExtra("item", item);
         intent.putExtra("address", address);
+        intent.putExtra("phone", phone);
+        intent.putExtra("website", website);
 
         startActivity(intent);
 

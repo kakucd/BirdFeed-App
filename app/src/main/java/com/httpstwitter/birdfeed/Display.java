@@ -26,7 +26,7 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
     static private ArrayList<String> hours = new ArrayList<>();
     static private ArrayList<String> master = new ArrayList<>();
     private ListView listView;
-    private String item, address, tags;
+    private String item, address, tags, phone, website;
     private ArrayAdapter<String> adapter;
     private GoogleApiClient mGoogleApiClient;
 
@@ -42,8 +42,8 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle(item);
 
-        item = (String) getIntent().getSerializableExtra("item");
-        tags = (String) getIntent().getSerializableExtra("tags");
+        item = getIntent().getStringExtra("item");
+        tags =  getIntent().getStringExtra("tags");
         if (tags != null) {
             master.add(tags);
         }
@@ -51,6 +51,16 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
         address = (String) getIntent().getSerializableExtra("address");
         if (address != null) {
             master.add(address);
+        }
+        website = getIntent().getStringExtra("website");
+        if(website != null) {
+            master.add("Website");
+            master.add(website);
+        }
+        phone = getIntent().getStringExtra("phone");
+        if(phone != null) {
+            master.add("Phone");
+            master.add(phone);
         }
         master.add("Hours");
         hours = getIntent().getStringArrayListExtra("hours");

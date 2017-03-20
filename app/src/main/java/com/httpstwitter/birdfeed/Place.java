@@ -12,17 +12,23 @@ public class Place {
     String name;
     Long score;
     String address;
-    String tags = "";
-    Long money = null;
+    String tags;
+    Long money;
+    String website;
+    String phone;
 
     public Place() {
         //Needed for Firebase
     }
 
-    public Place(String n, Long s, String a) {
+    public Place(String n, Long s, String a, String w, String p, String t, Long m) {
         name = n;
         score = s;
         address = a;
+        website = w;
+        phone = p;
+        tags = t;
+        money = m;
     }
 
     public String getName() {
