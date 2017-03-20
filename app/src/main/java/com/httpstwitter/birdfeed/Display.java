@@ -3,7 +3,6 @@ package com.httpstwitter.birdfeed;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -12,11 +11,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.content.Intent;
 
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationServices;
-
 import java.util.ArrayList;
-import java.util.Locale;
 
 public class Display extends AppCompatActivity {
 
@@ -26,7 +21,6 @@ public class Display extends AppCompatActivity {
     private ListView listView;
     private String item, address, tags;
     private ArrayAdapter<String> adapter;
-    private GoogleApiClient mGoogleApiClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,20 +63,10 @@ public class Display extends AppCompatActivity {
         listView = (ListView)findViewById(R.id.listView);
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,android.R.id.text1, master);
         listView.setAdapter(adapter);
-
-        //Google access and location services
-        /*if (mGoogleApiClient == null) {
-            mGoogleApiClient = new GoogleApiClient.Builder(this)
-                    .addConnectionCallbacks(this)
-                    .addOnConnectionFailedListener(this)
-                    .addApi(LocationServices.API)
-                    .build();
-        }*/
     }
 
     @Override
     protected void onStart() {
-        //mGoogleApiClient.connect();
         super.onStart();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -90,12 +74,8 @@ public class Display extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        //.setAction("Action", null).show();
                 address = "http://maps.google.com/maps?saddr="+address;
-                //Uri uri = Uri.parse(address);
                 Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse(address));
-                //intent.setData(uri);
                 startActivity(intent);
             }
         });
@@ -103,7 +83,6 @@ public class Display extends AppCompatActivity {
 
     @Override
     protected void onStop() {
-        //mGoogleApiClient.disconnect();
         super.onStop();
         master.clear();
     }

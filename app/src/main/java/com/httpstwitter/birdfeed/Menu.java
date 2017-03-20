@@ -23,8 +23,6 @@ public class Menu extends AppCompatActivity {
 
     static private ArrayList<String> data = new ArrayList<>();
     static private ArrayList<String> tags = new ArrayList<>();
-    private FirebaseDatabase mdatabase;
-    private GoogleApiClient mGoogleApiClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +35,7 @@ public class Menu extends AppCompatActivity {
         public void onStart() {
         super.onStart();
 
-        mdatabase = FirebaseDatabase.getInstance();
+        FirebaseDatabase mdatabase = FirebaseDatabase.getInstance();
         DatabaseReference myRef = mdatabase.getReference("/restaurants");
 
         myRef.orderByKey().addChildEventListener(new ChildEventListener() {
@@ -87,9 +85,6 @@ public class Menu extends AppCompatActivity {
         intent.putStringArrayListExtra("data", data);
         intent.putStringArrayListExtra("tags", tags);
         startActivity(intent);
-        //Clears all data in ArrayList
-        //Prevents data from being displayed twice
-        //data.clear();
     }
 
     public void signin(View view) {
