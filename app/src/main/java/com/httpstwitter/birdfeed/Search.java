@@ -136,7 +136,7 @@ public class Search extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 tags = (String) dataSnapshot.getValue();
-                System.out.println("Tags: "+tags);
+                //System.out.println("Tags: "+tags);
             }
 
             @Override
@@ -151,7 +151,7 @@ public class Search extends AppCompatActivity {
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 String temp = dataSnapshot.getKey() + ": " + dataSnapshot.getValue();
                 hours.add(temp);
-                System.out.println("onChildAdded: "+temp);
+                //System.out.println("onChildAdded: "+temp);
             }
 
             @Override
@@ -182,7 +182,7 @@ public class Search extends AppCompatActivity {
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 String t = "@"+dataSnapshot.getKey()+": "+dataSnapshot.getValue();
                 tweets.add(t);
-                System.out.println("Tweet: "+t);
+                //System.out.println("Tweet: "+t);
             }
 
             @Override

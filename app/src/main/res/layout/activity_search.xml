@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:textSize="25dp"
-                android:text="Neabry Restaurants"
+                android:text="Nearby Restaurants"
                 android:textColor="@color/colorbkgd"
                 android:textStyle="bold"/>
 
