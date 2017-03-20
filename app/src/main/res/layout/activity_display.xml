@@ -51,6 +51,7 @@
         android:src="@android:drawable/ic_dialog_map"
         app:fabSize="normal"
         app:layout_anchor="@+id/appBarLayout"
-        app:layout_anchorGravity="top|right" />
+        app:layout_anchorGravity="top|right"
+        android:clickable="true"/>
 
 </android.support.design.widget.CoordinatorLayout>
