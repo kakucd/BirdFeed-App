@@ -4,12 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
+import android.view.*;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.google.firebase.database.ChildEventListener;
@@ -36,12 +35,13 @@ public class Search extends AppCompatActivity {
     static private ArrayList<String> hours = new ArrayList<>();
     static private ArrayList<String> tweets = new ArrayList<>();
     private ListView listView;
-    private String item, address, tags, website, phone;
+    private String item, address, tags, website, phone, image;
     private ArrayAdapter<String> adapter;
     private FirebaseDatabase mdatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        data.clear();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -160,6 +160,19 @@ public class Search extends AppCompatActivity {
             }
         });
 
+        DatabaseReference picture = mdatabase.getReference("restaurants/"+item+"/picture");
+        picture.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                image= (String) dataSnapshot.getValue();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
         DatabaseReference r = mdatabase.getReference("/hours/"+item);
         r.orderByValue().addChildEventListener(new ChildEventListener() {
             @Override
@@ -171,12 +184,16 @@ public class Search extends AppCompatActivity {
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-
+                int i = hours.indexOf(dataSnapshot.getValue());
+                String temp = dataSnapshot.getKey() + ": " + dataSnapshot.getValue();
+                hours.add(i, temp);
             }
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
-
+                int i = hours.indexOf(dataSnapshot.getValue());
+                String temp = dataSnapshot.getKey() + ": " + dataSnapshot.getValue();
+                hours.remove(temp);
             }
 
             @Override
@@ -202,7 +219,10 @@ public class Search extends AppCompatActivity {
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-
+                int i = tweets.indexOf(dataSnapshot.getValue());
+                String t = "@"+dataSnapshot.getKey()+": "+dataSnapshot.getValue();
+                tweets.add(i, t);
+                System.out.println("int i: "+i+" tweets: "+tweets.get(i));
             }
 
             @Override
@@ -232,6 +252,7 @@ public class Search extends AppCompatActivity {
         intent.putExtra("address", address);
         intent.putExtra("phone", phone);
         intent.putExtra("website", website);
+        intent.putExtra("image", image);
 
         startActivity(intent);
 

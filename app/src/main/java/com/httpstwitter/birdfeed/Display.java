@@ -1,9 +1,11 @@
 package com.httpstwitter.birdfeed;
 
+import android.Manifest;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
@@ -14,27 +16,33 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
+import android.widget.ImageView;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
 
+import java.io.IOException;
+import java.net.MalformedURLException;
 import java.util.ArrayList;
+import java.io.InputStream;
+import java.net.URL;
+import java.net.HttpURLConnection;
 
 public class Display extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks {
 
-    static private ArrayList<String> tweets = new ArrayList<>();
-    static private ArrayList<String> hours = new ArrayList<>();
     static private ArrayList<String> master = new ArrayList<>();
-    private ListView listView;
-    private String item, address, tags, phone, website;
-    private ArrayAdapter<String> adapter;
+    private String item, address, tags, phone, website, image;
     private GoogleApiClient mGoogleApiClient;
-
+    private int i = 0;
     private String mLatitudeText, mLongitudeText;
-    private String current;
+    private FloatingActionButton fab, call, web;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        master.clear();
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_display);
@@ -43,7 +51,14 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
         getSupportActionBar().setTitle(item);
 
         item = getIntent().getStringExtra("item");
-        tags =  getIntent().getStringExtra("tags");
+        image = getIntent().getStringExtra("image");
+        System.out.println("image: "+image);
+
+        ImageView imageView = (ImageView)findViewById(R.id.imageView);
+        imageView.setImageBitmap(getBitmap(image));
+        //imageView.setImageDrawable(LoadImage(image));
+
+        tags = getIntent().getStringExtra("tags");
         if (tags != null) {
             master.add(tags);
         }
@@ -53,18 +68,18 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
             master.add(address);
         }
         website = getIntent().getStringExtra("website");
-        if(website != null) {
+        if (website != null) {
             master.add("Website");
             master.add(website);
         }
         phone = getIntent().getStringExtra("phone");
-        if(phone != null) {
+        if (phone != null) {
             master.add("Phone");
             master.add(phone);
         }
         master.add("Hours");
-        hours = getIntent().getStringArrayListExtra("hours");
-        tweets = getIntent().getStringArrayListExtra("tweets");
+        ArrayList<String> hours = getIntent().getStringArrayListExtra("hours");
+        ArrayList<String> tweets = getIntent().getStringArrayListExtra("tweets");
 
         for (int i = 0; i < hours.size(); i++) {
             master.add(hours.get(i));
@@ -75,14 +90,10 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
             master.add(tweets.get(i));
         }
 
-        for (int i = 0; i < master.size(); i++) {
-            System.out.println("Master: " + master.get(i));
-        }
-
         TextView textView = (TextView) findViewById(R.id.title);
         textView.setText(item);
-        listView = (ListView) findViewById(R.id.listView);
-        adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, android.R.id.text1, master);
+        ListView listView = (ListView) findViewById(R.id.listView);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, android.R.id.text1, master);
         listView.setAdapter(adapter);
 
         // Create an instance of GoogleAPIClient.
@@ -90,7 +101,6 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
         if (mGoogleApiClient == null) {
             mGoogleApiClient = new GoogleApiClient.Builder(this)
                     .addConnectionCallbacks(this)
-                    //.addOnConnectionFailedListener(this)
                     .addApi(LocationServices.API)
                     .build();
         }
@@ -101,21 +111,45 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
         mGoogleApiClient.connect();
         super.onStart();
 
-        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
+                && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, 1);
             return;
-        } else {
-            ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+        }
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CALL_PHONE}, 3);
+        }
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.INTERNET) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.INTERNET}, 3);
         }
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        call = (FloatingActionButton) findViewById(R.id.call);
+        call.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                phone = "tel:" + phone;
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(phone));
+                startActivity(intent);
+            }
+        });
 
+        web = (FloatingActionButton) findViewById(R.id.web);
+        web.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                website = "http://www." + website;
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(website));
+                //intent.setPackage("com.google.android.apps.maps");
+                startActivity(intent);
+            }
+        });
+
+        fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 address = "http://maps.google.com/maps?saddr=" + mLatitudeText + "," + mLongitudeText + "&daddr=" + address;
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(address));
-                //intent.setPackage("com.google.android.apps.maps");
                 startActivity(intent);
             }
         });
@@ -125,31 +159,47 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
     protected void onStop() {
         mGoogleApiClient.disconnect();
         super.onStop();
-        master.clear();
     }
 
-    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String permissions[], @NonNull int[] grantResults) {
         switch (requestCode) {
             case 1: {
                 // If request is cancelled, the result arrays are empty.
-                if (grantResults.length > 0
-                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-            } else{
-                // permission denied, boo! Disable the
-                // functionality that depends on this permission.
-                current = "873 Wheeler ST S, Tacoma, WA 98444";
-            }
-            return;
-        }
-        // other 'case' lines to check for other
-        // permissions this app might request
-    }
+                if (grantResults.length > 0 && grantResults[i] == PackageManager.PERMISSION_GRANTED) {
 
-}
+                } else {
+                    //Sets default current location to Space Needle coordinates
+                    //if user denies access to location
+                    mLatitudeText = "47.6205 N";
+                    mLongitudeText = "122.3493 W";
+                }
+                i++;
+                return;
+            }
+            case 2: {
+                if (grantResults.length > 0 && grantResults[i] == PackageManager.PERMISSION_GRANTED) {
+                    //permission granted
+                }
+                i++;
+                return;
+            }
+            case 3: {
+                if (grantResults.length > 0 && grantResults[i] == PackageManager.PERMISSION_GRANTED) {
+                    //permission granted
+                }
+                ++i;
+                return;
+            }
+            // other 'case' lines to check for other
+            // permissions this app might request
+        }
+
+    }
 
     @Override
     public void onConnected(@Nullable Bundle bundle) {
-        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
             // here to request the missing permissions, and then overriding
@@ -176,5 +226,34 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
     @Override
     public void onConnectionSuspended(int i) {
 
+    }
+
+    public static Drawable LoadImage(String url) {
+        try {
+            InputStream is = (InputStream) new URL(url).getContent();
+            System.out.println("Here");
+            Drawable d = Drawable.createFromStream(is, "src name");
+            System.out.println("There");
+            return d;
+        } catch (Exception e) {
+            System.out.println("exception caught");
+            return null;
+        }
+    }
+
+    public Bitmap getBitmap(String src) {
+        try {
+            java.net.URL url = new java.net.URL(src);
+            HttpURLConnection connection = (HttpURLConnection) url
+                    .openConnection();
+            connection.setDoInput(true);
+            connection.connect();
+            InputStream input = connection.getInputStream();
+            Bitmap myBitmap = BitmapFactory.decodeStream(input);
+            return myBitmap;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }

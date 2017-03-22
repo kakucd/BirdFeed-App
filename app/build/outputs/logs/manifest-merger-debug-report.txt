@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-47:12
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-49:12
 	package
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
@@ -17,8 +17,28 @@ uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:5:5-78
 	android:name
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:6:22-66
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:7:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] /Users/Casey/.android/build-cache/eff5f6d82abf62dba31129c57db77b3dbba8959f/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.0] /Users/Casey/.android/build-cache/458c18d51a034424da97eb6013debdd998950ecb/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /Users/Casey/.android/build-cache/76176cc212ff66110c2a1d76ce454f151b011b2f/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] /Users/Casey/.android/build-cache/b0104f745551e56616401d870929e4eea7e48363/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] /Users/Casey/.android/build-cache/ac60cfecf3dd8d6356cadb3bd3a44205d8db257d/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Casey/.android/build-cache/b2794f15fe2ef1728f3d1cb945a2771b0c41196d/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:7:22-64
 application
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:7:5-45:19
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:9:5-47:19
 MERGED from [com.google.android.gms:play-services:10.2.0] /Users/Casey/.android/build-cache/0d1e8b79233af70ed18ad11a1ea75f881b59482a/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:26:5-19
@@ -75,79 +95,79 @@ MERGED from [com.android.support:support-core-ui:25.2.0] /Users/Casey/.android/b
 MERGED from [com.android.support:support-core-utils:25.2.0] /Users/Casey/.android/build-cache/282179d9e04a35899c8f01362e84d08c435cccda/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.2.0] /Users/Casey/.android/build-cache/701cacc1440c2830fa357e77d3164988fc29de56/output/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:12:9-41
 	android:supportsRtl
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:14:9-35
 	android:roundIcon
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:13:9-54
 	android:allowBackup
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:9:9-49
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:11:9-49
 	android:theme
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:15:9-40
 activity#com.httpstwitter.birdfeed.Menu
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:14:9-20:20
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:14:19-39
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:16:19-39
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:20:27-74
 activity#com.httpstwitter.birdfeed.Search
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:21:9-24:59
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:23:9-26:59
 	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:23:13-58
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:25:13-58
 	android:theme
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:24:13-56
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:26:13-56
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:22:13-35
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:24:13-35
 activity#com.httpstwitter.birdfeed.SignIn
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:25:9-28:59
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:27:9-30:59
 	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:27:13-59
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:29:13-59
 	android:theme
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:28:13-56
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:30:13-56
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:26:13-35
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:28:13-35
 activity#com.httpstwitter.birdfeed.Info
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:29:9-32:59
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:31:9-34:59
 	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:31:13-56
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:33:13-56
 	android:theme
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:32:13-56
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:34:13-56
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:30:13-33
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:32:13-33
 activity#com.httpstwitter.birdfeed.Settings
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:33:9-36:59
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:35:9-38:59
 	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:35:13-60
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:37:13-60
 	android:theme
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:36:13-56
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:38:13-56
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:34:13-37
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:36:13-37
 activity#com.httpstwitter.birdfeed.Tweet
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:37:9-40:59
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:39:9-42:59
 	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:39:13-57
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:41:13-57
 	android:theme
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:40:13-56
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:42:13-56
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:38:13-34
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:40:13-34
 activity#com.httpstwitter.birdfeed.Display
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:41:9-44:68
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:43:9-46:68
 	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:43:13-59
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:45:13-59
 	android:theme
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:44:13-56
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:46:13-56
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:42:13-36
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:44:13-36
 uses-sdk
 INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services:10.2.0] /Users/Casey/.android/build-cache/0d1e8b79233af70ed18ad11a1ea75f881b59482a/output/AndroidManifest.xml:4:5-43
@@ -223,21 +243,6 @@ MERGED from [com.android.support:support-compat:25.2.0] /Users/Casey/.android/bu
 	android:minSdkVersion
 		INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] /Users/Casey/.android/build-cache/eff5f6d82abf62dba31129c57db77b3dbba8959f/output/AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-crash:10.2.0] /Users/Casey/.android/build-cache/458c18d51a034424da97eb6013debdd998950ecb/output/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /Users/Casey/.android/build-cache/76176cc212ff66110c2a1d76ce454f151b011b2f/output/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] /Users/Casey/.android/build-cache/b0104f745551e56616401d870929e4eea7e48363/output/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] /Users/Casey/.android/build-cache/ac60cfecf3dd8d6356cadb3bd3a44205d8db257d/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Casey/.android/build-cache/b2794f15fe2ef1728f3d1cb945a2771b0c41196d/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:20:5-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:19:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:21:5-78

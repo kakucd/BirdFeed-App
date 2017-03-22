@@ -57,6 +57,42 @@
                 </TableRow>
 
                 <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/website"
+                        android:textStyle="bold"
+                        android:textSize="20dp"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/websiteView"
+                        android:textSize="18dp"
+                        android:onClick="websiteCall"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:id="@+id/phone"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/phoneView"
+                        android:textSize="18dp"
+                        android:onClick="phoneCall"/>
+                </TableRow>
+
+                <TableRow>
 
                     <TextView
                         android:layout_marginTop="20dp"

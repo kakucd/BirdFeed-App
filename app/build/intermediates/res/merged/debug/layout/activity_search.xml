@@ -46,7 +46,8 @@
         android:visibility="visible"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="bottom|right|end"
-        app:srcCompat="@mipmap/ic_food" />
+        app:srcCompat="@mipmap/ic_food"
+        app:backgroundTint="@color/colorbkgd"/>
 
     <include
         android:id="@+id/include"
