@@ -1,6 +1,7 @@
 package com.httpstwitter.birdfeed;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -34,28 +35,37 @@ public class Search extends AppCompatActivity {
     static private ArrayList<String> tag = new ArrayList<>();
     static private ArrayList<String> hours = new ArrayList<>();
     static private ArrayList<String> tweets = new ArrayList<>();
+    private ArrayList<String> filters = new ArrayList<>();
     private ListView listView;
     private String item, address, tags, website, phone, image;
-    private ArrayAdapter<String> adapter;
     private FirebaseDatabase mdatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        data.clear();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("");
 
+        try {
+            filters = getIntent().getStringArrayListExtra("filters");
+        } catch(Exception e) {
+            address = null;
+            tags = null;
+            hours.clear();
+            tweets.clear();
+            data.clear();
+        }
+
         //get queried data from menu activity
         data = getIntent().getStringArrayListExtra("data");
-        tag = getIntent().getStringArrayListExtra("tags");
+        tag = getIntent().getStringArrayListExtra("tag");
         item = getIntent().getStringExtra("item");
         //instantiate listView to by used for display
         listView = (ListView) findViewById(R.id.query);
         //instantiate adapter to translate ArrayList data to ListView to be displayed on phone screen
-        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_2, android.R.id.text1, data) {
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_2, android.R.id.text1, data) {
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
                 View view = super.getView(position, convertView, parent);
@@ -75,14 +85,20 @@ public class Search extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 int itemPosition = position;
-                mdatabase = FirebaseDatabase.getInstance();
 
+                mdatabase = FirebaseDatabase.getInstance();
                 item =  (String) listView.getItemAtPosition(position);
-                query();
+                new getPhone().execute();
+                new getAddress().execute();
+                new getWebsite().execute();
+                new getTags().execute();
+                new getHours().execute();
+                new getTweets().execute();
+                new getURL().execute();
                 //Toast message will pop up indicating list item and position clicked.
-                Toast.makeText(getApplicationContext(),
+                /*Toast.makeText(getApplicationContext(),
                         "Position :"+itemPosition+"  ListItem : " +item , Toast.LENGTH_LONG)
-                        .show();
+                        .show();*/
                 if(address != null) {
                     info();
                 }
@@ -93,153 +109,12 @@ public class Search extends AppCompatActivity {
     @Override
     public void onStart() {
         super.onStart();
-
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        address = null;
-        tags = null;
-        hours.clear();
-        tweets.clear();
-    }
-
-    public void query() {
-        DatabaseReference myRef = mdatabase.getReference("/restaurants/"+item+"/address");
-        myRef.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                address = (String) dataSnapshot.getValue();
-                System.out.println(dataSnapshot.getKey()+": "+address);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-
-        DatabaseReference ref = mdatabase.getReference("/restaurants/"+item+"/tags");
-        ref.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                tags = (String) dataSnapshot.getValue();
-                //System.out.println("Tags: "+tags);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-
-        DatabaseReference web = mdatabase.getReference("/restaurants/"+item+"/website");
-        web.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                website = (String) dataSnapshot.getValue();
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-
-        DatabaseReference cell = mdatabase.getReference("restaurants/"+item+"/phone");
-        cell.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                phone = (String) dataSnapshot.getValue();
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-
-        DatabaseReference picture = mdatabase.getReference("restaurants/"+item+"/picture");
-        picture.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                image= (String) dataSnapshot.getValue();
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-
-        DatabaseReference r = mdatabase.getReference("/hours/"+item);
-        r.orderByValue().addChildEventListener(new ChildEventListener() {
-            @Override
-            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                String temp = dataSnapshot.getKey() + ": " + dataSnapshot.getValue();
-                hours.add(temp);
-                //System.out.println("onChildAdded: "+temp);
-            }
-
-            @Override
-            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-                int i = hours.indexOf(dataSnapshot.getValue());
-                String temp = dataSnapshot.getKey() + ": " + dataSnapshot.getValue();
-                hours.add(i, temp);
-            }
-
-            @Override
-            public void onChildRemoved(DataSnapshot dataSnapshot) {
-                int i = hours.indexOf(dataSnapshot.getValue());
-                String temp = dataSnapshot.getKey() + ": " + dataSnapshot.getValue();
-                hours.remove(temp);
-            }
-
-            @Override
-            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-
-        DatabaseReference dbRef = mdatabase.getReference("/tweets/"+item);
-
-        dbRef.addChildEventListener(new ChildEventListener() {
-            @Override
-            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                String t = "@"+dataSnapshot.getKey()+": "+dataSnapshot.getValue();
-                tweets.add(t);
-                //System.out.println("Tweet: "+t);
-            }
-
-            @Override
-            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-                int i = tweets.indexOf(dataSnapshot.getValue());
-                String t = "@"+dataSnapshot.getKey()+": "+dataSnapshot.getValue();
-                tweets.add(i, t);
-                System.out.println("int i: "+i+" tweets: "+tweets.get(i));
-            }
-
-            @Override
-            public void onChildRemoved(DataSnapshot dataSnapshot) {
-
-            }
-
-            @Override
-            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
+        //filters.clear();
     }
 
     public void info() {
@@ -256,5 +131,231 @@ public class Search extends AppCompatActivity {
 
         startActivity(intent);
 
+    }
+
+    private class getPhone extends AsyncTask<Void, Void, ValueEventListener> {
+        @Override
+        protected ValueEventListener doInBackground(Void... voids) {
+            ValueEventListener number = new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    phone = (String) dataSnapshot.getValue();
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            };
+
+            return number;
+        }
+
+        @Override
+        protected void onPostExecute(ValueEventListener child) {
+            DatabaseReference call = mdatabase.getReference("restaurants/"+item+"phone");
+            call.addListenerForSingleValueEvent(child);
+        }
+    }
+
+    private class getAddress extends AsyncTask<Void, Void, ValueEventListener> {
+
+        @Override
+        protected ValueEventListener doInBackground(Void... voids) {
+            ValueEventListener addr = new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    address = (String) dataSnapshot.getValue();
+                    System.out.println(dataSnapshot.getKey()+": "+address);
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            };
+            return addr;
+        }
+
+        @Override
+        protected void onPostExecute(ValueEventListener addr) {
+            DatabaseReference street = mdatabase.getReference("/restaurants/"+item+"/address");
+            street.addListenerForSingleValueEvent(addr);
+        }
+    }
+
+    private class getWebsite extends AsyncTask<Void, Void, ValueEventListener> {
+
+        @Override
+        protected ValueEventListener doInBackground(Void... voids) {
+            ValueEventListener link = new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    website = (String) dataSnapshot.getValue();
+                    System.out.println("Website: "+website);
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            };
+            return link;
+        }
+
+        @Override
+        protected void onPostExecute(ValueEventListener link) {
+            DatabaseReference web = mdatabase.getReference("/restaurants/"+item+"/website");
+            web.addListenerForSingleValueEvent(link);
+        }
+    }
+
+    private class getTags extends AsyncTask<Void, Void, ValueEventListener> {
+
+        @Override
+        protected ValueEventListener doInBackground(Void... voids) {
+            ValueEventListener text = new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    tags = (String) dataSnapshot.getValue();
+                    System.out.println("Tags: "+tags);
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            };
+            return text;
+        }
+
+        @Override
+        protected void onPostExecute(ValueEventListener text) {
+            DatabaseReference temp = mdatabase.getReference("/restaurants/"+item+"/tags");
+            temp.addListenerForSingleValueEvent(text);
+        }
+    }
+
+    private class getHours extends AsyncTask<Void, Void, ChildEventListener> {
+
+        @Override
+        protected ChildEventListener doInBackground(Void... voids) {
+            ChildEventListener child = new ChildEventListener() {
+                @Override
+                public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                    String temp = dataSnapshot.getKey() + ": " + dataSnapshot.getValue();
+                    hours.add(temp);
+                }
+
+                @Override
+                public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+                    int i = hours.indexOf(dataSnapshot.getValue());
+                    String temp = dataSnapshot.getKey() + ": " + dataSnapshot.getValue();
+                    hours.add(i, temp);
+                }
+
+                @Override
+                public void onChildRemoved(DataSnapshot dataSnapshot) {
+                    String temp = dataSnapshot.getKey() + ": " + dataSnapshot.getValue();
+                    hours.remove(temp);
+                }
+
+                @Override
+                public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            };
+            return child;
+        }
+
+        @Override
+        protected void onPostExecute(ChildEventListener child) {
+            DatabaseReference times = mdatabase.getReference("/hours/"+item);
+            times.addChildEventListener(child);
+        }
+    }
+
+    private class getTweets extends AsyncTask<Void, Void, ChildEventListener> {
+
+        @Override
+        protected ChildEventListener doInBackground(Void... voids) {
+
+            ChildEventListener child = new ChildEventListener() {
+                @Override
+                public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                    String t = "@"+dataSnapshot.getKey()+": "+dataSnapshot.getValue();
+                    tweets.add(t);
+                }
+
+                @Override
+                public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+                    int i = tweets.indexOf(dataSnapshot.getValue());
+                    String t = "@"+dataSnapshot.getKey()+": "+dataSnapshot.getValue();
+                    tweets.add(i, t);
+                    System.out.println("int i: "+i+" tweets: "+tweets.get(i));
+                }
+
+                @Override
+                public void onChildRemoved(DataSnapshot dataSnapshot) {
+
+                }
+
+                @Override
+                public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            };
+
+            return child;
+        }
+
+        @Override
+        protected void onPostExecute(ChildEventListener child) {
+            DatabaseReference twitter = mdatabase.getReference("/tweets/"+item);
+            twitter.addChildEventListener(child);
+        }
+    }
+
+    private class getURL extends AsyncTask<Void, Void, ValueEventListener> {
+
+        @Override
+        protected ValueEventListener doInBackground(Void... voids) {
+            ValueEventListener url = new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    image = (String) dataSnapshot.getValue();
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            };
+            return url;
+        }
+
+        @Override
+        protected void onPostExecute(ValueEventListener jpg) {
+            DatabaseReference picture = mdatabase.getReference("restaurants/"+item+"/picture");
+            picture.addListenerForSingleValueEvent(jpg);
+        }
+    }
+
+    public void filters(View view) {
+        Intent intent = new Intent(this, Filter.class);
+        intent.putStringArrayListExtra("data", data);
+        intent.putStringArrayListExtra("tag", tag);
+        intent.putExtra("item", item);
+        startActivity(intent);
     }
 }

@@ -36,7 +36,7 @@
     </android.support.design.widget.AppBarLayout>
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/imageButton"
+        android:id="@+id/filter"
         android:layout_width="62dp"
         android:layout_height="64dp"
         android:layout_margin="@dimen/fab_margin"
@@ -47,7 +47,8 @@
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="bottom|right|end"
         app:srcCompat="@mipmap/ic_food"
-        app:backgroundTint="@color/colorbkgd"/>
+        app:backgroundTint="@color/colorbkgd"
+        android:onClick="filters"/>
 
     <include
         android:id="@+id/include"

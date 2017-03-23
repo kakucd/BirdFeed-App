@@ -87,7 +87,8 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.008"
-        app:layout_constraintVertical_bias="0.298" />
+        app:layout_constraintVertical_bias="0.298"
+        android:onClick="search"/>
 
     <Button
         android:id="@+id/tweet"
@@ -130,7 +131,8 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.008"
-        app:layout_constraintVertical_bias="0.71" />
+        app:layout_constraintVertical_bias="0.71"
+        android:onClick="tweet"/>
 
     <Button
         android:id="@+id/Sign_In"
@@ -172,7 +174,8 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.007" />
+        app:layout_constraintHorizontal_bias="0.007"
+        android:onClick="signin"/>
 
     <Button
         android:id="@+id/settings_button"
@@ -215,6 +218,7 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintVertical_bias="0.918" />
+        app:layout_constraintVertical_bias="0.918"
+        android:onClick="settings"/>
 
 </android.support.constraint.ConstraintLayout>

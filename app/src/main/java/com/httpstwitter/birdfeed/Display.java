@@ -1,9 +1,13 @@
 package com.httpstwitter.birdfeed;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.location.Location;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -11,25 +15,19 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.content.Intent;
-import android.graphics.drawable.Drawable;
-import android.widget.ImageView;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
+import com.google.firebase.database.FirebaseDatabase;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.util.ArrayList;
 import java.io.InputStream;
-import java.net.URL;
-import java.net.HttpURLConnection;
+import java.util.ArrayList;
 
 public class Display extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks {
 
@@ -39,10 +37,13 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
     private int i = 0;
     private String mLatitudeText, mLongitudeText;
     private FloatingActionButton fab, call, web;
+    private ImageView imageView;
+    private FirebaseDatabase mdatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         master.clear();
+        mdatabase = FirebaseDatabase.getInstance();
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_display);
@@ -52,11 +53,8 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
 
         item = getIntent().getStringExtra("item");
         image = getIntent().getStringExtra("image");
-        System.out.println("image: "+image);
 
-        ImageView imageView = (ImageView)findViewById(R.id.imageView);
-        imageView.setImageBitmap(getBitmap(image));
-        //imageView.setImageDrawable(LoadImage(image));
+        imageView = (ImageView)findViewById(R.id.imageView);
 
         tags = getIntent().getStringExtra("tags");
         if (tags != null) {
@@ -111,6 +109,8 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
         mGoogleApiClient.connect();
         super.onStart();
 
+        imageView = (ImageView)findViewById(R.id.imageView);
+
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
                 && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, 1);
@@ -122,6 +122,8 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.INTERNET) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.INTERNET}, 3);
         }
+
+        new ImageDownloader(imageView).execute(image);
 
         call = (FloatingActionButton) findViewById(R.id.call);
         call.setOnClickListener(new View.OnClickListener() {
@@ -228,32 +230,29 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
 
     }
 
-    public static Drawable LoadImage(String url) {
-        try {
-            InputStream is = (InputStream) new URL(url).getContent();
-            System.out.println("Here");
-            Drawable d = Drawable.createFromStream(is, "src name");
-            System.out.println("There");
-            return d;
-        } catch (Exception e) {
-            System.out.println("exception caught");
-            return null;
-        }
-    }
+    private class ImageDownloader extends AsyncTask<String, Void, Bitmap> {
+        ImageView bmImage;
 
-    public Bitmap getBitmap(String src) {
-        try {
-            java.net.URL url = new java.net.URL(src);
-            HttpURLConnection connection = (HttpURLConnection) url
-                    .openConnection();
-            connection.setDoInput(true);
-            connection.connect();
-            InputStream input = connection.getInputStream();
-            Bitmap myBitmap = BitmapFactory.decodeStream(input);
-            return myBitmap;
-        } catch (IOException e) {
-            e.printStackTrace();
-            return null;
+        public ImageDownloader(ImageView bmImage) {
+            this.bmImage = bmImage;
+        }
+
+        protected Bitmap doInBackground(String... urls) {
+            String url = urls[0];
+            Bitmap mIcon = null;
+            System.out.println("URL: "+url);
+            try {
+                InputStream in = new java.net.URL(url).openStream();
+                mIcon = BitmapFactory.decodeStream(in);
+            } catch (Exception e) {
+                System.out.println("error caught: "+e.toString());
+                Log.e("Error", e.getMessage());
+            }
+            return mIcon;
+        }
+
+        protected void onPostExecute(Bitmap result) {
+            bmImage.setImageBitmap(result);
         }
     }
 }
