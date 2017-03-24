@@ -92,7 +92,25 @@ public class Filter extends AppCompatActivity {
     }
 
     public void filterSearch(View view) {
+        boolean flag;
         Intent intent = new Intent(this, Search.class);
+        for(int t = 0; t < tag.size(); t++) {
+            flag = false;
+            for(int f = 0; f < filters.size(); f++) {
+                if(tag.get(t).contains(filters.get(f))) {
+                    flag = true;
+                }
+            }
+            if(!flag) {
+                tag.remove(t);
+                data.remove(t);
+            }
+        }
+
+        for(int i = 0; i < data.size(); i++) {
+            System.out.println("Name: "+data.get(i)+" Tags: "+tag.get(i));
+        }
+
         intent.putStringArrayListExtra("filters", filters);
         intent.putStringArrayListExtra("data", data);
         intent.putStringArrayListExtra("tag", tag);
