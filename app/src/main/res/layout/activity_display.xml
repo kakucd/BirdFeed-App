@@ -6,7 +6,8 @@
     android:layout_height="fill_parent"
     tools:context="com.httpstwitter.birdfeed.Display">
 
-    <include layout="@layout/content_display" />
+    <include layout="@layout/content_display"
+        android:id="@+id/include3" />
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -82,5 +83,21 @@
         app:fabSize="normal"
         app:layout_anchor="@+id/appBarLayout"
         app:layout_anchorGravity="top|right" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@mipmap/ic_back"
+        app:backgroundTint="@color/colorbkgd"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/include3"
+        app:layout_anchorGravity="bottom|right"
+        android:layout_marginBottom="15dp"
+        android:onClick="back"/>
 
 </android.support.design.widget.CoordinatorLayout>

@@ -1,13 +1,18 @@
 package com.httpstwitter.birdfeed;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.RadioButton;
+
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
@@ -26,17 +31,7 @@ public class Filter extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         item = getIntent().getStringExtra("item");
-        data = getIntent().getStringArrayListExtra("data");
-        tag = getIntent().getStringArrayListExtra("tag");
-
-        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });*/
+        new getData().execute();
     }
 
     public void onRadioButtonClicked(View view) {
@@ -85,30 +80,35 @@ public class Filter extends AppCompatActivity {
                     filters.add("Bar");
                 break;
         }
+    }
 
-        for(int i = 0; i < filters.size(); i++) {
-            System.out.println("Index: "+i+" Filter: "+filters.get(i));
-        }
+    @Override
+    protected void onStop() {
+        super.onStop();
+        data.clear();
+        tag.clear();
     }
 
     public void filterSearch(View view) {
-        boolean flag;
         Intent intent = new Intent(this, Search.class);
         for(int t = 0; t < tag.size(); t++) {
-            flag = false;
+            System.out.println("Before Search: Name: "+data.get(t)+" Tags: "+tag.get(t)+" "+t);
+            boolean flag = false;
             for(int f = 0; f < filters.size(); f++) {
-                if(tag.get(t).contains(filters.get(f))) {
+                if((tag.get(t)).contains(filters.get(f))) {
                     flag = true;
                 }
+                else if(flag) {
+                    //do nothing
+                }
+                else { flag = false; }
+                System.out.println("Flag: "+flag+" Filter: "+filters.get(f) +" Name: "+data.get(t)+" Tags: "+tag.get(t));
             }
             if(!flag) {
                 tag.remove(t);
                 data.remove(t);
+                t--;
             }
-        }
-
-        for(int i = 0; i < data.size(); i++) {
-            System.out.println("Name: "+data.get(i)+" Tags: "+tag.get(i));
         }
 
         intent.putStringArrayListExtra("filters", filters);
@@ -116,6 +116,50 @@ public class Filter extends AppCompatActivity {
         intent.putStringArrayListExtra("tag", tag);
         intent.putExtra("item", item);
         startActivity(intent);
+    }
+
+    private class getData extends AsyncTask<Void, Void, Void> {
+        @Override
+        public Void doInBackground(Void... voids) {
+
+            FirebaseDatabase mdatabase = FirebaseDatabase.getInstance();
+            DatabaseReference myRef = mdatabase.getReference("/restaurants");
+
+            myRef.orderByKey().addChildEventListener(new ChildEventListener() {
+
+                @Override
+                public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                    Place place = dataSnapshot.getValue(Place.class);
+                    data.add(place.getName());
+                    tag.add(place.getTags());
+                }
+
+                @Override
+                public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+                    //System.out.println("onChildChanged");
+                }
+
+                @Override
+                public void onChildRemoved(DataSnapshot dataSnapshot) {
+                    Place place = dataSnapshot.getValue(Place.class);
+                    int i = data.indexOf(place);
+                    data.remove(i);
+                    tag.remove(i);
+                    //System.out.println("onChildRemoved: " + dataSnapshot.getKey());
+                }
+
+                @Override
+                public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+                    //System.out.println("onChildMoved: " + dataSnapshot.getKey());
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+                    //System.out.println("The read failed: " + databaseError.getCode());
+                }
+            });
+            return null;
+        }
     }
 
 }

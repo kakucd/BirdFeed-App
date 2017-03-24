@@ -35,25 +35,44 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/filter"
-        android:layout_width="62dp"
-        android:layout_height="64dp"
-        android:layout_margin="@dimen/fab_margin"
-        android:adjustViewBounds="false"
-        android:cropToPadding="false"
-        android:scaleType="center"
-        android:visibility="visible"
-        app:layout_anchor="@+id/include"
-        app:layout_anchorGravity="bottom|right|end"
-        app:srcCompat="@mipmap/ic_food"
-        app:backgroundTint="@color/colorbkgd"
-        android:onClick="filters"/>
-
     <include
         android:id="@+id/include"
         layout="@layout/content_search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/back"
+        android:layout_width="62dp"
+        android:layout_height="64dp"
+        android:layout_gravity="top|left"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:onClick="back"
+        android:scaleType="center"
+        android:visibility="visible"
+        app:backgroundTint="@color/colorbkgd"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="bottom|right"
+        app:srcCompat="@mipmap/ic_back" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/filter"
+        android:layout_width="62dp"
+        android:layout_height="64dp"
+        android:layout_gravity="top|left"
+        android:layout_marginBottom="95dp"
+        android:layout_marginRight="15dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:onClick="filters"
+        android:scaleType="center"
+        android:visibility="visible"
+        app:backgroundTint="@color/colorbkgd"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="bottom|right"
+        app:srcCompat="@mipmap/ic_food" />
 
 </android.support.design.widget.CoordinatorLayout>

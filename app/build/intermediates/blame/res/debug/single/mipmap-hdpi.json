@@ -12,6 +12,10 @@
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-hdpi/ic_map_launcher.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_back.png",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-hdpi/ic_back.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_phone_call.png",
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-hdpi/ic_phone_call.png"
     },

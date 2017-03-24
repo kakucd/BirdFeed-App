@@ -9,7 +9,6 @@ import android.view.*;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 import android.widget.TextView;
 
 import com.google.firebase.database.ChildEventListener;
@@ -35,7 +34,6 @@ public class Search extends AppCompatActivity {
     static private ArrayList<String> tag = new ArrayList<>();
     static private ArrayList<String> hours = new ArrayList<>();
     static private ArrayList<String> tweets = new ArrayList<>();
-    private ArrayList<String> filters = new ArrayList<>();
     private ListView listView;
     private String item, address, tags, website, phone, image;
     private FirebaseDatabase mdatabase;
@@ -48,15 +46,12 @@ public class Search extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("");
 
-        try {
-            filters = getIntent().getStringArrayListExtra("filters");
-        } catch(Exception e) {
             address = null;
             tags = null;
             hours.clear();
             tweets.clear();
             data.clear();
-        }
+            hours.clear();
 
         //get queried data from menu activity
         data = getIntent().getStringArrayListExtra("data");
@@ -84,7 +79,6 @@ public class Search extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                int itemPosition = position;
 
                 mdatabase = FirebaseDatabase.getInstance();
                 item =  (String) listView.getItemAtPosition(position);
@@ -114,7 +108,9 @@ public class Search extends AppCompatActivity {
     @Override
     public void onStop() {
         super.onStop();
-        //filters.clear();
+        address = null;
+        hours.clear();
+        tweets.clear();
     }
 
     public void info() {
@@ -238,6 +234,7 @@ public class Search extends AppCompatActivity {
 
     private class getHours extends AsyncTask<Void, Void, ChildEventListener> {
 
+
         @Override
         protected ChildEventListener doInBackground(Void... voids) {
             ChildEventListener child = new ChildEventListener() {
@@ -353,9 +350,11 @@ public class Search extends AppCompatActivity {
 
     public void filters(View view) {
         Intent intent = new Intent(this, Filter.class);
-        intent.putStringArrayListExtra("data", data);
-        intent.putStringArrayListExtra("tag", tag);
-        intent.putExtra("item", item);
+        startActivity(intent);
+    }
+
+    public void back(View view) {
+        Intent intent = new Intent(this, Menu.class);
         startActivity(intent);
     }
 }

@@ -47,7 +47,7 @@
 
     <Button
         android:id="@+id/search_button"
-        android:layout_width="300dp"
+        android:layout_width="265dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="@string/button_search"
@@ -64,12 +64,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.294"/>
+        app:layout_constraintVertical_bias="0.343"/>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/search"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
+        android:layout_width="54dp"
+        android:layout_height="53dp"
         android:layout_gravity="bottom|left"
         android:clickable="true"
         android:scaleType="center"
@@ -86,14 +86,16 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.008"
-        app:layout_constraintVertical_bias="0.298"
-        android:onClick="search"/>
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintVertical_bias="0.31"
+        android:onClick="search"
+        tools:layout_editor_absoluteY="144dp"
+        tools:layout_editor_absoluteX="28dp" />
 
     <Button
         android:id="@+id/tweet"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_width="264dp"
+        android:layout_height="47dp"
         android:layout_gravity="center"
         android:text="Tweet"
         android:background="@drawable/button"
@@ -107,13 +109,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.705"
-        android:onClick="tweet"/>
+        app:layout_constraintVertical_bias="0.662"
+        android:onClick="tweet" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/review"
-        android:layout_width="55dp"
-        android:layout_height="54dp"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
         android:layout_gravity="bottom|left"
         android:clickable="true"
         android:scaleType="center"
@@ -130,13 +132,15 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.008"
-        app:layout_constraintVertical_bias="0.71"
-        android:onClick="tweet"/>
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintVertical_bias="0.632"
+        android:onClick="tweet"
+        tools:layout_editor_absoluteY="283dp"
+        tools:layout_editor_absoluteX="29dp" />
 
     <Button
         android:id="@+id/Sign_In"
-        android:layout_width="300dp"
+        android:layout_width="267dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:text="Sign In"
@@ -157,7 +161,7 @@
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/login"
         android:layout_width="53dp"
-        android:layout_height="61dp"
+        android:layout_height="54dp"
         android:layout_gravity="bottom|left"
         android:clickable="true"
         android:scaleType="center"
@@ -174,13 +178,16 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.007"
-        android:onClick="signin"/>
+        app:layout_constraintHorizontal_bias="0.078"
+        android:onClick="signin"
+        app:layout_constraintVertical_bias="0.476"
+        tools:layout_editor_absoluteY="216dp"
+        tools:layout_editor_absoluteX="28dp" />
 
     <Button
         android:id="@+id/settings_button"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
         android:layout_gravity="center"
         android:text="@string/button_settings"
         android:background="@drawable/button"
@@ -195,12 +202,12 @@
         android:layout_marginTop="199dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
-        app:layout_constraintVertical_bias="0.801" />
+        app:layout_constraintVertical_bias="0.692" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/settings"
-        android:layout_width="58dp"
-        android:layout_height="61dp"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
         android:layout_gravity="bottom|left"
         android:clickable="true"
         android:scaleType="center"
@@ -217,8 +224,10 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintVertical_bias="0.918"
-        android:onClick="settings"/>
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintVertical_bias="0.794"
+        android:onClick="settings"
+        tools:layout_editor_absoluteY="358dp"
+        tools:layout_editor_absoluteX="29dp" />
 
 </android.support.constraint.ConstraintLayout>

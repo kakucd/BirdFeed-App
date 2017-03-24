@@ -117,10 +117,12 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
             return;
         }
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CALL_PHONE}, 3);
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CALL_PHONE}, 2);
+            return;
         }
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.INTERNET) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.INTERNET}, 3);
+            return;
         }
 
         new ImageDownloader(imageView).execute(image);
@@ -141,7 +143,6 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
             public void onClick(View view) {
                 website = "http://www." + website;
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(website));
-                //intent.setPackage("com.google.android.apps.maps");
                 startActivity(intent);
             }
         });
@@ -190,7 +191,7 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
                 if (grantResults.length > 0 && grantResults[i] == PackageManager.PERMISSION_GRANTED) {
                     //permission granted
                 }
-                ++i;
+                i++;
                 return;
             }
             // other 'case' lines to check for other
@@ -254,5 +255,10 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
         protected void onPostExecute(Bitmap result) {
             bmImage.setImageBitmap(result);
         }
+    }
+
+    public void back(View view) {
+        Intent intent = new Intent(this, Menu.class);
+        startActivity(intent);
     }
 }
