@@ -118,6 +118,11 @@ public class Filter extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void menu(View view) {
+        Intent intent = new Intent(this, Menu.class);
+        startActivity(intent);
+    }
+
     private class getData extends AsyncTask<Void, Void, Void> {
         @Override
         public Void doInBackground(Void... voids) {

@@ -38,5 +38,9 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_home.png",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-mdpi/ic_home.png"
     }
 ]

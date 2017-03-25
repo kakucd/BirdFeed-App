@@ -42,5 +42,9 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_website_launcher.png",
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-xhdpi/ic_website_launcher.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_home.png",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-xhdpi/ic_home.png"
     }
 ]

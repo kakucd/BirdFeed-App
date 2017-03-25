@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_progress_drawable.xml",
-        "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable/cast_mini_controller_progress_drawable.xml"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
         "source": "/Users/Casey/.android/build-cache/c7fc451a18fe3b545c973552c71e3521447142c3/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_progress_drawable.xml",
+        "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable/cast_mini_controller_progress_drawable.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
@@ -44,12 +44,12 @@
         "source": "/Users/Casey/.android/build-cache/d4c93f7770e43de7e3c2ffc01a836b7ae38988da/output/res/drawable/design_fab_background.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_forward30.xml",
-        "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable/cast_ic_mini_controller_forward30.xml"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
         "source": "/Users/Casey/.android/build-cache/c7fc451a18fe3b545c973552c71e3521447142c3/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_forward30.xml",
+        "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable/cast_ic_mini_controller_forward30.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_pause.xml",
@@ -60,12 +60,12 @@
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable/cast_ic_notification_skip_next.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/ic_expand.xml",
-        "source": "/Users/Casey/.android/build-cache/fdd581e5109d317e7a43595f5c87bdf441121271/output/res/drawable/ic_expand.xml"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
         "source": "/Users/Casey/.android/build-cache/c7fc451a18fe3b545c973552c71e3521447142c3/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/ic_expand.xml",
+        "source": "/Users/Casey/.android/build-cache/fdd581e5109d317e7a43595f5c87bdf441121271/output/res/drawable/ic_expand.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
@@ -120,16 +120,16 @@
         "source": "/Users/Casey/.android/build-cache/c7fc451a18fe3b545c973552c71e3521447142c3/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/Casey/.android/build-cache/c7fc451a18fe3b545c973552c71e3521447142c3/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_light.xml",
+        "source": "/Users/Casey/.android/build-cache/fdd581e5109d317e7a43595f5c87bdf441121271/output/res/drawable/mr_dialog_material_background_light.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_light.xml",
         "source": "/Users/Casey/.android/build-cache/fdd581e5109d317e7a43595f5c87bdf441121271/output/res/drawable/mr_ic_close_light.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_light.xml",
-        "source": "/Users/Casey/.android/build-cache/fdd581e5109d317e7a43595f5c87bdf441121271/output/res/drawable/mr_dialog_material_background_light.xml"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/Casey/.android/build-cache/c7fc451a18fe3b545c973552c71e3521447142c3/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",

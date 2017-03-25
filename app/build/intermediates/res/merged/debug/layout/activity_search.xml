@@ -56,7 +56,7 @@
         app:backgroundTint="@color/colorbkgd"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="bottom|right"
-        app:srcCompat="@mipmap/ic_back" />
+        app:srcCompat="@mipmap/ic_home" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/filter"
