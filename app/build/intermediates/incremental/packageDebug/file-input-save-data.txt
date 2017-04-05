@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Apr 04 22:48:14 PDT 2017
+#Wed Apr 05 08:40:12 PDT 2017
 100.set=ANDROID_RESOURCE
 57.file=/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar/fabric/com.twitter.sdk.android.tweet-composer.properties
 145.file=/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/assets/debug/crashlytics-build.properties

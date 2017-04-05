@@ -106,5 +106,15 @@
     <string name="title_activity_tweet">Tweet</string>
     <string name="title_activity_display">Display</string>
     <string name="title_activity_filter">Filter</string>
+    <string name="what_are_you_hungry_for">What are you hungry for?</string>
+    <string name="seafood">Seafood</string>
+    <string name="bar">Bar</string>
+    <string name="bakery">Bakery</string>
+    <string name="vegan_vegetarian">Vegan/Vegetarian</string>
+    <string name="european">European</string>
+    <string name="asian">Asian</string>
+    <string name="american">American</string>
+    <string name="latin_mexican">Latin/Mexican</string>
+    <string name="tweet">Tweet</string>
 
 </resources>

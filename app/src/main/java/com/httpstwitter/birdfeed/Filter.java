@@ -41,18 +41,24 @@ public class Filter extends AppCompatActivity {
         // Check which radio button was clicked
         switch(view.getId()) {
             case R.id.mexican:
-                if (checked)
+                if (checked) {
                     filters.add("Mexican");
+                    filters.add("Latin");
+                }
                 break;
             case R.id.american:
-                if (checked)
+                if (checked) {
                     filters.add("American");
+                    filters.add("Burgers");
+                }
                 break;
             case R.id.asian:
                 if(checked) {
                     filters.add("Japanese");
                     filters.add("Korean");
                     filters.add("Chinese");
+                    filters.add("Sushi");
+                    filters.add("Vietnamese");
                 }
                 break;
             case R.id.vegan:
@@ -62,22 +68,32 @@ public class Filter extends AppCompatActivity {
                 }
                 break;
             case R.id.seafood:
-                if(checked)
+                if(checked) {
                     filters.add("Seafood");
+                    filters.add("Sushi");
+                }
                 break;
             case R.id.bakery:
                 if(checked) {
                     filters.add("Bakery");
                     filters.add("Coffee");
+                    filters.add("Pastries");
+                    filters.add("Dessert");
                 }
                 break;
-            case R.id.italian:
-                if(checked)
+            case R.id.european:
+                if(checked) {
                     filters.add("Italian");
+                    filters.add("Pasta");
+                    filters.add("French");
+                    filters.add("German");
+                }
                 break;
             case R.id.bar:
-                if(checked)
+                if(checked) {
                     filters.add("Bar");
+                    filters.add("cocktails");
+                }
                 break;
         }
     }

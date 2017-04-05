@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Apr 04 22:48:11 PDT 2017
+#Wed Apr 05 08:40:10 PDT 2017
 100.set=ANDROID_RESOURCE
 57.file=/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/resources-debug.ap_/res/drawable/tw__login_btn.xml
 145.file=/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/ic_collapse_00004.png
