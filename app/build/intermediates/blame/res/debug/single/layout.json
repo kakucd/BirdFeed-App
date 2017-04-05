@@ -144,10 +144,6 @@
         "source": "/Users/Casey/.android/build-cache/e9e739bd400497d1390935ca0bad1511ff051ff3/output/res/layout/place_autocomplete_item_powered_by_google.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_sign_in.xml",
-        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_sign_in.xml"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/notification_template_icon_group.xml"
     },
@@ -282,10 +278,6 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_display.xml",
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_display.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/content_sign_in.xml",
-        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/content_sign_in.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_info.xml",

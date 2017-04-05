@@ -48,10 +48,6 @@
             android:label="@string/title_activity_search"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.httpstwitter.birdfeed.SignIn"
-            android:label="@string/title_activity_sign_in"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name="com.httpstwitter.birdfeed.Info"
             android:label="@string/title_activity_info"
             android:theme="@style/AppTheme.NoActionBar" />

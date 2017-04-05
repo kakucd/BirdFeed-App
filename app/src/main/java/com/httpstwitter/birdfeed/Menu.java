@@ -106,11 +106,6 @@ public class Menu extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void signin(View view) {
-        Intent intent = new Intent(this, SignIn.class);
-        startActivity(intent);
-    }
-
     public void tweet(View view) {
         Intent intent = new Intent(this, Tweet.class);
         startActivity(intent);

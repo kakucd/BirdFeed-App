@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-56:12
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
@@ -42,7 +42,7 @@ MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/buil
 	android:name
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:7:22-64
 application
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:9:5-54:19
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:9:5-50:19
 MERGED from [com.google.android.gms:play-services:10.2.0] /Users/Casey/.android/build-cache/0d1e8b79233af70ed18ad11a1ea75f881b59482a/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:26:5-19
@@ -137,60 +137,52 @@ ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:26:13-56
 	android:name
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:24:13-35
-activity#com.httpstwitter.birdfeed.SignIn
+activity#com.httpstwitter.birdfeed.Info
 ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:27:9-30:59
 	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:29:13-59
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:29:13-56
 	android:theme
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:30:13-56
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:28:13-35
-activity#com.httpstwitter.birdfeed.Info
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:28:13-33
+activity#com.httpstwitter.birdfeed.Settings
 ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:31:9-34:59
 	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:33:13-56
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:33:13-60
 	android:theme
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:34:13-56
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:32:13-33
-activity#com.httpstwitter.birdfeed.Settings
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:32:13-37
+activity#com.httpstwitter.birdfeed.Tweet
 ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:35:9-38:59
 	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:37:13-60
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:37:13-57
 	android:theme
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:38:13-56
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:36:13-37
-activity#com.httpstwitter.birdfeed.Tweet
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:36:13-34
+activity#com.httpstwitter.birdfeed.Display
 ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:39:9-42:59
 	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:41:13-57
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:41:13-59
 	android:theme
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:42:13-56
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:40:13-34
-activity#com.httpstwitter.birdfeed.Display
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:43:9-46:59
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:40:13-36
+activity#com.httpstwitter.birdfeed.Filter
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:43:9-46:68
 	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:45:13-59
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:45:13-58
 	android:theme
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:46:13-56
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:44:13-36
-activity#com.httpstwitter.birdfeed.Filter
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:47:9-50:68
-	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:49:13-58
-	android:theme
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:50:13-56
-	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:48:13-35
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:44:13-35
 meta-data#io.fabric.ApiKey
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:51:9-53:72
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:47:9-49:72
 	android:value
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:53:13-69
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:49:13-69
 	android:name
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:52:13-44
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:48:13-44
 uses-sdk
 INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services:10.2.0] /Users/Casey/.android/build-cache/0d1e8b79233af70ed18ad11a1ea75f881b59482a/output/AndroidManifest.xml:4:5-43
