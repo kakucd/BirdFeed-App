@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/mr_chooser_list_item.xml",
-        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/layout/mr_chooser_list_item.xml"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/tw__activity_share_email.xml",
+        "source": "/Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/res/layout/tw__activity_share_email.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
@@ -16,24 +16,8 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/layout/mr_chooser_dialog.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_row_layout.xml",
-        "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_screen_toolbar.xml"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
         "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
-        "source": "/Users/Casey/.android/build-cache/e9e739bd400497d1390935ca0bad1511ff051ff3/output/res/layout/place_autocomplete_fragment.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
@@ -44,20 +28,8 @@
         "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_alert_dialog_title_material.xml"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/mr_volume_control.xml",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/layout/mr_volume_control.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_tweet.xml",
-        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_tweet.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/mr_playback_control.xml",
-        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/layout/mr_playback_control.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
@@ -66,10 +38,6 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/mr_controller_material_dialog_b.xml",
-        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/layout/mr_controller_material_dialog_b.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
@@ -88,10 +56,6 @@
         "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_action_bar_up_container.xml"
     },
@@ -100,24 +64,12 @@
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
-        "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_action_menu_layout.xml"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/content_settings.xml",
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/content_settings.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/notification_template_media_custom.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_layout.xml",
-        "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/layout/cast_tracks_chooser_dialog_layout.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
@@ -132,36 +84,16 @@
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_popup_menu_header_item_layout.xml"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/tw__app_card.xml",
+        "source": "/Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/res/layout/tw__app_card.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_alert_dialog_material.xml"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/tw__action_bar.xml",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/layout/tw__action_bar.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_display.xml",
-        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_display.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/content_sign_in.xml",
-        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/content_sign_in.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_info.xml",
-        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_info.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_navigation_item_separator.xml"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/tw__activity_composer.xml",
+        "source": "/Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/res/layout/tw__activity_composer.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
@@ -172,16 +104,8 @@
         "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/content_info.xml",
-        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/content_info.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_navigation_menu.xml"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/tw__composer_view.xml",
+        "source": "/Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/res/layout/tw__composer_view.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
@@ -208,20 +132,20 @@
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/layout/cast_intro_overlay.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/select_dialog_singlechoice_material.xml"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/tw__tweet.xml",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/layout/tw__tweet.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_sign_in.xml",
-        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_sign_in.xml"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/mr_controller_volume_item.xml",
+        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/layout/mr_controller_volume_item.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
         "source": "/Users/Casey/.android/build-cache/e9e739bd400497d1390935ca0bad1511ff051ff3/output/res/layout/place_autocomplete_item_powered_by_google.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/mr_controller_volume_item.xml",
-        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/layout/mr_controller_volume_item.xml"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_sign_in.xml",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_sign_in.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
@@ -230,6 +154,162 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_filter.xml",
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_filter.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/tw__activity_oauth.xml",
+        "source": "/Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/res/layout/tw__activity_oauth.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/tw__tweet_quote.xml",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/layout/tw__tweet_quote.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_menu.xml",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_menu.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/tw__tweet_compact.xml",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/layout/tw__tweet_compact.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/mr_chooser_list_item.xml",
+        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/layout/mr_chooser_list_item.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
+        "source": "/Users/Casey/.android/build-cache/e9e739bd400497d1390935ca0bad1511ff051ff3/output/res/layout/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_tweet.xml",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_tweet.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/mr_playback_control.xml",
+        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/layout/mr_playback_control.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/mr_controller_material_dialog_b.xml",
+        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/layout/mr_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_layout.xml",
+        "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/layout/cast_tracks_chooser_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/tw__player_activity.xml",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/layout/tw__player_activity.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/tw__media_badge.xml",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/layout/tw__media_badge.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_display.xml",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_display.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/content_sign_in.xml",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/content_sign_in.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_info.xml",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_info.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/content_info.xml",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/content_info.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/cast_mini_controller.xml",
@@ -244,10 +324,6 @@
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/select_dialog_item_material.xml"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/cast_help_text.xml",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/layout/cast_help_text.xml"
     },
@@ -256,8 +332,8 @@
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_search.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
-        "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_layout_snackbar_include.xml"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/tw__video_control.xml",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/layout/tw__video_control.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
@@ -268,20 +344,12 @@
         "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_navigation_item.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
-        "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_bottom_navigation_item.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/content_tweet.xml",
@@ -292,16 +360,8 @@
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/layout/cast_expanded_controller_activity.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/activity_menu.xml",
-        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/activity_menu.xml"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_action_menu_item_layout.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
@@ -312,20 +372,12 @@
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_list_menu_item_radio.xml"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/tw__gallery_activity.xml",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/layout/tw__gallery_activity.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/content_search.xml",
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/content_search.xml"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
-        "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/layout/design_layout_snackbar.xml"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",

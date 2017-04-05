@@ -48,6 +48,9 @@
             android:name=".Filter"
             android:label="@string/title_activity_filter"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="8f8da37cdba60844cf92a68b39b374cb0e0b1e8e" />
     </application>
 
 </manifest>

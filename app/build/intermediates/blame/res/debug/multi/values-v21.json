@@ -1719,8 +1719,71 @@
                     "startLine": 225,
                     "startColumn": 4,
                     "startOffset": 16916,
+                    "endLine": 230,
+                    "endColumn": 12,
+                    "endOffset": 17324
+                },
+                "from": {
+                    "file": "/Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 463
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 231,
+                    "startColumn": 4,
+                    "startOffset": 17329,
+                    "endLine": 236,
+                    "endColumn": 12,
+                    "endOffset": 17743
+                },
+                "from": {
+                    "file": "/Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 468,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 17748,
+                    "endLine": 239,
+                    "endColumn": 12,
+                    "endOffset": 17911
+                },
+                "from": {
+                    "file": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 240,
+                    "startColumn": 4,
+                    "startOffset": 17916,
                     "endColumn": 70,
-                    "endOffset": 16982
+                    "endOffset": 17982
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1735,11 +1798,11 @@
             },
             {
                 "to": {
-                    "startLine": 226,
+                    "startLine": 241,
                     "startColumn": 4,
-                    "startOffset": 16987,
+                    "startOffset": 17987,
                     "endColumn": 82,
-                    "endOffset": 17065
+                    "endOffset": 18065
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1754,12 +1817,12 @@
             },
             {
                 "to": {
-                    "startLine": 227,
+                    "startLine": 242,
                     "startColumn": 4,
-                    "startOffset": 17070,
-                    "endLine": 236,
+                    "startOffset": 18070,
+                    "endLine": 251,
                     "endColumn": 12,
-                    "endOffset": 17745
+                    "endOffset": 18745
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1775,11 +1838,11 @@
             },
             {
                 "to": {
-                    "startLine": 237,
+                    "startLine": 252,
                     "startColumn": 4,
-                    "startOffset": 17750,
+                    "startOffset": 18750,
                     "endColumn": 56,
-                    "endOffset": 17802
+                    "endOffset": 18802
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1794,11 +1857,11 @@
             },
             {
                 "to": {
-                    "startLine": 238,
+                    "startLine": 253,
                     "startColumn": 4,
-                    "startOffset": 17807,
+                    "startOffset": 18807,
                     "endColumn": 57,
-                    "endOffset": 17860
+                    "endOffset": 18860
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1813,12 +1876,12 @@
             },
             {
                 "to": {
-                    "startLine": 239,
+                    "startLine": 254,
                     "startColumn": 4,
-                    "startOffset": 17865,
-                    "endLine": 250,
+                    "startOffset": 18865,
+                    "endLine": 265,
                     "endColumn": 12,
-                    "endOffset": 18554
+                    "endOffset": 19554
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1834,12 +1897,12 @@
             },
             {
                 "to": {
-                    "startLine": 251,
+                    "startLine": 266,
                     "startColumn": 4,
-                    "startOffset": 18559,
-                    "endLine": 262,
+                    "startOffset": 19559,
+                    "endLine": 277,
                     "endColumn": 12,
-                    "endOffset": 19260
+                    "endOffset": 20260
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1855,11 +1918,11 @@
             },
             {
                 "to": {
-                    "startLine": 263,
+                    "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 19265,
+                    "startOffset": 20265,
                     "endColumn": 118,
-                    "endOffset": 19379
+                    "endOffset": 20379
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1874,11 +1937,11 @@
             },
             {
                 "to": {
-                    "startLine": 264,
+                    "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 19384,
+                    "startOffset": 20384,
                     "endColumn": 128,
-                    "endOffset": 19508
+                    "endOffset": 20508
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1893,12 +1956,12 @@
             },
             {
                 "to": {
-                    "startLine": 265,
+                    "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 19513,
-                    "endLine": 267,
+                    "startOffset": 20513,
+                    "endLine": 282,
                     "endColumn": 12,
-                    "endOffset": 19679
+                    "endOffset": 20679
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1914,12 +1977,12 @@
             },
             {
                 "to": {
-                    "startLine": 268,
+                    "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 19684,
-                    "endLine": 270,
+                    "startOffset": 20684,
+                    "endLine": 285,
                     "endColumn": 12,
-                    "endOffset": 19845
+                    "endOffset": 20845
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1935,11 +1998,11 @@
             },
             {
                 "to": {
-                    "startLine": 271,
+                    "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 19850,
+                    "startOffset": 20850,
                     "endColumn": 128,
-                    "endOffset": 19974
+                    "endOffset": 20974
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1954,12 +2017,12 @@
             },
             {
                 "to": {
-                    "startLine": 272,
+                    "startLine": 287,
                     "startColumn": 4,
-                    "startOffset": 19979,
-                    "endLine": 274,
+                    "startOffset": 20979,
+                    "endLine": 289,
                     "endColumn": 12,
-                    "endOffset": 20145
+                    "endOffset": 21145
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1975,11 +2038,11 @@
             },
             {
                 "to": {
-                    "startLine": 275,
+                    "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 20150,
+                    "startOffset": 21150,
                     "endColumn": 130,
-                    "endOffset": 20276
+                    "endOffset": 21276
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -1994,12 +2057,12 @@
             },
             {
                 "to": {
-                    "startLine": 276,
+                    "startLine": 291,
                     "startColumn": 4,
-                    "startOffset": 20281,
-                    "endLine": 278,
+                    "startOffset": 21281,
+                    "endLine": 293,
                     "endColumn": 12,
-                    "endOffset": 20446
+                    "endOffset": 21446
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -2015,12 +2078,12 @@
             },
             {
                 "to": {
-                    "startLine": 279,
+                    "startLine": 294,
                     "startColumn": 4,
-                    "startOffset": 20451,
-                    "endLine": 280,
+                    "startOffset": 21451,
+                    "endLine": 295,
                     "endColumn": 8,
-                    "endOffset": 20576
+                    "endOffset": 21576
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/eff5f6d82abf62dba31129c57db77b3dbba8959f/output/res/values-v21/values.xml",
@@ -2036,12 +2099,12 @@
             },
             {
                 "to": {
-                    "startLine": 281,
+                    "startLine": 296,
                     "startColumn": 4,
-                    "startOffset": 20581,
-                    "endLine": 283,
+                    "startOffset": 21581,
+                    "endLine": 298,
                     "endColumn": 12,
-                    "endOffset": 20751
+                    "endOffset": 21751
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -2057,12 +2120,12 @@
             },
             {
                 "to": {
-                    "startLine": 284,
+                    "startLine": 299,
                     "startColumn": 4,
-                    "startOffset": 20756,
-                    "endLine": 288,
+                    "startOffset": 21756,
+                    "endLine": 303,
                     "endColumn": 12,
-                    "endOffset": 21092
+                    "endOffset": 22092
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/values-v21/values-v21.xml",
@@ -2078,12 +2141,12 @@
             },
             {
                 "to": {
-                    "startLine": 289,
+                    "startLine": 304,
                     "startColumn": 4,
-                    "startOffset": 21097,
-                    "endLine": 291,
+                    "startOffset": 22097,
+                    "endLine": 306,
                     "endColumn": 12,
-                    "endOffset": 21290
+                    "endOffset": 22290
                 },
                 "from": {
                     "file": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/values-v21/values-v21.xml",
@@ -2094,6 +2157,27 @@
                         "endLine": 4,
                         "endColumn": 12,
                         "endOffset": 248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 22295,
+                    "endLine": 309,
+                    "endColumn": 12,
+                    "endOffset": 22436
+                },
+                "from": {
+                    "file": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 364
                     }
                 }
             }

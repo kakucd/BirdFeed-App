@@ -4,40 +4,52 @@
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-mdpi-v4/quantum_ic_refresh_white_24.png"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_speaker_light.png",
+        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-mdpi-v4/ic_speaker_light.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_next_white_24.png",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-mdpi-v4/quantum_ic_skip_next_white_24.png"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_speaker_light.png",
-        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-mdpi-v4/ic_speaker_light.png"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_tweet_photo_error_light.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_tweet_photo_error_light.png"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-mdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__composer_close.png",
+        "source": "/Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/res/drawable-mdpi-v4/tw__composer_close.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_dark.png",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png",
-        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-mdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_tweet_verified.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_tweet_verified.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png",
+        "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_stop_circle_filled_grey600.png",
@@ -46,6 +58,22 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_volume_off_grey600_36.png",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-mdpi-v4/quantum_ic_volume_off_grey600_36.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__share_email_header.png",
+        "source": "/Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/res/drawable-mdpi-v4/tw__share_email_header.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_video_pause.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_video_pause.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_play_default.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_play_default.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_video_replay.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_video_replay.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_tv_dark.png",
@@ -88,6 +116,10 @@
         "source": "/Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/res/drawable-mdpi-v4/design_ic_visibility_off.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_seekbar_progress_bg.9.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_seekbar_progress_bg.9.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_route_disabled_mono_dark.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-mdpi-v4/ic_media_route_disabled_mono_dark.png"
     },
@@ -124,8 +156,20 @@
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-mdpi-v4/quantum_ic_stop_grey600_48.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__composer_logo_blue.png",
+        "source": "/Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/res/drawable-mdpi-v4/tw__composer_logo_blue.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_seekbar_bg.9.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_seekbar_bg.9.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_video_play_pressed.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_video_play_pressed.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_replay_white_24.png",
@@ -190,6 +234,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_video_play.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_video_play.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
@@ -264,6 +312,10 @@
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-mdpi-v4/quantum_ic_cast_connected_white_24.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_logo_white.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_logo_white.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
         "source": "/Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
@@ -282,6 +334,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_video_replay_pressed.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_video_replay_pressed.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_previous_grey600_36.png",
@@ -332,6 +388,10 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-mdpi-v4/ic_speaker_group_light.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__action_heart_on_default.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__action_heart_on_default.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_circle_filled_white_36.png",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-mdpi-v4/quantum_ic_pause_circle_filled_white_36.png"
     },
@@ -342,6 +402,18 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_gif_badge.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_gif_badge.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_tweet_photo_error_dark.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_tweet_photo_error_dark.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_logo_default.png",
+        "source": "/Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/res/drawable-mdpi-v4/tw__ic_logo_default.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
@@ -382,6 +454,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_route_off_mono_dark.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-mdpi-v4/ic_media_route_off_mono_dark.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_inline_share.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_inline_share.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_grey600_48.png",
@@ -448,12 +524,20 @@
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-mdpi-v4/quantum_ic_replay_30_white_36.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_video_pause_pressed.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_video_pause_pressed.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_speaker_group_dark.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-mdpi-v4/ic_speaker_group_dark.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_play_pressed.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_play_pressed.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
@@ -464,12 +548,20 @@
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-mdpi-v4/quantum_ic_play_arrow_grey600_36.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_retweet_light.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_retweet_light.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_close_dark.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-mdpi-v4/ic_close_dark.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_close_light.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-mdpi-v4/ic_close_light.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_logo_blue.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_logo_blue.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_cast_white_36.png",
@@ -492,6 +584,10 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-mdpi-v4/ic_speaker_dark.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__action_heart_off_default.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__action_heart_off_default.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_2.png",
         "source": "/Users/Casey/.android/build-cache/888526418a2b3aaf7bc9cf1fd6a48a52f85048b5/output/res/drawable-mdpi-v4/cast_ic_notification_2.png"
     },
@@ -504,6 +600,10 @@
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_seekbar_secondary_bg.9.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_seekbar_secondary_bg.9.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_next_grey600_36.png",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-mdpi-v4/quantum_ic_skip_next_grey600_36.png"
     },
@@ -514,6 +614,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_standard_off_client.png",
         "source": "/Users/Casey/.android/build-cache/588f6a84f87d025ea2d54bc5cb4e4627e0a02005/output/res/drawable-mdpi-v4/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__composer_logo_white.png",
+        "source": "/Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/res/drawable-mdpi-v4/tw__composer_logo_white.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
@@ -534,6 +638,14 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_forward_30_grey600_36.png",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-mdpi-v4/quantum_ic_forward_30_grey600_36.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_vine_badge.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_vine_badge.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__ic_retweet_dark.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-mdpi-v4/tw__ic_retweet_dark.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_clear_white_24.png",

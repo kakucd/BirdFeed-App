@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1j</item>
+        <item quantity="other">%dh</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1m</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
     <string msgid="5835639618285370804" name="accept">"Terima"</string>
     <string msgid="4778414446709286370" name="cast_ad_label">"Iklan"</string>
     <string msgid="366047012176970604" name="cast_casting_to_device">"Menghantar ke %1$s"</string>
@@ -68,5 +80,28 @@
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Cari"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"Benarkan Iklan menyimpan imej dalam galeri Gambar?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"Simpan imej"</string>
+    <string name="tw__allow_btn_txt">Benarkan</string>
+    <string name="tw__composer_hint">Apa Yang Berlaku?</string>
+    <string name="tw__install">Pasang</string>
+    <string name="tw__like_tweet">Suka Tweet</string>
+    <string name="tw__liked_tweet">Batal Suka</string>
+    <string name="tw__loading_tweet">Memuatkan Tweet</string>
+    <string name="tw__login_btn_txt">Log masuk dengan Twitter</string>
+    <string name="tw__max_tweet_chars">140</string>
+    <string name="tw__not_now_btn_txt">Bukan sekarang</string>
+    <string name="tw__pause">jeda</string>
+    <string name="tw__play">main</string>
+    <string name="tw__post_tweet">Tweet</string>
+    <string name="tw__relative_date_format_long">d/M/y</string>
+    <string name="tw__relative_date_format_short">d MMM</string>
+    <string name="tw__replay">ulang main</string>
+    <string name="tw__retweeted_by_format">Ditweet semula oleh %1$s</string>
+    <string name="tw__share_content_format">Semak Tweet \@%1$s\ : https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_email_desc">Benarkan %1$s untuk mengakses alamat e-mel yang dikaitkan dengan akaun Twitter  \@%2$s supaya %1$s boleh menggunakannya mengikut dasar privasinya. Sebagai contoh , %1$s boleh menghantar anda maklumat terkini dan maklumat lain di alamat itu.</string>
+    <string name="tw__share_email_title">Kongsi alamat e-mel anda</string>
+    <string name="tw__share_subject_format">Tweet daripada %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Kongsi Tweet</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+    <string name="tw__tweet_media">Media Tweet</string>
     <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Beli dengan Google"</string>
 </resources>

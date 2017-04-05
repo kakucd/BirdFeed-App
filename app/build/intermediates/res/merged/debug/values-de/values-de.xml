@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1 Std.</item>
+        <item quantity="other">%d Std.</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1 Min.</item>
+        <item quantity="other">%d Min.</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1 Sek.</item>
+        <item quantity="other">%d Sek.</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s: %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s: %3$s"</string>
@@ -105,5 +117,29 @@
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"Anzeige erlauben, das Bild in der Bildergalerie zu speichern?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"Bild speichern"</string>
+    <string name="tw__allow_btn_txt">Erlauben</string>
+    <string name="tw__composer_hint">Was gibt’s Neues?</string>
+    <string name="tw__install">Installieren</string>
+    <string name="tw__like_tweet">Tweet gefällt mir</string>
+    <string name="tw__liked_tweet">Gefällt mir nicht mehr</string>
+    <string name="tw__loading_tweet">Tweet wird geladen</string>
+    <string name="tw__login_btn_txt">Mit Twitter anmelden</string>
+    <string name="tw__max_tweet_chars">140</string>
+    <string name="tw__not_now_btn_txt">Nicht jetzt</string>
+    <string name="tw__pause">Pause</string>
+    <string name="tw__play">Abspielen</string>
+    <string name="tw__post_tweet">Twittern</string>
+    <string name="tw__relative_date_format_long">d.M.y</string>
+    <string name="tw__relative_date_format_short">d. MMM</string>
+    <string name="tw__replay">Erneut abspielen</string>
+    <string name="tw__retweeted_by_format">Retweetet von %1$s</string>
+    <string name="tw__share_content_format">Sieh Dir den Tweet von \@%1$s an: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_email_desc">Erlaube %1$s  Zugriff auf die mit Deinem Twitter Account verknüpfte E-Mail Adresse \@%2$s, damit %1$s sie den Datenschutzrichtlinien entsprechend nutzen kann. Zum \
+Beispiel könnte %1$s Dir Updates und andere Informationen an diese Adresse senden.</string>
+    <string name="tw__share_email_title">Teile Deine E-Mail Adresse</string>
+    <string name="tw__share_subject_format">Tweet von %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Tweet teilen</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+    <string name="tw__tweet_media">Medien twittern</string>
     <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Über Google kaufen"</string>
 </resources>

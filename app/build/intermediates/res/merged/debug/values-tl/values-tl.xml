@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1h</item>
+        <item quantity="other">%dh</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1m</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Mag-navigate patungo sa home"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -105,5 +117,28 @@
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"Payagan ang Ad na mag-imbak ng larawan sa Gallery ng larawan?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"I-save ang larawan"</string>
+    <string name="tw__allow_btn_txt">Payagan</string>
+    <string name="tw__composer_hint">Anong nangyayari?</string>
+    <string name="tw__install">I-install</string>
+    <string name="tw__like_tweet">Gustuhin ang Tweet</string>
+    <string name="tw__liked_tweet">I-undo ang Gusto</string>
+    <string name="tw__loading_tweet">Naglo-load ng Tweet</string>
+    <string name="tw__login_btn_txt">Mag-log in gamit ang Twitter</string>
+    <string name="tw__max_tweet_chars">140</string>
+    <string name="tw__not_now_btn_txt">Hindi ngayon</string>
+    <string name="tw__pause">i-pause</string>
+    <string name="tw__play">i-play</string>
+    <string name="tw__post_tweet">Mag-Tweet</string>
+    <string name="tw__relative_date_format_long">d/M/y</string>
+    <string name="tw__relative_date_format_short">d MMM</string>
+    <string name="tw__replay">i-play muli</string>
+    <string name="tw__retweeted_by_format">Ni-retweet ni %1$s</string>
+    <string name="tw__share_content_format">Tingnan \@%1$s\'s Tweet: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_email_desc">Payagan si %1$s na mag-access ng email address na nakaugnay sa Twitter account mong \@%2$s nang magamit ito ni %1$s ayon sa patakaran sa pagkapribado. Halimbawa, maaaring magpadala sa iyo si %1$s ng mga update at iba pang impormasyon sa address na iyan.</string>
+    <string name="tw__share_email_title">Ibahagi ang email address mo</string>
+    <string name="tw__share_subject_format">Tweet mula kay %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Ibahagi ang Tweet</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+    <string name="tw__tweet_media">Media ng Tweet</string>
     <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Bumili gamit ang Google"</string>
 </resources>

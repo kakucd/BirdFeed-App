@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="tw__time_hours">
+        <item quantity="one">1ঘ</item>
+        <item quantity="other">%dঘ</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1মি</item>
+        <item quantity="other">%dমি</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1সে</item>
+        <item quantity="other">%dসেকেন্ড</item>
+    </plurals>
     <string msgid="5835639618285370804" name="accept">"স্বীকার করুন"</string>
     <string msgid="4778414446709286370" name="cast_ad_label">"বিজ্ঞাপন"</string>
     <string msgid="366047012176970604" name="cast_casting_to_device">"%s-এ কাস্ট করা হচ্ছে"</string>
@@ -68,5 +80,26 @@
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"অনুসন্ধান করুন"</string>
     <string msgid="8020323581538738027" name="store_picture_message">"বিজ্ঞাপনকে, চিত্র গ্যালারিতে ছবি সংরক্ষণ করার অনুমতি দেবেন?"</string>
     <string msgid="4180630057627064606" name="store_picture_title">"ছবি সংরক্ষন করুন"</string>
+    <string name="tw__allow_btn_txt">অনুমতি দিন</string>
+    <string name="tw__composer_hint">কী ঘটছে?</string>
+    <string name="tw__install">ইনস্টল করুন</string>
+    <string name="tw__like_tweet">টুইট পছন্দ করুন</string>
+    <string name="tw__liked_tweet">পছন্দ ফিরিয়ে নিন</string>
+    <string name="tw__loading_tweet">টুইট লোড হচ্ছে</string>
+    <string name="tw__login_btn_txt">টুইটার দিয়ে লগ ইন করুন</string>
+    <string name="tw__max_tweet_chars">140</string>
+    <string name="tw__not_now_btn_txt">এখন নয়</string>
+    <string name="tw__pause">বিরতি</string>
+    <string name="tw__play">প্লে</string>
+    <string name="tw__post_tweet">টুইট</string>
+    <string name="tw__replay">রিপ্লে</string>
+    <string name="tw__retweeted_by_format">%1$s পুনঃটুইট করেছেন</string>
+    <string name="tw__share_content_format">\@%1$s -এর টুইট দেখুন: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_email_desc">%1$s কে আপনার টুইটার অ্যাকাউন্ট \@%2$s এর সঙ্গে যুক্ত ইমেল ঠিকানা অ্যাক্সেস করতে দিন যাতে কিনা %1$s তা তাদের গোপনীয়তা নীতি অনুসারে ব্যবহার করতে পারে। উদাহরণস্বরূপ, %1$s আপনাকে ওই ঠিকানায় আপডেট ও অন্যান্য তথ্য পাঠাতে পারবে।</string>
+    <string name="tw__share_email_title">আপনার ইমেইল ঠিকানা ভাগ করুন</string>
+    <string name="tw__share_subject_format">%1$s (\@%2$s) থেকে টুইট</string>
+    <string name="tw__share_tweet">টুইট ভাগ করুন</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+    <string name="tw__tweet_media">টুইট মিডিয়া</string>
     <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Google ব্যবহার করে কিনুন"</string>
 </resources>

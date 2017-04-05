@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-53:12
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-56:12
 	package
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
@@ -32,13 +32,17 @@ MERGED from [com.google.android.gms:play-services-iid:10.2.0] /Users/Casey/.andr
 MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] /Users/Casey/.android/build-cache/ac60cfecf3dd8d6356cadb3bd3a44205d8db257d/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Casey/.android/build-cache/b2794f15fe2ef1728f3d1cb945a2771b0c41196d/output/AndroidManifest.xml:20:5-66
+MERGED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:25:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/Casey/.android/build-cache/e2ee16db555556759b657e33319e1c03b106f1d8/output/AndroidManifest.xml:29:5-67
 MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:7:22-64
 application
-ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:9:5-51:19
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:9:5-54:19
 MERGED from [com.google.android.gms:play-services:10.2.0] /Users/Casey/.android/build-cache/0d1e8b79233af70ed18ad11a1ea75f881b59482a/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:26:5-19
@@ -81,6 +85,11 @@ MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/buil
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/b2727b8163f9305835625a6aed17dc5ed7c217e4/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/43f418d940cf4d94593df061f9dd2bf7d84f7137/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/Casey/.android/build-cache/2ffbafadc4d942e3cea6d853887adadea8cb1016/output/AndroidManifest.xml:26:5-20
+MERGED from [com.twitter.sdk.android:twitter:2.3.2] /Users/Casey/.android/build-cache/b5222f26fe29b7679b1df17a27525e990b9b73fd/output/AndroidManifest.xml:25:5-20
+MERGED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:27:5-37:19
+MERGED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:27:5-40:19
+MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/Casey/.android/build-cache/e2ee16db555556759b657e33319e1c03b106f1d8/output/AndroidManifest.xml:31:5-20
 MERGED from [com.google.firebase:firebase-core:10.2.0] /Users/Casey/.android/build-cache/ca957ca3582d2b028c8484d78175c651505f8055/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:24:5-28:19
@@ -176,6 +185,12 @@ ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:50:13-56
 	android:name
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:48:13-35
+meta-data#io.fabric.ApiKey
+ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:51:9-53:72
+	android:value
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:53:13-69
+	android:name
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:52:13-44
 uses-sdk
 INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services:10.2.0] /Users/Casey/.android/build-cache/0d1e8b79233af70ed18ad11a1ea75f881b59482a/output/AndroidManifest.xml:4:5-43
@@ -230,6 +245,11 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Casey/.
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/43f418d940cf4d94593df061f9dd2bf7d84f7137/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Casey/.android/build-cache/e7bb3edf98ae629fb4b40c83e4e939259de79872/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] /Users/Casey/.android/build-cache/2ffbafadc4d942e3cea6d853887adadea8cb1016/output/AndroidManifest.xml:20:5-44
+MERGED from [com.twitter.sdk.android:twitter:2.3.2] /Users/Casey/.android/build-cache/b5222f26fe29b7679b1df17a27525e990b9b73fd/output/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:23:5-44
+MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/Casey/.android/build-cache/e2ee16db555556759b657e33319e1c03b106f1d8/output/AndroidManifest.xml:27:5-43
 MERGED from [com.google.firebase:firebase-core:10.2.0] /Users/Casey/.android/build-cache/ca957ca3582d2b028c8484d78175c651505f8055/output/AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:17:5-43
@@ -412,6 +432,60 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/Casey/.android/bu
 		ADDED from [com.android.support:design:25.3.1] /Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/AndroidManifest.xml:27:9-31
 	android:name
 		ADDED from [com.android.support:design:25.3.1] /Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/AndroidManifest.xml:26:9-47
+activity#com.twitter.sdk.android.tweetcomposer.ComposerActivity
+ADDED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:28:9-31:71
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:30:13-37
+	android:windowSoftInputMode
+		ADDED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:31:13-68
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:29:13-82
+service#com.twitter.sdk.android.tweetcomposer.TweetUploadService
+ADDED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:33:9-36:40
+	android:enabled
+		ADDED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:34:13-84
+activity#com.twitter.sdk.android.tweetui.PlayerActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:28:9-31:49
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:30:13-74
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:31:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:29:13-74
+activity#com.twitter.sdk.android.tweetui.GalleryActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:32:9-34:49
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:34:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:33:13-75
+activity#com.twitter.sdk.android.core.identity.OAuthActivity
+ADDED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:28:9-32:40
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:31:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:30:13-59
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:29:13-79
+activity#com.twitter.sdk.android.core.identity.ShareEmailActivity
+ADDED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:33:9-39:48
+	android:label
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:39:13-45
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:36:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:37:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:35:13-59
+	android:icon
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:38:13-53
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:34:13-84
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
 ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:25:7-26:18
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:25:7-26:18

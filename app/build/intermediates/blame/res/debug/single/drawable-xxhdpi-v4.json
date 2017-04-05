@@ -1,43 +1,43 @@
 [
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_09_dark.png",
-        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_09_dark.png"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_pause_dark.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_pause_dark.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_09_dark.png",
+        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_09_dark.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_close_light.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_close_light.png"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_03_light.png",
-        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_03_light.png"
-    },
-    {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_small_off_client.png",
-        "source": "/Users/Casey/.android/build-cache/588f6a84f87d025ea2d54bc5cb4e4627e0a02005/output/res/drawable-xxhdpi-v4/ic_plusone_small_off_client.png"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/places_ic_clear.png",
         "source": "/Users/Casey/.android/build-cache/e9e739bd400497d1390935ca0bad1511ff051ff3/output/res/drawable-xxhdpi-v4/places_ic_clear.png"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
-        "source": "/Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/Users/Casey/.android/build-cache/588f6a84f87d025ea2d54bc5cb4e4627e0a02005/output/res/drawable-xxhdpi-v4/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_03_light.png",
+        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_03_light.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_grey600.png",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_grey600.png"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_07_light.png",
-        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_on_07_light.png"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/powered_by_google_dark.png",
         "source": "/Users/Casey/.android/build-cache/e9e739bd400497d1390935ca0bad1511ff051ff3/output/res/drawable-xxhdpi-v4/powered_by_google_dark.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_07_light.png",
+        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_on_07_light.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
@@ -50,6 +50,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_skip_next_white_36.png",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-xxhdpi-v4/quantum_ic_skip_next_white_36.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_vine_badge.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_vine_badge.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_13_light.png",
@@ -76,12 +80,12 @@
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_white.png",
-        "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_white.png"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_white.png",
+        "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-xxhdpi-v4/cast_ic_stop_circle_filled_white.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_00_dark.png",
@@ -102,6 +106,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/powered_by_google_light.png",
         "source": "/Users/Casey/.android/build-cache/e9e739bd400497d1390935ca0bad1511ff051ff3/output/res/drawable-xxhdpi-v4/powered_by_google_light.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_inline_share.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_inline_share.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_16_light.png",
@@ -152,12 +160,20 @@
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-xxhdpi-v4/cast_abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__composer_close.png",
+        "source": "/Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/res/drawable-xxhdpi-v4/tw__composer_close.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_disabled_light.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_cast_disabled_light.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-xxhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__composer_logo_blue.png",
+        "source": "/Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/res/drawable-xxhdpi-v4/tw__composer_logo_blue.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_replay_30_grey600_36.png",
@@ -184,6 +200,10 @@
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_logo_default.png",
+        "source": "/Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/res/drawable-xxhdpi-v4/tw__ic_logo_default.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_17_light.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_on_17_light.png"
     },
@@ -196,12 +216,12 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_08_dark.png"
     },
     {
-        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_02_light.png",
-        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_02_light.png"
-    },
-    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_02_light.png",
+        "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_02_light.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_pause_light.png",
@@ -268,6 +288,14 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_cast_light.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__action_heart_off_default.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__action_heart_off_default.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_logo_white.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_logo_white.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
@@ -292,6 +320,10 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_on_02_light.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_tweet_photo_error_light.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_tweet_photo_error_light.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_22_light.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_on_22_light.png"
     },
@@ -310,6 +342,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_replay_white_24.png",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-xxhdpi-v4/quantum_ic_replay_white_24.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__action_heart_on_default.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__action_heart_on_default.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_medium_off_client.png",
@@ -408,6 +444,10 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_on_01_dark.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_retweet_dark.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_retweet_dark.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_play_arrow_grey600_36.png",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-xxhdpi-v4/quantum_ic_play_arrow_grey600_36.png"
     },
@@ -432,8 +472,16 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_08_light.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_seekbar_bg.9.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_seekbar_bg.9.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_14_dark.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_14_dark.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_video_pause_pressed.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_video_pause_pressed.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
@@ -520,6 +568,10 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_on_21_dark.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_tweet_verified.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_tweet_verified.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_02_dark.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_02_dark.png"
     },
@@ -534,6 +586,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_video_play_pressed.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_video_play_pressed.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_10_light.png",
@@ -584,6 +640,14 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_on_07_dark.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_logo_blue.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_logo_blue.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_video_replay_pressed.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_video_replay_pressed.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_dark.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_cast_dark.png"
     },
@@ -596,12 +660,20 @@
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-xxhdpi-v4/quantum_ic_volume_off_white_36.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__composer_logo_white.png",
+        "source": "/Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/res/drawable-xxhdpi-v4/tw__composer_logo_white.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_replay_30_white_36.png",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-xxhdpi-v4/quantum_ic_replay_30_white_36.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_13_dark.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_on_13_dark.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__share_email_header.png",
+        "source": "/Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/res/drawable-xxhdpi-v4/tw__share_email_header.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_04_light.png",
@@ -696,6 +768,10 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_11_light.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_seekbar_secondary_bg.9.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_seekbar_secondary_bg.9.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
         "source": "/Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
@@ -714,6 +790,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_01_light.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_01_light.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_video_replay.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_video_replay.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_20_light.png",
@@ -788,12 +868,20 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_on_12_light.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_play_pressed.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_play_pressed.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_play_arrow_grey600_48.png",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-xxhdpi-v4/quantum_ic_play_arrow_grey600_48.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_14_light.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_14_light.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_video_play.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_video_play.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_03_dark.png",
@@ -836,8 +924,16 @@
         "source": "/Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_tweet_photo_error_dark.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_tweet_photo_error_dark.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_04_dark.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_on_04_dark.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_retweet_light.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_retweet_light.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_stop_grey600_48.png",
@@ -846,6 +942,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_03_light.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_on_03_light.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_video_pause.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_video_pause.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_07_light.png",
@@ -876,6 +976,10 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_audiotrack.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_gif_badge.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_gif_badge.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_skip_next_white_24.png",
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/drawable-xxhdpi-v4/quantum_ic_skip_next_white_24.png"
     },
@@ -904,6 +1008,10 @@
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_04_dark.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_seekbar_progress_bg.9.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_seekbar_progress_bg.9.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_17_dark.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_17_dark.png"
     },
@@ -918,6 +1026,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_09_light.png",
         "source": "/Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/res/drawable-xxhdpi-v4/ic_media_route_connecting_09_light.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tw__ic_play_default.png",
+        "source": "/Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/res/drawable-xxhdpi-v4/tw__ic_play_default.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_skip_previous_white_36.png",
