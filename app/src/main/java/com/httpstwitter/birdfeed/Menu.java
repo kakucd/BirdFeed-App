@@ -24,6 +24,7 @@ import com.twitter.sdk.android.core.*;
 import com.twitter.sdk.android.core.identity.*;
 import android.widget.Toast;
 import android.util.Log;
+import android.widget.Button;
 
 /*
  * Main menu class
@@ -41,15 +42,17 @@ public class Menu extends AppCompatActivity {
     static private ArrayList<String> tags = new ArrayList<>();
 
     private TwitterLoginButton loginButton;
+    private TwitterAuthClient client;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
+        final TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
         Fabric.with(this, new Twitter(authConfig));
+        client = new TwitterAuthClient();
         setContentView(R.layout.activity_menu);
 
-        loginButton = (TwitterLoginButton) findViewById(R.id.twitter_login_button);
+        /**loginButton = (TwitterLoginButton) findViewById(R.id.twitter_login_button);
         loginButton.setCallback(new Callback<TwitterSession>() {
             @Override
             public void success(Result<TwitterSession> result) {
@@ -64,6 +67,35 @@ public class Menu extends AppCompatActivity {
             @Override
             public void failure(TwitterException exception) {
                 Log.d("TwitterKit", "Login with Twitter failure", exception);
+            }
+        });**/
+
+        Button twitter_custom_button = (Button) findViewById(R.id.Sign_In);
+        twitter_custom_button.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                client.authorize(Menu.this, new com.twitter.sdk.android.core.Callback<TwitterSession>() {
+
+                    @Override
+                    public void success(Result<TwitterSession> result) {
+                        // The TwitterSession is also available through:
+                        // Twitter.getInstance().core.getSessionManager().getActiveSession()
+                        TwitterSession session = result.data;
+                        // TODO: Remove toast and use the TwitterSession's userID
+                        // with your app's user model
+                        String msg = "@" + session.getUserName() + " logged in! (#" + session.getUserId() + ")";
+                        Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG).show();
+                    }
+
+                    @Override
+                    public void failure(TwitterException e) {
+                        e.printStackTrace();
+                    }
+                });
+
+
             }
         });
 
