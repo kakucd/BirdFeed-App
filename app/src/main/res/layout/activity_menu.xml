@@ -11,7 +11,7 @@
         android:id="@+id/imageView2"
         android:layout_width="286dp"
         android:layout_height="190dp"
-        app:srcCompat="@drawable/ic_launcher"
+        app:srcCompat="@mipmap/ic_launcher"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
@@ -161,6 +161,7 @@
         android:textColor="@android:color/white"
         android:textSize="20dp"
         android:onClick="signin"
+        android:enabled="true"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -195,7 +196,6 @@
         app:layout_constraintHorizontal_bias="0.088"
         android:onClick="signin"
         app:layout_constraintVertical_bias="0.945" />
-
 
     <Button
         android:id="@+id/settings_button"
