@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -67,12 +68,14 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
         }
         website = getIntent().getStringExtra("website");
         if (website != null) {
+            website = "http://www." +website;
             master.add("Website");
             master.add(website);
         }
         phone = getIntent().getStringExtra("phone");
         if (phone != null) {
             master.add("Phone");
+            System.out.println("PHONE: "+phone);
             master.add(phone);
         }
         master.add("Hours");
@@ -141,9 +144,14 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
         web.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                website = "http://www." + website;
+                if(website != null) {
+                //website = "http://www." + website;
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(website));
                 startActivity(intent);
+                } else {
+                    Snackbar.make(view, "Restaurant does not have a website", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                }
             }
         });
 

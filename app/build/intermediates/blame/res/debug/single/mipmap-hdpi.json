@@ -28,6 +28,10 @@
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-hdpi/ic_settings.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_twitter.png",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-hdpi/ic_twitter.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_website_launcher.png",
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-hdpi/ic_website_launcher.png"
     },
@@ -42,6 +46,10 @@
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_home.png",
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-hdpi/ic_home.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_map.png",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-hdpi/ic_map.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",

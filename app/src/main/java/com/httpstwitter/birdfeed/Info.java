@@ -81,6 +81,7 @@ public class Info extends AppCompatActivity implements GoogleApiClient.Connectio
         phone = getIntent().getStringExtra("phone");
         if (phone != null) {
             cellView = (TextView) findViewById(R.id.phone);
+            System.out.println("PHONE: "+phone);
             cellView.setText("Phone");
             phoneView = (TextView) findViewById(R.id.phoneView);
             phoneView.setText(phone);

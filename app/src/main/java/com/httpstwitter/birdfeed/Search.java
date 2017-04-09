@@ -136,6 +136,7 @@ public class Search extends AppCompatActivity {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     phone = (String) dataSnapshot.getValue();
+                    System.out.println("(search)PHONE: "+phone);
                 }
 
                 @Override
@@ -149,7 +150,7 @@ public class Search extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(ValueEventListener child) {
-            DatabaseReference call = mdatabase.getReference("restaurants/"+item+"phone");
+            DatabaseReference call = mdatabase.getReference("restaurants/"+item+"/phone");
             call.addListenerForSingleValueEvent(child);
         }
     }
@@ -162,7 +163,7 @@ public class Search extends AppCompatActivity {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     address = (String) dataSnapshot.getValue();
-                    System.out.println(dataSnapshot.getKey()+": "+address);
+                    //System.out.println(dataSnapshot.getKey()+": "+address);
                 }
 
                 @Override
@@ -188,7 +189,7 @@ public class Search extends AppCompatActivity {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     website = (String) dataSnapshot.getValue();
-                    System.out.println("Website: "+website);
+                    //System.out.println("Website: "+website);
                 }
 
                 @Override
@@ -214,7 +215,7 @@ public class Search extends AppCompatActivity {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     tags = (String) dataSnapshot.getValue();
-                    System.out.println("Tags: "+tags);
+                    //System.out.println("Tags: "+tags);
                 }
 
                 @Override
