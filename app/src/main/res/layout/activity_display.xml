@@ -111,4 +111,16 @@
         app:layout_anchor="@+id/appBarLayout"
         app:srcCompat="?attr/actionModeCloseDrawable" />
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/tweet"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@mipmap/ic_twitter_launcher"
+        app:backgroundTint="@color/colorbkgd"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/appBarLayout" />
+
 </android.support.design.widget.CoordinatorLayout>

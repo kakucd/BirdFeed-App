@@ -4805,7 +4805,7 @@ containing a value of this type.
         public static final int android_pay_light=0x7f110087;
         public static final int android_pay_light_with_border=0x7f110088;
         public static final int appBarLayout=0x7f1100c3;
-        public static final int app_bar=0x7f1100cc;
+        public static final int app_bar=0x7f1100cd;
         public static final int asian=0x7f110103;
         public static final int audio_empty_message=0x7f1100fe;
         public static final int audio_list_view=0x7f1100fc;
@@ -4923,10 +4923,10 @@ containing a value of this type.
         public static final int ifRoom=0x7f110063;
         public static final int image=0x7f110095;
         public static final int imageView=0x7f1100c4;
-        public static final int imageView2=0x7f1100cf;
+        public static final int imageView2=0x7f1100d0;
         public static final int include=0x7f1100da;
         public static final int include3=0x7f1100c2;
-        public static final int include4=0x7f1100cb;
+        public static final int include4=0x7f1100cc;
         public static final int index_entity_types=0x7f11006d;
         public static final int info=0x7f11014f;
         public static final int instant_message=0x7f110059;
@@ -5030,7 +5030,7 @@ containing a value of this type.
         public static final int scrollView=0x7f11009f;
         public static final int scrollable=0x7f110075;
         public static final int seafood=0x7f110108;
-        public static final int search=0x7f1100d2;
+        public static final int search=0x7f1100d3;
         public static final int search_badge=0x7f1100b7;
         public static final int search_bar=0x7f1100b6;
         public static final int search_button=0x7f1100b8;
@@ -5081,8 +5081,8 @@ containing a value of this type.
         public static final int textSpacerNoButtons=0x7f1100a1;
         public static final int textSpacerNoTitle=0x7f1100a0;
         public static final int textTitle=0x7f1100f2;
-        public static final int textView=0x7f1100d0;
-        public static final int textView2=0x7f1100d1;
+        public static final int textView=0x7f1100d1;
+        public static final int textView2=0x7f1100d2;
         public static final int textView3=0x7f110118;
         public static final int textView4=0x7f110119;
         public static final int text_empty_message=0x7f1100fd;
@@ -5097,7 +5097,7 @@ containing a value of this type.
         public static final int title_template=0x7f1100a6;
         public static final int title_view=0x7f1100f7;
         public static final int toolbar=0x7f1100c5;
-        public static final int toolbar_layout=0x7f1100cd;
+        public static final int toolbar_layout=0x7f1100ce;
         public static final int toolbar_title=0x7f1100d9;
         public static final int top=0x7f110041;
         public static final int topPanel=0x7f1100a5;
@@ -5147,7 +5147,7 @@ containing a value of this type.
         public static final int tw__video_duration=0x7f11017b;
         public static final int tw__view_pager=0x7f110179;
         public static final int tw__web_view=0x7f110163;
-        public static final int tweet=0x7f1100d3;
+        public static final int tweet=0x7f1100cb;
         public static final int tweet_media_view=0x7f110181;
         public static final int tweets=0x7f110112;
         public static final int tweetsView=0x7f110113;
@@ -5159,7 +5159,7 @@ containing a value of this type.
         public static final int video_control_view=0x7f11017e;
         public static final int video_progress_view=0x7f11017d;
         public static final int video_view=0x7f11017c;
-        public static final int viewName=0x7f1100ce;
+        public static final int viewName=0x7f1100cf;
         public static final int view_offset_helper=0x7f11001d;
         public static final int visible=0x7f110190;
         public static final int volume_item_container=0x7f11013a;

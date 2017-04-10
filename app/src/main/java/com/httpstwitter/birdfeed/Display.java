@@ -26,6 +26,9 @@ import android.widget.TextView;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.firebase.database.FirebaseDatabase;
+import com.twitter.sdk.android.core.TwitterCore;
+import com.twitter.sdk.android.core.TwitterSession;
+import com.twitter.sdk.android.tweetcomposer.ComposerActivity;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -37,7 +40,7 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
     private GoogleApiClient mGoogleApiClient;
     private int i = 0;
     private String mLatitudeText, mLongitudeText;
-    private FloatingActionButton fab, call, web;
+    private FloatingActionButton fab, call, web, tweet;
     private ImageView imageView;
     private FirebaseDatabase mdatabase;
 
@@ -161,6 +164,20 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
             public void onClick(View view) {
                 address = "http://maps.google.com/maps?saddr=" + mLatitudeText + "," + mLongitudeText + "&daddr=" + address;
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(address));
+                startActivity(intent);
+            }
+        });
+
+        tweet = (FloatingActionButton) findViewById(R.id.tweet);
+        tweet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final TwitterSession session = TwitterCore.getInstance().getSessionManager()
+                        .getActiveSession();
+                final Intent intent = new ComposerActivity.Builder(Display.this)
+                        .session(session)
+                        .hashtags("#birdfeed")
+                        .createIntent();
                 startActivity(intent);
             }
         });
