@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/Casey/IdeaProjects/BirdFeed4/app/src/debug/jniLibs"/></dataSet></merger>

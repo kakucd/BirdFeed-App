@@ -6,9 +6,6 @@
     android:layout_height="fill_parent"
     tools:context="com.httpstwitter.birdfeed.Display">
 
-    <include layout="@layout/content_display"
-        android:id="@+id/include3" />
-
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
@@ -39,6 +36,36 @@
         </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="133dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@mipmap/ic_map_launcher"
+        app:backgroundTint="@color/colorbkgd"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/appBarLayout"
+        app:layout_anchorGravity="center_vertical|right" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="67dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@mipmap/ic_website_launcher"
+        app:fabSize="normal"
+        app:backgroundTint="@color/colorbkgd"
+        app:layout_anchor="@+id/appBarLayout"
+        app:layout_anchorGravity="center_vertical|right" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/call"
@@ -81,60 +108,36 @@
         app:layout_anchor="@+id/appBarLayout"
         app:srcCompat="?attr/actionModeCloseDrawable" />
 
+    <include
+        android:id="@+id/include3"
+        layout="@layout/content_display" />
+
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/tweet"
-        android:layout_width="71dp"
+        android:layout_width="72dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
         android:layout_marginRight="20dp"
         android:clickable="true"
         android:scaleType="center"
         android:src="@mipmap/ic_twitter_launcher"
         app:backgroundTint="@color/colorbkgd"
         app:fabSize="normal"
-        app:layout_anchor="@+id/appBarLayout" />
+        app:layout_anchor="@+id/include3"
+        app:layout_anchorGravity="top|right" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/timeline"
-        android:layout_width="71dp"
+        android:layout_width="72dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="top|right"
+        android:layout_gravity="center_vertical|right"
         android:layout_marginRight="20dp"
         android:clickable="true"
         android:scaleType="center"
-        android:src="@mipmap/ic_search_launcher"
+        android:src="@mipmap/ic_twitter_launcher"
         app:backgroundTint="@color/colorbkgd"
         app:fabSize="normal"
         app:layout_anchor="@+id/appBarLayout"
-        app:layout_anchorGravity="bottom|left" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top|left"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="140dp"
-        android:clickable="true"
-        android:scaleType="center"
-        android:src="@mipmap/ic_map_launcher"
-        app:backgroundTint="@color/colorbkgd"
-        app:fabSize="normal"
-        app:layout_anchor="@+id/appBarLayout"
-        app:layout_anchorGravity="bottom|right" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/web"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|left"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="67dp"
-        android:clickable="true"
-        android:scaleType="center"
-        android:src="@mipmap/ic_website_launcher"
-        app:backgroundTint="@color/colorbkgd"
-        app:fabSize="normal"
-        app:layout_anchor="@+id/appBarLayout"
-        app:layout_anchorGravity="center_vertical|right" />
+        app:layout_anchorGravity="center_vertical|left" />
 
 </android.support.design.widget.CoordinatorLayout>
