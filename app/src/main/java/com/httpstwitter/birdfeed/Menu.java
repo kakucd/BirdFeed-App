@@ -175,7 +175,7 @@ public class Menu extends AppCompatActivity {
             FirebaseDatabase mdatabase = FirebaseDatabase.getInstance();
             DatabaseReference myRef = mdatabase.getReference("/restaurants");
 
-            myRef.orderByChild("score").limitToLast(25).addChildEventListener(new ChildEventListener() {
+            myRef.orderByChild("score").addChildEventListener(new ChildEventListener() {
 
                 @Override
                 public void onChildAdded(DataSnapshot dataSnapshot, String s) {
