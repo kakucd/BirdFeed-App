@@ -36,11 +36,11 @@ import java.util.ArrayList;
 public class Display extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks {
 
     static private ArrayList<String> master = new ArrayList<>();
-    private String item, address, tags, phone, website, image;
+    private String item, address, tags, phone, website, image, handle;
     private GoogleApiClient mGoogleApiClient;
     private int i = 0;
     private String mLatitudeText, mLongitudeText;
-    private FloatingActionButton fab, call, web, tweet;
+    private FloatingActionButton fab, call, web, tweet, timeline;
     private ImageView imageView;
     private FirebaseDatabase mdatabase;
 
@@ -93,6 +93,8 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
         for (int i = 0; i < tweets.size(); i++) {
             master.add(tweets.get(i));
         }
+
+        handle = getIntent().getStringExtra("handle");
 
         TextView textView = (TextView) findViewById(R.id.title);
         textView.setText(item);
@@ -176,8 +178,18 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
                         .getActiveSession();
                 final Intent intent = new ComposerActivity.Builder(Display.this)
                         .session(session)
-                        .hashtags("#birdfeed")
+                        .hashtags("#" + handle)
                         .createIntent();
+                startActivity(intent);
+            }
+        });
+
+        timeline = (FloatingActionButton) findViewById(R.id.timeline);
+        timeline.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Display.this, TimelineActivity.class);
+                intent.putExtra("handle", handle);
                 startActivity(intent);
             }
         });
@@ -286,4 +298,5 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
         Intent intent = new Intent(this, Menu.class);
         startActivity(intent);
     }
+
 }

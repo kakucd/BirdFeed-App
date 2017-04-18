@@ -35,7 +35,7 @@ public class Search extends AppCompatActivity {
     static private ArrayList<String> hours = new ArrayList<>();
     static private ArrayList<String> tweets = new ArrayList<>();
     private ListView listView;
-    private String item, address, tags, website, phone, image;
+    private String item, address, tags, website, phone, image, handle;
     private FirebaseDatabase mdatabase;
 
     @Override
@@ -48,6 +48,7 @@ public class Search extends AppCompatActivity {
 
             address = null;
             tags = null;
+            handle = null;
             hours.clear();
             tweets.clear();
             data.clear();
@@ -87,6 +88,7 @@ public class Search extends AppCompatActivity {
                 new getWebsite().execute();
                 new getTags().execute();
                 new getHours().execute();
+                new getHandle().execute();
                 new getTweets().execute();
                 new getURL().execute();
                 //Toast message will pop up indicating list item and position clicked.
@@ -124,6 +126,7 @@ public class Search extends AppCompatActivity {
         intent.putExtra("phone", phone);
         intent.putExtra("website", website);
         intent.putExtra("image", image);
+        intent.putExtra("handle", handle);
 
         startActivity(intent);
 
@@ -204,6 +207,31 @@ public class Search extends AppCompatActivity {
         protected void onPostExecute(ValueEventListener link) {
             DatabaseReference web = mdatabase.getReference("/restaurants/"+item+"/website");
             web.addListenerForSingleValueEvent(link);
+        }
+    }
+
+    private class getHandle extends AsyncTask<Void, Void, ValueEventListener> {
+
+        @Override
+        protected ValueEventListener doInBackground(Void... voids) {
+            ValueEventListener hand = new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    handle = (String) dataSnapshot.getValue();
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            };
+            return hand;
+        }
+
+        @Override
+        protected void onPostExecute(ValueEventListener jpg) {
+            DatabaseReference picture = mdatabase.getReference("restaurants/"+item+"/handle");
+            picture.addListenerForSingleValueEvent(jpg);
         }
     }
 

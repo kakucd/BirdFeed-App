@@ -41,36 +41,6 @@
     </android.support.design.widget.AppBarLayout>
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|left"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="140dp"
-        android:clickable="true"
-        android:scaleType="center"
-        android:src="@mipmap/ic_map_launcher"
-        app:backgroundTint="@color/colorbkgd"
-        app:fabSize="normal"
-        app:layout_anchor="@+id/appBarLayout"
-        app:layout_anchorGravity="center_vertical|right" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/web"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top|left"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="67dp"
-        android:clickable="true"
-        android:scaleType="center"
-        android:src="@mipmap/ic_website_launcher"
-        app:fabSize="normal"
-        app:backgroundTint="@color/colorbkgd"
-        app:layout_anchor="@+id/appBarLayout"
-        app:layout_anchorGravity="center_vertical|right" />
-
-    <android.support.design.widget.FloatingActionButton
         android:id="@+id/call"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -122,5 +92,49 @@
         app:backgroundTint="@color/colorbkgd"
         app:fabSize="normal"
         app:layout_anchor="@+id/appBarLayout" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/timeline"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@mipmap/ic_search_launcher"
+        app:backgroundTint="@color/colorbkgd"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/appBarLayout"
+        app:layout_anchorGravity="bottom|left" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="140dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@mipmap/ic_map_launcher"
+        app:backgroundTint="@color/colorbkgd"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/appBarLayout"
+        app:layout_anchorGravity="bottom|right" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="67dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@mipmap/ic_website_launcher"
+        app:backgroundTint="@color/colorbkgd"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/appBarLayout"
+        app:layout_anchorGravity="center_vertical|right" />
 
 </android.support.design.widget.CoordinatorLayout>
