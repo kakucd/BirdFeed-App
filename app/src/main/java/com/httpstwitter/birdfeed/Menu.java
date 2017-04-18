@@ -175,13 +175,13 @@ public class Menu extends AppCompatActivity {
             FirebaseDatabase mdatabase = FirebaseDatabase.getInstance();
             DatabaseReference myRef = mdatabase.getReference("/restaurants");
 
-            myRef.orderByKey().addChildEventListener(new ChildEventListener() {
+            myRef.orderByChild("score").limitToLast(25).addChildEventListener(new ChildEventListener() {
 
                 @Override
                 public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                     Place place = dataSnapshot.getValue(Place.class);
-                    data.add(place.getName());
-                    tags.add(place.getTags());
+                    data.add(0,place.getName());
+                    tags.add(0,place.getTags());
                 }
 
                 @Override
