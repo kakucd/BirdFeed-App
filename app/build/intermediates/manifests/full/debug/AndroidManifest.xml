@@ -67,6 +67,10 @@
             android:name="com.httpstwitter.birdfeed.Filter"
             android:label="@string/title_activity_filter"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.httpstwitter.birdfeed.TimelineActivity"
+            android:label="TimelineActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="io.fabric.ApiKey"

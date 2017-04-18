@@ -38,50 +38,6 @@
     </android.support.design.widget.AppBarLayout>
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|left"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="133dp"
-        android:clickable="true"
-        android:scaleType="center"
-        android:src="@mipmap/ic_map_launcher"
-        app:backgroundTint="@color/colorbkgd"
-        app:fabSize="normal"
-        app:layout_anchor="@+id/appBarLayout"
-        app:layout_anchorGravity="center_vertical|right" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/web"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top|left"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="67dp"
-        android:clickable="true"
-        android:scaleType="center"
-        android:src="@mipmap/ic_website_launcher"
-        app:fabSize="normal"
-        app:backgroundTint="@color/colorbkgd"
-        app:layout_anchor="@+id/appBarLayout"
-        app:layout_anchorGravity="center_vertical|right" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/call"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|left"
-        android:layout_marginRight="20dp"
-        android:clickable="true"
-        android:scaleType="center"
-        android:src="@mipmap/ic_phone_call"
-        app:backgroundTint="@color/colorbkgd"
-        app:fabSize="normal"
-        app:layout_anchor="@+id/appBarLayout"
-        app:layout_anchorGravity="top|right" />
-
-    <android.support.design.widget.FloatingActionButton
         android:id="@+id/menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -117,7 +73,8 @@
         android:layout_width="72dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|left"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="217dp"
         android:clickable="true"
         android:scaleType="center"
         android:src="@mipmap/ic_twitter_launcher"
@@ -127,17 +84,64 @@
         app:layout_anchorGravity="top|right" />
 
     <android.support.design.widget.FloatingActionButton
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="217dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@mipmap/ic_phone_call"
+        app:backgroundTint="@color/colorbkgd"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/include3"
+        app:layout_anchorGravity="top|left" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="155dp"
+        android:layout_marginTop="217dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@mipmap/ic_map_launcher"
+        app:backgroundTint="@color/colorbkgd"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/include3"
+        app:layout_anchorGravity="top|center_horizontal" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:layout_marginRight="230dp"
+        android:layout_marginTop="217dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@mipmap/ic_website_launcher"
+        app:backgroundTint="@color/colorbkgd"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/include3"
+        app:layout_anchorGravity="top|center_horizontal" />
+
+    <android.support.design.widget.FloatingActionButton
         android:id="@+id/timeline"
-        android:layout_width="72dp"
+        android:layout_width="68dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|right"
         android:layout_marginRight="20dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="217dp"
         android:clickable="true"
         android:scaleType="center"
-        android:src="@mipmap/ic_twitter_launcher"
+        android:src="@mipmap/ic_newsfeed"
         app:backgroundTint="@color/colorbkgd"
         app:fabSize="normal"
-        app:layout_anchor="@+id/appBarLayout"
-        app:layout_anchorGravity="center_vertical|left" />
+        app:layout_anchor="@+id/include3"
+        app:layout_anchorGravity="top|center_horizontal" />
 
 </android.support.design.widget.CoordinatorLayout>

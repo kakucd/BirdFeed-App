@@ -4,12 +4,12 @@
         "source": "/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/src/main/res/mipmap-mdpi/ic_map.png"
     },
     {
-        "merged": "/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_map_launcher.png",
-        "source": "/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/src/main/res/mipmap-mdpi/ic_map_launcher.png"
-    },
-    {
         "merged": "/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_twitter_launcher.png",
         "source": "/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/src/main/res/mipmap-mdpi/ic_twitter_launcher.png"
+    },
+    {
+        "merged": "/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_map_launcher.png",
+        "source": "/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/src/main/res/mipmap-mdpi/ic_map_launcher.png"
     },
     {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_website_launcher.png",
@@ -34,6 +34,10 @@
     {
         "merged": "/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_user_launcher.png",
         "source": "/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/src/main/res/mipmap-mdpi/ic_user_launcher.png"
+    },
+    {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_newsfeed.png",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-mdpi/ic_newsfeed.png"
     },
     {
         "merged": "/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_food.png",

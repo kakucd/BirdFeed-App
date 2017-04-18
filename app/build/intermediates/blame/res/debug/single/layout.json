@@ -308,6 +308,10 @@
         "source": "/Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/res/layout/cast_mini_controller.xml"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/timeline.xml",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/layout/timeline.xml"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/res/layout/abc_activity_chooser_view.xml"
     },

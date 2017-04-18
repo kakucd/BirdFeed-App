@@ -52,6 +52,10 @@
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-xxhdpi/ic_user_launcher.png"
     },
     {
+        "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_newsfeed.png",
+        "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-xxhdpi/ic_newsfeed.png"
+    },
+    {
         "merged": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_map_launcher.png",
         "source": "/Users/Casey/IdeaProjects/BirdFeed4/app/src/main/res/mipmap-xxhdpi/ic_map_launcher.png"
     },

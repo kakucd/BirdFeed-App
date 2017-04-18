@@ -139,7 +139,7 @@ public class Search extends AppCompatActivity {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     phone = (String) dataSnapshot.getValue();
-                    System.out.println("(search)PHONE: "+phone);
+                    //System.out.println("(search)PHONE: "+phone);
                 }
 
                 @Override
@@ -262,14 +262,35 @@ public class Search extends AppCompatActivity {
     }
 
     private class getHours extends AsyncTask<Void, Void, ChildEventListener> {
-
-
         @Override
         protected ChildEventListener doInBackground(Void... voids) {
             ChildEventListener child = new ChildEventListener() {
                 @Override
                 public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                    String temp = dataSnapshot.getKey() + ": " + dataSnapshot.getValue();
+                    String counter = dataSnapshot.getKey();
+                    String day;
+
+                    switch(counter) {
+                        case "1": day = "Monday";
+                            break;
+                        case "2": day = "Tuesday";
+                            break;
+                        case "3": day = "Wednesday";
+                            break;
+                        case "4": day = "Thursday";
+                            break;
+                        case "5": day = "Friday";
+                            break;
+                        case "6": day = "Saturday";
+                            break;
+                        case "7": day = "Sunday";
+                            break;
+                        default: day = "invalid";
+                            break;
+                    }
+
+                    System.out.println("Hours: "+dataSnapshot.getKey()+": "+dataSnapshot.getValue());
+                    String temp = day+": "+dataSnapshot.getValue();
                     hours.add(temp);
                 }
 
@@ -301,7 +322,7 @@ public class Search extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(ChildEventListener child) {
-            DatabaseReference times = mdatabase.getReference("/hours/"+item);
+            DatabaseReference times = mdatabase.getReference("/hours/" + item);
             times.addChildEventListener(child);
         }
     }
