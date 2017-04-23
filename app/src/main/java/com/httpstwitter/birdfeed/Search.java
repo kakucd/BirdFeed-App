@@ -369,7 +369,7 @@ public class Search extends AppCompatActivity {
         @Override
         protected void onPostExecute(ChildEventListener child) {
             DatabaseReference twitter = mdatabase.getReference("/tweets/"+item);
-            twitter.addChildEventListener(child);
+            twitter.limitToFirst(5).addChildEventListener(child);
         }
     }
 
