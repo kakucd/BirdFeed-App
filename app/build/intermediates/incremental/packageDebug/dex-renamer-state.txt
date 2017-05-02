@@ -1,7 +1,7 @@
-#Mon Apr 17 21:22:37 PDT 2017
-base.0=/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fd119508f564f123b693d027b33e8f5f220b7fca
+#Mon May 01 20:56:58 PDT 2017
+base.0=/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/transforms/dexMerger/debug/folders/1000/10000/instant-run_fd119508f564f123b693d027b33e8f5f220b7fca_3fee0cb2bae810dde6a8ef37717b2ee3333ce73b
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e4a1a5a3c880218a403a51823b2db58312e6b738/classes.dex
-base.1=/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e4a1a5a3c880218a403a51823b2db58312e6b738
-file.0=/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fd119508f564f123b693d027b33e8f5f220b7fca/classes.dex
+file.1=/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/transforms/dexMerger/debug/folders/1000/10000/instant-run-bootstrap_e4a1a5a3c880218a403a51823b2db58312e6b738_59f40ba1feeb9dd28b3b1986971df6eff68b6feb/classes.dex
+base.1=/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/transforms/dexMerger/debug/folders/1000/10000/instant-run-bootstrap_e4a1a5a3c880218a403a51823b2db58312e6b738_59f40ba1feeb9dd28b3b1986971df6eff68b6feb
+file.0=/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/transforms/dexMerger/debug/folders/1000/10000/instant-run_fd119508f564f123b693d027b33e8f5f220b7fca_3fee0cb2bae810dde6a8ef37717b2ee3333ce73b/classes.dex

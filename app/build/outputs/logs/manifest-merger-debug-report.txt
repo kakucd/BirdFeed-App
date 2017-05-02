@@ -1,6 +1,82 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-56:12
+MERGED from [com.google.android.gms:play-services:10.2.0] /Users/Casey/.android/build-cache/0d1e8b79233af70ed18ad11a1ea75f881b59482a/output/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads:10.2.0] /Users/Casey/.android/build-cache/d5298b5b6cd14513e1c105ab49f9af172b62e981/output/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] /Users/Casey/.android/build-cache/eff5f6d82abf62dba31129c57db77b3dbba8959f/output/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-auth:10.2.0] /Users/Casey/.android/build-cache/98db333f436bfb9e99e17eb698f827397baee358/output/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.0] /Users/Casey/.android/build-cache/a47ee39e0d745b3e92e2ebd2fed6ae0f406ec3f2/output/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] /Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cast:10.2.0] /Users/Casey/.android/build-cache/888526418a2b3aaf7bc9cf1fd6a48a52f85048b5/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/Casey/.android/build-cache/09897058bb02866c8a4460055e490bf3b30eedb9/output/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] /Users/Casey/.android/build-cache/566380f8b57e565e0dcee66dd955c1a256f0b171/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-config:10.2.0] /Users/Casey/.android/build-cache/91762edaaeb07c5329f3641be8ee77d855dccfca/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-awareness:10.2.0] /Users/Casey/.android/build-cache/1d6f91f1022050df21df3333387bfa153da90d07/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-crash:10.2.0] /Users/Casey/.android/build-cache/458c18d51a034424da97eb6013debdd998950ecb/output/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/Casey/.android/build-cache/9fb51073a8c56694daa569bc4ffcb54c20feada0/output/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-database:10.2.0] /Users/Casey/.android/build-cache/9540411c2e5c2ea4aa6a29d10286304644a30cb7/output/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database-connection:10.2.0] /Users/Casey/.android/build-cache/412d4d6827cd3793554ec32e6dc8207defb03913/output/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-messaging:10.2.0] /Users/Casey/.android/build-cache/123a66a6a54958de3421f7a8ac30acb2ce717fd6/output/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.firebase:firebase-storage:10.2.0] /Users/Casey/.android/build-cache/ba7d7521504220b82ccefff77195405b236255d9/output/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-storage-common:10.2.0] /Users/Casey/.android/build-cache/6db66fc979cdc7cf92f95812bada948f57c4e305/output/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-fitness:10.2.0] /Users/Casey/.android/build-cache/f6bc5fc7cbf2340a6590a514ea7ea1cf4ef90316/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-games:10.2.0] /Users/Casey/.android/build-cache/f4ca8ef496205941c9a82dec374b8d372b275af7/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-drive:10.2.0] /Users/Casey/.android/build-cache/c8183d6b7e5c537d44803a9c77695f5eec562f39/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-gass:10.2.0] /Users/Casey/.android/build-cache/a95901f63c738c1fc4dcd65d93d0f85f29778a13/output/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /Users/Casey/.android/build-cache/76176cc212ff66110c2a1d76ce454f151b011b2f/output/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-appindexing:10.2.0] /Users/Casey/.android/build-cache/9037903ac46ce29e66ef0498056f565a9e0e6c6b/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] /Users/Casey/.android/build-cache/b0104f745551e56616401d870929e4eea7e48363/output/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-instantapps:10.2.0] /Users/Casey/.android/build-cache/531f3843feec90e70fe5bdce033a5d101ab0202c/output/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-location:10.2.0] /Users/Casey/.android/build-cache/ad55bba87ab998e0da0d148ab5f5d2bc5d45ebe4/output/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-nearby:10.2.0] /Users/Casey/.android/build-cache/358c7c363b8a2d1e7f99739c2161c78f8ae20c7c/output/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama:10.2.0] /Users/Casey/.android/build-cache/10ecada476dfe57749b96a301b84227d24bd2474/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-places:10.2.0] /Users/Casey/.android/build-cache/e9e739bd400497d1390935ca0bad1511ff051ff3/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-plus:10.2.0] /Users/Casey/.android/build-cache/588f6a84f87d025ea2d54bc5cb4e4627e0a02005/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.0] /Users/Casey/.android/build-cache/f96c1beeefc0e61d5cfb9c521da940babb175ca2/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-tagmanager:10.2.0] /Users/Casey/.android/build-cache/610b0de0912680f9e15bb298489de503fd9183aa/output/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] /Users/Casey/.android/build-cache/ac60cfecf3dd8d6356cadb3bd3a44205d8db257d/output/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.0] /Users/Casey/.android/build-cache/d900656f32f140fe1d65267a5edc6af99bc3336b/output/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] /Users/Casey/.android/build-cache/ac58e8973cac63e5ef115709b4e0578bfb9f8c0d/output/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-wallet:10.2.0] /Users/Casey/.android/build-cache/a059d60cd09c034b7e00b690eaac5925b606887d/output/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-identity:10.2.0] /Users/Casey/.android/build-cache/d4d9cadb3f3d66ad362ef6e75e9095505d8dbe18/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Casey/.android/build-cache/b2794f15fe2ef1728f3d1cb945a2771b0c41196d/output/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-wearable:10.2.0] /Users/Casey/.android/build-cache/9ab7d56a0a279c64eecb92acb528b4260a1a688f/output/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/AndroidManifest.xml:16:1-21:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] /Users/Casey/.android/build-cache/c81d3686cedc5a38e0b9532619956c2eb0a59b61/output/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:25.3.1] /Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/b2727b8163f9305835625a6aed17dc5ed7c217e4/output/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/43f418d940cf4d94593df061f9dd2bf7d84f7137/output/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Casey/.android/build-cache/e7bb3edf98ae629fb4b40c83e4e939259de79872/output/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:transition:25.3.1] /Users/Casey/.android/build-cache/2ffbafadc4d942e3cea6d853887adadea8cb1016/output/AndroidManifest.xml:17:1-28:12
+MERGED from [com.twitter.sdk.android:twitter:2.3.2] /Users/Casey/.android/build-cache/b5222f26fe29b7679b1df17a27525e990b9b73fd/output/AndroidManifest.xml:18:1-27:12
+MERGED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:18:1-39:12
+MERGED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:18:1-37:12
+MERGED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:18:1-42:12
+MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/Casey/.android/build-cache/e2ee16db555556759b657e33319e1c03b106f1d8/output/AndroidManifest.xml:22:1-33:12
+MERGED from [com.google.firebase:firebase-core:10.2.0] /Users/Casey/.android/build-cache/ca957ca3582d2b028c8484d78175c651505f8055/output/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:16:1-51:12
+MERGED from [com.google.firebase:firebase-common:10.2.0] /Users/Casey/.android/build-cache/4a720d4a9f0373256ff702f38e7cdccbcaab6af8/output/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/Casey/.android/build-cache/5c1330f121b3a6d1f575c71c9ac99099d1eeaa05/output/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Casey/.android/build-cache/1ad276569c5e1c4ca5c63f7f395f842ff352325e/output/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Casey/.android/build-cache/e8fe87990c04c9fafea207dc26028a31ed93c542/output/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Casey/.android/build-cache/9a49eae533c5355711991236fe7ddbbf01bb727e/output/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Casey/.android/build-cache/414b227684224cf641129c1f52c69555ee6f9534/output/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Casey/.android/build-cache/dd92c3736e6599b5f1e985d5e05ddd9fba37fe7b/output/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Casey/.android/build-cache/050b9524575da67f29f322deae15df62067cc08a/output/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Casey/.android/build-cache/0cc58bd9069ca7a2e8dcaad0656916fe22db7ffd/output/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:1-56:12
 	package
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
@@ -8,11 +84,11 @@ ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:
 	android:versionName
 		INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
-	xmlns:android
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
 		INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:5:5-79
 	android:name
@@ -24,95 +100,171 @@ ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:
 uses-permission#android.permission.INTERNET
 ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] /Users/Casey/.android/build-cache/eff5f6d82abf62dba31129c57db77b3dbba8959f/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] /Users/Casey/.android/build-cache/eff5f6d82abf62dba31129c57db77b3dbba8959f/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.0] /Users/Casey/.android/build-cache/458c18d51a034424da97eb6013debdd998950ecb/output/AndroidManifest.xml:18:5-66
 MERGED from [com.google.firebase:firebase-crash:10.2.0] /Users/Casey/.android/build-cache/458c18d51a034424da97eb6013debdd998950ecb/output/AndroidManifest.xml:18:5-66
 MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /Users/Casey/.android/build-cache/76176cc212ff66110c2a1d76ce454f151b011b2f/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /Users/Casey/.android/build-cache/76176cc212ff66110c2a1d76ce454f151b011b2f/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] /Users/Casey/.android/build-cache/b0104f745551e56616401d870929e4eea7e48363/output/AndroidManifest.xml:21:5-66
 MERGED from [com.google.android.gms:play-services-iid:10.2.0] /Users/Casey/.android/build-cache/b0104f745551e56616401d870929e4eea7e48363/output/AndroidManifest.xml:21:5-66
 MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] /Users/Casey/.android/build-cache/ac60cfecf3dd8d6356cadb3bd3a44205d8db257d/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] /Users/Casey/.android/build-cache/ac60cfecf3dd8d6356cadb3bd3a44205d8db257d/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Casey/.android/build-cache/b2794f15fe2ef1728f3d1cb945a2771b0c41196d/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Casey/.android/build-cache/b2794f15fe2ef1728f3d1cb945a2771b0c41196d/output/AndroidManifest.xml:20:5-66
+MERGED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:25:5-67
 MERGED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:25:5-67
 MERGED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:25:5-67
 MERGED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:25:5-67
 MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/Casey/.android/build-cache/e2ee16db555556759b657e33319e1c03b106f1d8/output/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/Casey/.android/build-cache/e2ee16db555556759b657e33319e1c03b106f1d8/output/AndroidManifest.xml:29:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:7:22-64
 application
 ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:9:5-54:19
 MERGED from [com.google.android.gms:play-services:10.2.0] /Users/Casey/.android/build-cache/0d1e8b79233af70ed18ad11a1ea75f881b59482a/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:10.2.0] /Users/Casey/.android/build-cache/0d1e8b79233af70ed18ad11a1ea75f881b59482a/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] /Users/Casey/.android/build-cache/eff5f6d82abf62dba31129c57db77b3dbba8959f/output/AndroidManifest.xml:19:5-26:19
 MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] /Users/Casey/.android/build-cache/eff5f6d82abf62dba31129c57db77b3dbba8959f/output/AndroidManifest.xml:19:5-26:19
 MERGED from [com.google.android.gms:play-services-auth:10.2.0] /Users/Casey/.android/build-cache/98db333f436bfb9e99e17eb698f827397baee358/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.0] /Users/Casey/.android/build-cache/98db333f436bfb9e99e17eb698f827397baee358/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] /Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/AndroidManifest.xml:4:5-8:19
 MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] /Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/AndroidManifest.xml:4:5-8:19
 MERGED from [com.google.android.gms:play-services-cast:10.2.0] /Users/Casey/.android/build-cache/888526418a2b3aaf7bc9cf1fd6a48a52f85048b5/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-cast:10.2.0] /Users/Casey/.android/build-cache/888526418a2b3aaf7bc9cf1fd6a48a52f85048b5/output/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:palette-v7:24.0.0] /Users/Casey/.android/build-cache/09897058bb02866c8a4460055e490bf3b30eedb9/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/Casey/.android/build-cache/09897058bb02866c8a4460055e490bf3b30eedb9/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] /Users/Casey/.android/build-cache/566380f8b57e565e0dcee66dd955c1a256f0b171/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] /Users/Casey/.android/build-cache/566380f8b57e565e0dcee66dd955c1a256f0b171/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.firebase:firebase-config:10.2.0] /Users/Casey/.android/build-cache/91762edaaeb07c5329f3641be8ee77d855dccfca/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.2.0] /Users/Casey/.android/build-cache/91762edaaeb07c5329f3641be8ee77d855dccfca/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.2.0] /Users/Casey/.android/build-cache/1d6f91f1022050df21df3333387bfa153da90d07/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-awareness:10.2.0] /Users/Casey/.android/build-cache/1d6f91f1022050df21df3333387bfa153da90d07/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.firebase:firebase-crash:10.2.0] /Users/Casey/.android/build-cache/458c18d51a034424da97eb6013debdd998950ecb/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:10.2.0] /Users/Casey/.android/build-cache/458c18d51a034424da97eb6013debdd998950ecb/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/Casey/.android/build-cache/9fb51073a8c56694daa569bc4ffcb54c20feada0/output/AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/Casey/.android/build-cache/9fb51073a8c56694daa569bc4ffcb54c20feada0/output/AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.firebase:firebase-messaging:10.2.0] /Users/Casey/.android/build-cache/123a66a6a54958de3421f7a8ac30acb2ce717fd6/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.0] /Users/Casey/.android/build-cache/123a66a6a54958de3421f7a8ac30acb2ce717fd6/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.2.0] /Users/Casey/.android/build-cache/f6bc5fc7cbf2340a6590a514ea7ea1cf4ef90316/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-fitness:10.2.0] /Users/Casey/.android/build-cache/f6bc5fc7cbf2340a6590a514ea7ea1cf4ef90316/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-games:10.2.0] /Users/Casey/.android/build-cache/f4ca8ef496205941c9a82dec374b8d372b275af7/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.2.0] /Users/Casey/.android/build-cache/f4ca8ef496205941c9a82dec374b8d372b275af7/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.2.0] /Users/Casey/.android/build-cache/c8183d6b7e5c537d44803a9c77695f5eec562f39/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-drive:10.2.0] /Users/Casey/.android/build-cache/c8183d6b7e5c537d44803a9c77695f5eec562f39/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-gass:10.2.0] /Users/Casey/.android/build-cache/a95901f63c738c1fc4dcd65d93d0f85f29778a13/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.0] /Users/Casey/.android/build-cache/a95901f63c738c1fc4dcd65d93d0f85f29778a13/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /Users/Casey/.android/build-cache/76176cc212ff66110c2a1d76ce454f151b011b2f/output/AndroidManifest.xml:23:5-19
 MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /Users/Casey/.android/build-cache/76176cc212ff66110c2a1d76ce454f151b011b2f/output/AndroidManifest.xml:23:5-19
 MERGED from [com.google.firebase:firebase-appindexing:10.2.0] /Users/Casey/.android/build-cache/9037903ac46ce29e66ef0498056f565a9e0e6c6b/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.2.0] /Users/Casey/.android/build-cache/9037903ac46ce29e66ef0498056f565a9e0e6c6b/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] /Users/Casey/.android/build-cache/b0104f745551e56616401d870929e4eea7e48363/output/AndroidManifest.xml:23:5-19
 MERGED from [com.google.android.gms:play-services-iid:10.2.0] /Users/Casey/.android/build-cache/b0104f745551e56616401d870929e4eea7e48363/output/AndroidManifest.xml:23:5-19
 MERGED from [com.google.android.gms:play-services-location:10.2.0] /Users/Casey/.android/build-cache/ad55bba87ab998e0da0d148ab5f5d2bc5d45ebe4/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.0] /Users/Casey/.android/build-cache/ad55bba87ab998e0da0d148ab5f5d2bc5d45ebe4/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.2.0] /Users/Casey/.android/build-cache/358c7c363b8a2d1e7f99739c2161c78f8ae20c7c/output/AndroidManifest.xml:5:5-19
 MERGED from [com.google.android.gms:play-services-nearby:10.2.0] /Users/Casey/.android/build-cache/358c7c363b8a2d1e7f99739c2161c78f8ae20c7c/output/AndroidManifest.xml:5:5-19
 MERGED from [com.google.android.gms:play-services-panorama:10.2.0] /Users/Casey/.android/build-cache/10ecada476dfe57749b96a301b84227d24bd2474/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.2.0] /Users/Casey/.android/build-cache/10ecada476dfe57749b96a301b84227d24bd2474/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.0] /Users/Casey/.android/build-cache/e9e739bd400497d1390935ca0bad1511ff051ff3/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-places:10.2.0] /Users/Casey/.android/build-cache/e9e739bd400497d1390935ca0bad1511ff051ff3/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-plus:10.2.0] /Users/Casey/.android/build-cache/588f6a84f87d025ea2d54bc5cb4e4627e0a02005/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.2.0] /Users/Casey/.android/build-cache/588f6a84f87d025ea2d54bc5cb4e4627e0a02005/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.0] /Users/Casey/.android/build-cache/f96c1beeefc0e61d5cfb9c521da940babb175ca2/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-safetynet:10.2.0] /Users/Casey/.android/build-cache/f96c1beeefc0e61d5cfb9c521da940babb175ca2/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] /Users/Casey/.android/build-cache/ac60cfecf3dd8d6356cadb3bd3a44205d8db257d/output/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] /Users/Casey/.android/build-cache/ac60cfecf3dd8d6356cadb3bd3a44205d8db257d/output/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.0] /Users/Casey/.android/build-cache/d900656f32f140fe1d65267a5edc6af99bc3336b/output/AndroidManifest.xml:19:5-19
 MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.0] /Users/Casey/.android/build-cache/d900656f32f140fe1d65267a5edc6af99bc3336b/output/AndroidManifest.xml:19:5-19
 MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] /Users/Casey/.android/build-cache/ac58e8973cac63e5ef115709b4e0578bfb9f8c0d/output/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-vision:10.2.0] /Users/Casey/.android/build-cache/ac58e8973cac63e5ef115709b4e0578bfb9f8c0d/output/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-identity:10.2.0] /Users/Casey/.android/build-cache/d4d9cadb3f3d66ad362ef6e75e9095505d8dbe18/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.2.0] /Users/Casey/.android/build-cache/d4d9cadb3f3d66ad362ef6e75e9095505d8dbe18/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Casey/.android/build-cache/b2794f15fe2ef1728f3d1cb945a2771b0c41196d/output/AndroidManifest.xml:24:5-19
 MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Casey/.android/build-cache/b2794f15fe2ef1728f3d1cb945a2771b0c41196d/output/AndroidManifest.xml:24:5-19
 MERGED from [com.google.android.gms:play-services-wearable:10.2.0] /Users/Casey/.android/build-cache/9ab7d56a0a279c64eecb92acb528b4260a1a688f/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.2.0] /Users/Casey/.android/build-cache/9ab7d56a0a279c64eecb92acb528b4260a1a688f/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/AndroidManifest.xml:18:5-20:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] /Users/Casey/.android/build-cache/c81d3686cedc5a38e0b9532619956c2eb0a59b61/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] /Users/Casey/.android/build-cache/c81d3686cedc5a38e0b9532619956c2eb0a59b61/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:design:25.3.1] /Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/b2727b8163f9305835625a6aed17dc5ed7c217e4/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/b2727b8163f9305835625a6aed17dc5ed7c217e4/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/43f418d940cf4d94593df061f9dd2bf7d84f7137/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/43f418d940cf4d94593df061f9dd2bf7d84f7137/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/Casey/.android/build-cache/2ffbafadc4d942e3cea6d853887adadea8cb1016/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/Casey/.android/build-cache/2ffbafadc4d942e3cea6d853887adadea8cb1016/output/AndroidManifest.xml:26:5-20
 MERGED from [com.twitter.sdk.android:twitter:2.3.2] /Users/Casey/.android/build-cache/b5222f26fe29b7679b1df17a27525e990b9b73fd/output/AndroidManifest.xml:25:5-20
+MERGED from [com.twitter.sdk.android:twitter:2.3.2] /Users/Casey/.android/build-cache/b5222f26fe29b7679b1df17a27525e990b9b73fd/output/AndroidManifest.xml:25:5-20
+MERGED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:27:5-37:19
 MERGED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:27:5-37:19
 MERGED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:27:5-40:19
 MERGED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:27:5-40:19
 MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/Casey/.android/build-cache/e2ee16db555556759b657e33319e1c03b106f1d8/output/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/Casey/.android/build-cache/e2ee16db555556759b657e33319e1c03b106f1d8/output/AndroidManifest.xml:31:5-20
+MERGED from [com.google.firebase:firebase-core:10.2.0] /Users/Casey/.android/build-cache/ca957ca3582d2b028c8484d78175c651505f8055/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-core:10.2.0] /Users/Casey/.android/build-cache/ca957ca3582d2b028c8484d78175c651505f8055/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:24:5-28:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:24:5-28:19
 MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.2.0] /Users/Casey/.android/build-cache/4a720d4a9f0373256ff702f38e7cdccbcaab6af8/output/AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.firebase:firebase-common:10.2.0] /Users/Casey/.android/build-cache/4a720d4a9f0373256ff702f38e7cdccbcaab6af8/output/AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/Casey/.android/build-cache/5c1330f121b3a6d1f575c71c9ac99099d1eeaa05/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/Casey/.android/build-cache/5c1330f121b3a6d1f575c71c9ac99099d1eeaa05/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Casey/.android/build-cache/1ad276569c5e1c4ca5c63f7f395f842ff352325e/output/AndroidManifest.xml:19:5-21:19
 MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Casey/.android/build-cache/1ad276569c5e1c4ca5c63f7f395f842ff352325e/output/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:25.3.1] /Users/Casey/.android/build-cache/e8fe87990c04c9fafea207dc26028a31ed93c542/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Casey/.android/build-cache/e8fe87990c04c9fafea207dc26028a31ed93c542/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Casey/.android/build-cache/9a49eae533c5355711991236fe7ddbbf01bb727e/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/Casey/.android/build-cache/9a49eae533c5355711991236fe7ddbbf01bb727e/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Casey/.android/build-cache/414b227684224cf641129c1f52c69555ee6f9534/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Casey/.android/build-cache/414b227684224cf641129c1f52c69555ee6f9534/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Casey/.android/build-cache/dd92c3736e6599b5f1e985d5e05ddd9fba37fe7b/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Casey/.android/build-cache/dd92c3736e6599b5f1e985d5e05ddd9fba37fe7b/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Casey/.android/build-cache/050b9524575da67f29f322deae15df62067cc08a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Casey/.android/build-cache/050b9524575da67f29f322deae15df62067cc08a/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /Users/Casey/.android/build-cache/0cc58bd9069ca7a2e8dcaad0656916fe22db7ffd/output/AndroidManifest.xml:29:5-20
-	android:label
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:12:9-41
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Casey/.android/build-cache/0cc58bd9069ca7a2e8dcaad0656916fe22db7ffd/output/AndroidManifest.xml:29:5-20
 	android:supportsRtl
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:12:9-41
 	android:roundIcon
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:13:9-48
-	android:allowBackup
-		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:10:9-35
 	android:icon
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:15:9-40
 activity#com.httpstwitter.birdfeed.Menu
@@ -193,76 +345,150 @@ ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:
 		ADDED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml:52:13-44
 uses-sdk
 INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services:10.2.0] /Users/Casey/.android/build-cache/0d1e8b79233af70ed18ad11a1ea75f881b59482a/output/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services:10.2.0] /Users/Casey/.android/build-cache/0d1e8b79233af70ed18ad11a1ea75f881b59482a/output/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-ads:10.2.0] /Users/Casey/.android/build-cache/d5298b5b6cd14513e1c105ab49f9af172b62e981/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.0] /Users/Casey/.android/build-cache/d5298b5b6cd14513e1c105ab49f9af172b62e981/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:22:5-43
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:22:5-43
 MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] /Users/Casey/.android/build-cache/eff5f6d82abf62dba31129c57db77b3dbba8959f/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] /Users/Casey/.android/build-cache/eff5f6d82abf62dba31129c57db77b3dbba8959f/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-auth:10.2.0] /Users/Casey/.android/build-cache/98db333f436bfb9e99e17eb698f827397baee358/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.0] /Users/Casey/.android/build-cache/98db333f436bfb9e99e17eb698f827397baee358/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.0] /Users/Casey/.android/build-cache/a47ee39e0d745b3e92e2ebd2fed6ae0f406ec3f2/output/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-auth-base:10.2.0] /Users/Casey/.android/build-cache/a47ee39e0d745b3e92e2ebd2fed6ae0f406ec3f2/output/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] /Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] /Users/Casey/.android/build-cache/d53f1eedef2f3881301058f1dc3bd5d50701908d/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:10.2.0] /Users/Casey/.android/build-cache/888526418a2b3aaf7bc9cf1fd6a48a52f85048b5/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-cast:10.2.0] /Users/Casey/.android/build-cache/888526418a2b3aaf7bc9cf1fd6a48a52f85048b5/output/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/Casey/.android/build-cache/5e0432cf539a15359ea0d175cd53435e196b82c3/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/Casey/.android/build-cache/09897058bb02866c8a4460055e490bf3b30eedb9/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:palette-v7:24.0.0] /Users/Casey/.android/build-cache/09897058bb02866c8a4460055e490bf3b30eedb9/output/AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] /Users/Casey/.android/build-cache/566380f8b57e565e0dcee66dd955c1a256f0b171/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] /Users/Casey/.android/build-cache/566380f8b57e565e0dcee66dd955c1a256f0b171/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:10.2.0] /Users/Casey/.android/build-cache/91762edaaeb07c5329f3641be8ee77d855dccfca/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-config:10.2.0] /Users/Casey/.android/build-cache/91762edaaeb07c5329f3641be8ee77d855dccfca/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-awareness:10.2.0] /Users/Casey/.android/build-cache/1d6f91f1022050df21df3333387bfa153da90d07/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:10.2.0] /Users/Casey/.android/build-cache/1d6f91f1022050df21df3333387bfa153da90d07/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.0] /Users/Casey/.android/build-cache/458c18d51a034424da97eb6013debdd998950ecb/output/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-crash:10.2.0] /Users/Casey/.android/build-cache/458c18d51a034424da97eb6013debdd998950ecb/output/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/Casey/.android/build-cache/9fb51073a8c56694daa569bc4ffcb54c20feada0/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/Casey/.android/build-cache/9fb51073a8c56694daa569bc4ffcb54c20feada0/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.0] /Users/Casey/.android/build-cache/9540411c2e5c2ea4aa6a29d10286304644a30cb7/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.firebase:firebase-database:10.2.0] /Users/Casey/.android/build-cache/9540411c2e5c2ea4aa6a29d10286304644a30cb7/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.firebase:firebase-database-connection:10.2.0] /Users/Casey/.android/build-cache/412d4d6827cd3793554ec32e6dc8207defb03913/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.0] /Users/Casey/.android/build-cache/412d4d6827cd3793554ec32e6dc8207defb03913/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.0] /Users/Casey/.android/build-cache/123a66a6a54958de3421f7a8ac30acb2ce717fd6/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-messaging:10.2.0] /Users/Casey/.android/build-cache/123a66a6a54958de3421f7a8ac30acb2ce717fd6/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-storage:10.2.0] /Users/Casey/.android/build-cache/ba7d7521504220b82ccefff77195405b236255d9/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.0] /Users/Casey/.android/build-cache/ba7d7521504220b82ccefff77195405b236255d9/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.0] /Users/Casey/.android/build-cache/6db66fc979cdc7cf92f95812bada948f57c4e305/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.firebase:firebase-storage-common:10.2.0] /Users/Casey/.android/build-cache/6db66fc979cdc7cf92f95812bada948f57c4e305/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-fitness:10.2.0] /Users/Casey/.android/build-cache/f6bc5fc7cbf2340a6590a514ea7ea1cf4ef90316/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fitness:10.2.0] /Users/Casey/.android/build-cache/f6bc5fc7cbf2340a6590a514ea7ea1cf4ef90316/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:10.2.0] /Users/Casey/.android/build-cache/f4ca8ef496205941c9a82dec374b8d372b275af7/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-games:10.2.0] /Users/Casey/.android/build-cache/f4ca8ef496205941c9a82dec374b8d372b275af7/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-drive:10.2.0] /Users/Casey/.android/build-cache/c8183d6b7e5c537d44803a9c77695f5eec562f39/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:10.2.0] /Users/Casey/.android/build-cache/c8183d6b7e5c537d44803a9c77695f5eec562f39/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.0] /Users/Casey/.android/build-cache/a95901f63c738c1fc4dcd65d93d0f85f29778a13/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-gass:10.2.0] /Users/Casey/.android/build-cache/a95901f63c738c1fc4dcd65d93d0f85f29778a13/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /Users/Casey/.android/build-cache/76176cc212ff66110c2a1d76ce454f151b011b2f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /Users/Casey/.android/build-cache/76176cc212ff66110c2a1d76ce454f151b011b2f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:10.2.0] /Users/Casey/.android/build-cache/9037903ac46ce29e66ef0498056f565a9e0e6c6b/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-appindexing:10.2.0] /Users/Casey/.android/build-cache/9037903ac46ce29e66ef0498056f565a9e0e6c6b/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-iid:10.2.0] /Users/Casey/.android/build-cache/b0104f745551e56616401d870929e4eea7e48363/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] /Users/Casey/.android/build-cache/b0104f745551e56616401d870929e4eea7e48363/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:10.2.0] /Users/Casey/.android/build-cache/531f3843feec90e70fe5bdce033a5d101ab0202c/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-instantapps:10.2.0] /Users/Casey/.android/build-cache/531f3843feec90e70fe5bdce033a5d101ab0202c/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-location:10.2.0] /Users/Casey/.android/build-cache/ad55bba87ab998e0da0d148ab5f5d2bc5d45ebe4/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.0] /Users/Casey/.android/build-cache/ad55bba87ab998e0da0d148ab5f5d2bc5d45ebe4/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:10.2.0] /Users/Casey/.android/build-cache/358c7c363b8a2d1e7f99739c2161c78f8ae20c7c/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-nearby:10.2.0] /Users/Casey/.android/build-cache/358c7c363b8a2d1e7f99739c2161c78f8ae20c7c/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-panorama:10.2.0] /Users/Casey/.android/build-cache/10ecada476dfe57749b96a301b84227d24bd2474/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-panorama:10.2.0] /Users/Casey/.android/build-cache/10ecada476dfe57749b96a301b84227d24bd2474/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.0] /Users/Casey/.android/build-cache/e9e739bd400497d1390935ca0bad1511ff051ff3/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-places:10.2.0] /Users/Casey/.android/build-cache/e9e739bd400497d1390935ca0bad1511ff051ff3/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-plus:10.2.0] /Users/Casey/.android/build-cache/588f6a84f87d025ea2d54bc5cb4e4627e0a02005/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.0] /Users/Casey/.android/build-cache/588f6a84f87d025ea2d54bc5cb4e4627e0a02005/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.0] /Users/Casey/.android/build-cache/f96c1beeefc0e61d5cfb9c521da940babb175ca2/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-safetynet:10.2.0] /Users/Casey/.android/build-cache/f96c1beeefc0e61d5cfb9c521da940babb175ca2/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-tagmanager:10.2.0] /Users/Casey/.android/build-cache/610b0de0912680f9e15bb298489de503fd9183aa/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:10.2.0] /Users/Casey/.android/build-cache/610b0de0912680f9e15bb298489de503fd9183aa/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] /Users/Casey/.android/build-cache/ac60cfecf3dd8d6356cadb3bd3a44205d8db257d/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] /Users/Casey/.android/build-cache/ac60cfecf3dd8d6356cadb3bd3a44205d8db257d/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.0] /Users/Casey/.android/build-cache/d900656f32f140fe1d65267a5edc6af99bc3336b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.0] /Users/Casey/.android/build-cache/d900656f32f140fe1d65267a5edc6af99bc3336b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-vision:10.2.0] /Users/Casey/.android/build-cache/ac58e8973cac63e5ef115709b4e0578bfb9f8c0d/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] /Users/Casey/.android/build-cache/ac58e8973cac63e5ef115709b4e0578bfb9f8c0d/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wallet:10.2.0] /Users/Casey/.android/build-cache/a059d60cd09c034b7e00b690eaac5925b606887d/output/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-wallet:10.2.0] /Users/Casey/.android/build-cache/a059d60cd09c034b7e00b690eaac5925b606887d/output/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-identity:10.2.0] /Users/Casey/.android/build-cache/d4d9cadb3f3d66ad362ef6e75e9095505d8dbe18/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-identity:10.2.0] /Users/Casey/.android/build-cache/d4d9cadb3f3d66ad362ef6e75e9095505d8dbe18/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Casey/.android/build-cache/b2794f15fe2ef1728f3d1cb945a2771b0c41196d/output/AndroidManifest.xml:23:5-43
 MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Casey/.android/build-cache/b2794f15fe2ef1728f3d1cb945a2771b0c41196d/output/AndroidManifest.xml:23:5-43
 MERGED from [com.google.android.gms:play-services-wearable:10.2.0] /Users/Casey/.android/build-cache/9ab7d56a0a279c64eecb92acb528b4260a1a688f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.0] /Users/Casey/.android/build-cache/9ab7d56a0a279c64eecb92acb528b4260a1a688f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/Casey/.android/build-cache/cd0c82aae75a4e425cac793622aa8da4789594c0/output/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] /Users/Casey/.android/build-cache/c81d3686cedc5a38e0b9532619956c2eb0a59b61/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] /Users/Casey/.android/build-cache/c81d3686cedc5a38e0b9532619956c2eb0a59b61/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] /Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:25.3.1] /Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/b2727b8163f9305835625a6aed17dc5ed7c217e4/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/b2727b8163f9305835625a6aed17dc5ed7c217e4/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/43f418d940cf4d94593df061f9dd2bf7d84f7137/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/43f418d940cf4d94593df061f9dd2bf7d84f7137/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Casey/.android/build-cache/e7bb3edf98ae629fb4b40c83e4e939259de79872/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Casey/.android/build-cache/e7bb3edf98ae629fb4b40c83e4e939259de79872/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] /Users/Casey/.android/build-cache/2ffbafadc4d942e3cea6d853887adadea8cb1016/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /Users/Casey/.android/build-cache/2ffbafadc4d942e3cea6d853887adadea8cb1016/output/AndroidManifest.xml:20:5-44
+MERGED from [com.twitter.sdk.android:twitter:2.3.2] /Users/Casey/.android/build-cache/b5222f26fe29b7679b1df17a27525e990b9b73fd/output/AndroidManifest.xml:23:5-44
 MERGED from [com.twitter.sdk.android:twitter:2.3.2] /Users/Casey/.android/build-cache/b5222f26fe29b7679b1df17a27525e990b9b73fd/output/AndroidManifest.xml:23:5-44
 MERGED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:23:5-44
 MERGED from [com.twitter.sdk.android:tweet-ui:2.3.2] /Users/Casey/.android/build-cache/b2c2e9be270e935731fc04d55a8b864faa86224d/output/AndroidManifest.xml:23:5-44
 MERGED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/build-cache/6d4b8d3b9a273049c8f96298f6beb76d5a9c1a26/output/AndroidManifest.xml:23:5-44
+MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/Casey/.android/build-cache/e2ee16db555556759b657e33319e1c03b106f1d8/output/AndroidManifest.xml:27:5-43
 MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/Casey/.android/build-cache/e2ee16db555556759b657e33319e1c03b106f1d8/output/AndroidManifest.xml:27:5-43
 MERGED from [com.google.firebase:firebase-core:10.2.0] /Users/Casey/.android/build-cache/ca957ca3582d2b028c8484d78175c651505f8055/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.0] /Users/Casey/.android/build-cache/ca957ca3582d2b028c8484d78175c651505f8055/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-common:10.2.0] /Users/Casey/.android/build-cache/4a720d4a9f0373256ff702f38e7cdccbcaab6af8/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.0] /Users/Casey/.android/build-cache/4a720d4a9f0373256ff702f38e7cdccbcaab6af8/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/Casey/.android/build-cache/5c1330f121b3a6d1f575c71c9ac99099d1eeaa05/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/Casey/.android/build-cache/5c1330f121b3a6d1f575c71c9ac99099d1eeaa05/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Casey/.android/build-cache/1ad276569c5e1c4ca5c63f7f395f842ff352325e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Casey/.android/build-cache/1ad276569c5e1c4ca5c63f7f395f842ff352325e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Casey/.android/build-cache/e8fe87990c04c9fafea207dc26028a31ed93c542/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:25.3.1] /Users/Casey/.android/build-cache/e8fe87990c04c9fafea207dc26028a31ed93c542/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/Casey/.android/build-cache/9a49eae533c5355711991236fe7ddbbf01bb727e/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Casey/.android/build-cache/9a49eae533c5355711991236fe7ddbbf01bb727e/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Casey/.android/build-cache/414b227684224cf641129c1f52c69555ee6f9534/output/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Casey/.android/build-cache/414b227684224cf641129c1f52c69555ee6f9534/output/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Casey/.android/build-cache/dd92c3736e6599b5f1e985d5e05ddd9fba37fe7b/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Casey/.android/build-cache/dd92c3736e6599b5f1e985d5e05ddd9fba37fe7b/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Casey/.android/build-cache/050b9524575da67f29f322deae15df62067cc08a/output/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Casey/.android/build-cache/050b9524575da67f29f322deae15df62067cc08a/output/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.1] /Users/Casey/.android/build-cache/0cc58bd9069ca7a2e8dcaad0656916fe22db7ffd/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Casey/.android/build-cache/0cc58bd9069ca7a2e8dcaad0656916fe22db7ffd/output/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Casey/IdeaProjects/BirdFeed4/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] /Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -274,12 +500,20 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/Casey/.android/bu
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.2.0] /Users/Casey/.android/build-cache/358c7c363b8a2d1e7f99739c2161c78f8ae20c7c/output/AndroidManifest.xml:4:5-78
 MERGED from [com.google.android.gms:play-services-nearby:10.2.0] /Users/Casey/.android/build-cache/358c7c363b8a2d1e7f99739c2161c78f8ae20c7c/output/AndroidManifest.xml:4:5-78
 MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] /Users/Casey/.android/build-cache/ac60cfecf3dd8d6356cadb3bd3a44205d8db257d/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] /Users/Casey/.android/build-cache/ac60cfecf3dd8d6356cadb3bd3a44205d8db257d/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Casey/.android/build-cache/b2794f15fe2ef1728f3d1cb945a2771b0c41196d/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] /Users/Casey/.android/build-cache/b2794f15fe2ef1728f3d1cb945a2771b0c41196d/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:21:5-78
 MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:21:5-78
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:19:5-78
 MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:19:5-78
 	android:name
 		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.android/build-cache/d4157ffa8d9043c58dba3159d492887f5e545789/output/AndroidManifest.xml:20:22-76
@@ -300,8 +534,12 @@ ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] /Users/Casey/.
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/5fa7955658dc95d4b8a8d3342dd10c3daf09b0f3/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:21:5-67
 MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:21:5-67
 	android:name
 		ADDED from [com.google.android.gms:play-services-analytics:10.2.0] /Users/Casey/.android/build-cache/64d4c456e6a2a535451b4ed80f911696b2d8ad09/output/AndroidManifest.xml:24:22-65
@@ -370,6 +608,8 @@ ADDED from [com.google.firebase:firebase-messaging:10.2.0] /Users/Casey/.android
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.android.gms:play-services-gcm:10.2.0] /Users/Casey/.android/build-cache/76176cc212ff66110c2a1d76ce454f151b011b2f/output/AndroidManifest.xml:20:5-81
 MERGED from [com.google.android.gms:play-services-iid:10.2.0] /Users/Casey/.android/build-cache/b0104f745551e56616401d870929e4eea7e48363/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] /Users/Casey/.android/build-cache/b0104f745551e56616401d870929e4eea7e48363/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:22:5-81
 MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/Casey/.android/build-cache/77fbbab540e21ef194c2ee83a7969e97f60d7cdb/output/AndroidManifest.xml:22:5-81
 	android:name
 		ADDED from [com.google.android.gms:play-services-gcm:10.2.0] /Users/Casey/.android/build-cache/76176cc212ff66110c2a1d76ce454f151b011b2f/output/AndroidManifest.xml:20:22-79
@@ -418,15 +658,26 @@ ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/Casey/.andr
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] /Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Casey/.android/build-cache/2808faa5823d5061bd0eb3124a3408a958ca2073/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/b2727b8163f9305835625a6aed17dc5ed7c217e4/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/b2727b8163f9305835625a6aed17dc5ed7c217e4/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/43f418d940cf4d94593df061f9dd2bf7d84f7137/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Casey/.android/build-cache/43f418d940cf4d94593df061f9dd2bf7d84f7137/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Casey/.android/build-cache/e7bb3edf98ae629fb4b40c83e4e939259de79872/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Casey/.android/build-cache/e7bb3edf98ae629fb4b40c83e4e939259de79872/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:transition:25.3.1] /Users/Casey/.android/build-cache/2ffbafadc4d942e3cea6d853887adadea8cb1016/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/Casey/.android/build-cache/2ffbafadc4d942e3cea6d853887adadea8cb1016/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/Casey/.android/build-cache/e8fe87990c04c9fafea207dc26028a31ed93c542/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-v4:25.3.1] /Users/Casey/.android/build-cache/e8fe87990c04c9fafea207dc26028a31ed93c542/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/Casey/.android/build-cache/9a49eae533c5355711991236fe7ddbbf01bb727e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/Casey/.android/build-cache/9a49eae533c5355711991236fe7ddbbf01bb727e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Casey/.android/build-cache/414b227684224cf641129c1f52c69555ee6f9534/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Casey/.android/build-cache/414b227684224cf641129c1f52c69555ee6f9534/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Casey/.android/build-cache/dd92c3736e6599b5f1e985d5e05ddd9fba37fe7b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Casey/.android/build-cache/dd92c3736e6599b5f1e985d5e05ddd9fba37fe7b/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Casey/.android/build-cache/050b9524575da67f29f322deae15df62067cc08a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Casey/.android/build-cache/050b9524575da67f29f322deae15df62067cc08a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/Casey/.android/build-cache/0cc58bd9069ca7a2e8dcaad0656916fe22db7ffd/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-compat:25.3.1] /Users/Casey/.android/build-cache/0cc58bd9069ca7a2e8dcaad0656916fe22db7ffd/output/AndroidManifest.xml:25:5-27:34
 	android:value
 		ADDED from [com.android.support:design:25.3.1] /Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/AndroidManifest.xml:27:9-31
@@ -434,10 +685,10 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/Casey/.android/bu
 		ADDED from [com.android.support:design:25.3.1] /Users/Casey/.android/build-cache/0fcde8f7209794d7a9934eb02949bd7ee3930341/output/AndroidManifest.xml:26:9-47
 activity#com.twitter.sdk.android.tweetcomposer.ComposerActivity
 ADDED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:28:9-31:71
-	android:exported
-		ADDED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:30:13-37
 	android:windowSoftInputMode
 		ADDED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:30:13-37
 	android:name
 		ADDED from [com.twitter.sdk.android:tweet-composer:2.3.1] /Users/Casey/.android/build-cache/f8dd89d843eac882c6bd6b3b1ec71c5bbb899dbe/output/AndroidManifest.xml:29:13-82
 service#com.twitter.sdk.android.tweetcomposer.TweetUploadService
@@ -489,6 +740,7 @@ ADDED from [com.twitter.sdk.android:twitter-core:2.3.1] /Users/Casey/.android/bu
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
 ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:25:7-26:18
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:25:7-26:18
 	android:enabled
 		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:25:90-112
 	android:exported
@@ -511,6 +763,7 @@ ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android
 		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
 ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:27:7-137
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/Casey/.android/build-cache/f8553fb5151b29103142a39f64b56ad7ba260432/output/AndroidManifest.xml:27:7-137
 	android:enabled
 		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/Casey/.android/build-cache/69202fdf76dd7b80d6d744d7843b35ce54c290bf/output/AndroidManifest.xml:32:88-110

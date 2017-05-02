@@ -47,7 +47,7 @@ public class Menu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        final TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
+        final TwitterAuthConfig authConfig = new TwitterAuthConfig("a259mNLns3Ofmzivz5WTyc0YE","2hbwGnwP1PuvXTFidU6C6DG7NkWTZ8WXHdrQ8WEhn6yyy0Hj1Q" );
         Fabric.with(this, new Twitter(authConfig));
         client = new TwitterAuthClient();
         setContentView(R.layout.activity_menu);

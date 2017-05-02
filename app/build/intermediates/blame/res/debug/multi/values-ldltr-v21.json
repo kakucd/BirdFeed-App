@@ -1,30 +1,6 @@
 [
     {
-        "outputFile": "/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 112,
-                    "endOffset": 163
-                },
-                "from": {
-                    "file": "/Users/Emily/.android/build-cache/824f22cb903bcdea854e6cf4fdc8cba477d0311c/output/res/values-ldltr-v21/values-ldltr-v21.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 112,
-                        "endOffset": 163
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+        "outputFile": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/debug/values-ldltr-v21/values-ldltr-v21.xml",
         "map": [
             {
                 "to": {

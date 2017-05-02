@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/Emily/AndroidStudioProjects/BirdFeed-App/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/res/merged/androidTest/debug/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/Emily/.android/build-cache/0b0d82e96c927fc62b16e3fcca2d981928a03b85/output/res/values/values.xml",
+                    "file": "/Users/Casey/.android/build-cache/67bdaaee3b05508d35623aafd54dcb14f5f93e09/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
