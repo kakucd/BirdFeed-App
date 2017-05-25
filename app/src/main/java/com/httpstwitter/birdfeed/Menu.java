@@ -131,12 +131,19 @@ public class Menu extends AppCompatActivity {
         data.clear();
         tags.clear();
     }
-
+     /*
+      * Method connected to the settings button
+      * sends the View to the Settings java class.
+      */
     public void settings(View view) {
         Intent intent = new Intent(this, Settings.class);
         startActivity(intent);
     }
 
+    /*
+     * Method connected to the search button.
+     * sends the View to the Search java class.
+     */
     public void search(View view) {
         Intent intent = new Intent(this, Search.class);
         intent.putStringArrayListExtra("data", data);
@@ -144,6 +151,10 @@ public class Menu extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /*
+     * Method connected to the tweet button.
+     * sends the View to a Twitter login.
+     */
     public void tweet(View view) {
         Intent intent = new Intent(this, Tweet.class);
         startActivity(intent);
@@ -168,6 +179,10 @@ public class Menu extends AppCompatActivity {
         }
     }
 
+    /*
+     * Queries all the restaurant names and tags in the database.
+     * Then sends that data to the search screen if the button is pressed.
+     */
     private class Query extends AsyncTask<Void, Void, Void> {
         @Override
         public Void doInBackground(Void... voids) {

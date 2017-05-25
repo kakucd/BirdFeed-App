@@ -16,6 +16,9 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
+/*
+ * Filter class for filtering the data listed in the ListView search screen
+ */
 public class Filter extends AppCompatActivity {
 
     private ArrayList<String> filters = new ArrayList<>();
@@ -34,6 +37,9 @@ public class Filter extends AppCompatActivity {
         new getData().execute();
     }
 
+    /*
+     * adds keywords associated with a filter to the ArrayList.
+     */
     public void onRadioButtonClicked(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -54,6 +60,7 @@ public class Filter extends AppCompatActivity {
                 break;
             case R.id.asian:
                 if(checked) {
+                    System.out.println("Asian");
                     filters.add("Japanese");
                     filters.add("Korean");
                     filters.add("Chinese");
@@ -105,6 +112,9 @@ public class Filter extends AppCompatActivity {
         tag.clear();
     }
 
+    /*
+     * Filters the restaurant data on the keywords selected.
+     */
     public void filterSearch(View view) {
         Intent intent = new Intent(this, Search.class);
         for(int t = 0; t < tag.size(); t++) {
@@ -134,11 +144,18 @@ public class Filter extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /*
+     * Returns to the menu screen.
+     */
     public void menu(View view) {
         Intent intent = new Intent(this, Menu.class);
         startActivity(intent);
     }
 
+    /*
+     * Updates the restaurant data by querying a new list from the database.
+     * To ensure the list being filter has not been filtered once before.
+     */
     private class getData extends AsyncTask<Void, Void, Void> {
         @Override
         public Void doInBackground(Void... voids) {
@@ -146,7 +163,7 @@ public class Filter extends AppCompatActivity {
             FirebaseDatabase mdatabase = FirebaseDatabase.getInstance();
             DatabaseReference myRef = mdatabase.getReference("/restaurants");
 
-            myRef.orderByKey().addChildEventListener(new ChildEventListener() {
+            myRef.orderByChild("score").addChildEventListener(new ChildEventListener() {
 
                 @Override
                 public void onChildAdded(DataSnapshot dataSnapshot, String s) {

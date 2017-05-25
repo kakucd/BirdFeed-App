@@ -1,4 +1,4 @@
-#Mon May 01 20:56:58 PDT 2017
+#Thu May 04 16:15:40 PDT 2017
 base.0=/Users/Casey/IdeaProjects/BirdFeed4/app/build/intermediates/transforms/dexMerger/debug/folders/1000/10000/instant-run_fd119508f564f123b693d027b33e8f5f220b7fca_3fee0cb2bae810dde6a8ef37717b2ee3333ce73b
 renamed.1=classes2.dex
 renamed.0=classes.dex

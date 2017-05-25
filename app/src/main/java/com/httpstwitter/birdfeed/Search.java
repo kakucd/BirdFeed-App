@@ -115,6 +115,10 @@ public class Search extends AppCompatActivity {
         tweets.clear();
     }
 
+    /*
+     * When restaurant is selected, all the information for that restaurant in the ArrayLists
+     * are pulled out and sent to the next screen (the Display java class).
+     */
     public void info() {
         Intent intent = new Intent(this, Display.class);
 
@@ -132,6 +136,9 @@ public class Search extends AppCompatActivity {
 
     }
 
+    /*
+     * Queries the phone number of the selected restaurant.
+     */
     private class getPhone extends AsyncTask<Void, Void, ValueEventListener> {
         @Override
         protected ValueEventListener doInBackground(Void... voids) {
@@ -157,7 +164,9 @@ public class Search extends AppCompatActivity {
             call.addListenerForSingleValueEvent(child);
         }
     }
-
+    /*
+     * Queries the address of the selected restaurant.
+     */
     private class getAddress extends AsyncTask<Void, Void, ValueEventListener> {
 
         @Override
@@ -184,6 +193,9 @@ public class Search extends AppCompatActivity {
         }
     }
 
+    /*
+     * Queries the website of the selected restaurant.
+     */
     private class getWebsite extends AsyncTask<Void, Void, ValueEventListener> {
 
         @Override
@@ -210,6 +222,9 @@ public class Search extends AppCompatActivity {
         }
     }
 
+    /*
+     * Queries the handle of the selected restaurant.
+     */
     private class getHandle extends AsyncTask<Void, Void, ValueEventListener> {
 
         @Override
@@ -235,6 +250,9 @@ public class Search extends AppCompatActivity {
         }
     }
 
+    /*
+     * Queries the tags of the selected restaurant.
+     */
     private class getTags extends AsyncTask<Void, Void, ValueEventListener> {
 
         @Override
@@ -261,6 +279,9 @@ public class Search extends AppCompatActivity {
         }
     }
 
+    /*
+     * Queries the hours of the selected restaurant.
+     */
     private class getHours extends AsyncTask<Void, Void, ChildEventListener> {
         @Override
         protected ChildEventListener doInBackground(Void... voids) {
@@ -327,6 +348,9 @@ public class Search extends AppCompatActivity {
         }
     }
 
+    /*
+     * Queries the tweets of the selected restaurant.
+     */
     private class getTweets extends AsyncTask<Void, Void, ChildEventListener> {
 
         @Override
@@ -373,6 +397,9 @@ public class Search extends AppCompatActivity {
         }
     }
 
+    /*
+     * Queries the URL of the selected restaurant.
+     */
     private class getURL extends AsyncTask<Void, Void, ValueEventListener> {
 
         @Override
@@ -398,11 +425,18 @@ public class Search extends AppCompatActivity {
         }
     }
 
+    /*
+     * Connected to the filters button.
+     * Sends the View to the Filters java class.
+     */
     public void filters(View view) {
         Intent intent = new Intent(this, Filter.class);
         startActivity(intent);
     }
 
+    /*
+     * Goes back to the menu screen.
+     */
     public void back(View view) {
         Intent intent = new Intent(this, Menu.class);
         startActivity(intent);

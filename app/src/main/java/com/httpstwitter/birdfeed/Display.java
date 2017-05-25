@@ -33,6 +33,9 @@ import com.twitter.sdk.android.tweetcomposer.ComposerActivity;
 import java.io.InputStream;
 import java.util.ArrayList;
 
+/*
+ * Displays all the restaurant data for a selected restaurant stored in the database
+ */
 public class Display extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks {
 
     static private ArrayList<String> master = new ArrayList<>();
@@ -201,6 +204,9 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
         super.onStop();
     }
 
+    /*
+     * requests for access for gelocation and phone calling services.
+     */
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String permissions[], @NonNull int[] grantResults) {
         switch (requestCode) {
@@ -268,6 +274,9 @@ public class Display extends AppCompatActivity implements GoogleApiClient.Connec
 
     }
 
+    /*
+     * Gets the image saved in the database for a designated restaurant.
+     */
     private class ImageDownloader extends AsyncTask<String, Void, Bitmap> {
         ImageView bmImage;
 
